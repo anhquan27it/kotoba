@@ -1,0 +1,41 @@
+# dependencies
+/node_modules
+/.node_modules-before-kotoba
+/.npm-cache
+/.pnpm-store
+/.tmp_pip
+/.pnpm-home
+/.xdg-*
+
+# next.js
+/.next/
+/.next-ui-test/
+/.next-online/
+/.sites-runtime/
+/.github-runtime/
+/.openai/
+/artifacts/
+/*.lnk
+/*.pdf
+/out/
+
+# production
+/build
+/.kotoba/
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env
+.env*.local
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts

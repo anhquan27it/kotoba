@@ -1,0 +1,40 @@
+{
+  "name": "kotoba-japanese-study",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "build:online": "node scripts/build-online.cjs",
+    "build:github": "node scripts/build-online.cjs --github-pages",
+    "start": "next start",
+    "lint": "npm run typecheck && npm run check:content",
+    "typecheck": "tsc --noEmit --incremental false",
+    "check:content": "node scripts/check-content.cjs",
+    "test": "node --test tests/study.test.cjs",
+    "generate:readings": "node scripts/generate-readings.cjs",
+    "predev": "npm run generate:readings",
+    "prebuild": "npm run generate:readings",
+    "format": "prettier --write app components lib data/lessons templates scripts tests docs README.md AGENTS.md",
+    "format:check": "prettier --check app components lib data/lessons templates scripts tests docs README.md AGENTS.md"
+  },
+  "dependencies": {
+    "next": "15.5.24",
+    "react": "19.3.0",
+    "react-dom": "19.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "20.16.11",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "autoprefixer": "10.4.20",
+    "kuromoji": "0.1.2",
+    "postcss": "8.5.28",
+    "prettier": "^3.9.9",
+    "tailwindcss": "3.4.14",
+    "typescript": "5.6.3"
+  },
+  "overrides": {
+    "postcss": "$postcss"
+  }
+}

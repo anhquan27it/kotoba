@@ -1,0 +1,120 @@
+import { KanjiEntry } from "@/lib/types";
+
+// Chữ Hán Chương 15 — giáo trình Dũng Mori (N4)
+export const kanji: KanjiEntry[] = [
+  {
+    id: "k-15-01",
+    char: "力",
+    hanViet: "LỰC",
+    meaning: "sức mạnh",
+    kunyomi: ["ちから"],
+    onyomi: ["リョク", "リキ"],
+    chapter: "15.1",
+    examples: [
+      { jp: "力", reading: "ちから", vi: "sức mạnh" },
+      { jp: "協力", reading: "きょうりょく", vi: "hợp tác, hiệp lực" },
+      { jp: "全力", reading: "ぜんりょく", vi: "toàn lực" },
+    ],
+  },
+  {
+    id: "k-15-02",
+    char: "動",
+    hanViet: "ĐỘNG",
+    meaning: "chuyển động, cử động",
+    kunyomi: ["うご・く", "うご・かす"],
+    onyomi: ["ドウ"],
+    chapter: "15.1",
+    examples: [
+      { jp: "動く", reading: "うごく", vi: "cử động, chuyển động" },
+      { jp: "運動", reading: "うんどう", vi: "vận động, thể dục" },
+      { jp: "自動", reading: "じどう", vi: "tự động" },
+      { jp: "動画", reading: "どうが", vi: "video, clip" },
+      { jp: "動物", reading: "どうぶつ", vi: "động vật" },
+      { jp: "感動", reading: "かんどう", vi: "cảm động, ấn tượng" },
+      { jp: "不動産", reading: "ふどうさん", vi: "bất động sản" },
+    ],
+  },
+  {
+    id: "k-15-03",
+    char: "働",
+    hanViet: "ĐỘNG",
+    meaning: "làm việc",
+    kunyomi: ["はたら・く"],
+    onyomi: ["ドウ"],
+    chapter: "15.1",
+    examples: [
+      { jp: "働く", reading: "はたらく", vi: "làm việc" },
+      { jp: "働き", reading: "はたらき", vi: "sự làm việc, công việc" },
+    ],
+  },
+  {
+    id: "k-15-04",
+    char: "知",
+    hanViet: "TRI",
+    meaning: "biết",
+    kunyomi: ["し・る"],
+    onyomi: ["チ"],
+    chapter: "15.2",
+    examples: [
+      { jp: "知る", reading: "しる", vi: "biết" },
+      { jp: "お知らせ", reading: "おしらせ", vi: "thông báo" },
+      { jp: "知り合い", reading: "しりあい", vi: "người quen" },
+      { jp: "承知", reading: "しょうち", vi: "đồng ý, hiểu rõ" },
+    ],
+  },
+  {
+    id: "k-15-05",
+    char: "短",
+    hanViet: "ĐOẢN",
+    meaning: "ngắn",
+    kunyomi: ["みじか・い"],
+    onyomi: ["タン"],
+    chapter: "15.2",
+    examples: [
+      { jp: "短い", reading: "みじかい", vi: "ngắn" },
+      { jp: "短気", reading: "たんき", vi: "nóng nảy, dễ nổi nóng" },
+    ],
+  },
+  {
+    id: "k-15-06",
+    char: "医",
+    hanViet: "Y",
+    meaning: "y học, chữa bệnh",
+    kunyomi: [],
+    onyomi: ["イ"],
+    chapter: "15.2",
+    examples: [
+      { jp: "医者", reading: "いしゃ", vi: "bác sĩ" },
+      { jp: "歯医者", reading: "はいしゃ", vi: "nha sĩ" },
+      { jp: "医学", reading: "いがく", vi: "y học" },
+    ],
+  },
+  {
+    id: "k-15-07",
+    char: "皿",
+    hanViet: "MÃNH",
+    meaning: "cái đĩa",
+    kunyomi: ["さら"],
+    onyomi: [],
+    chapter: "15.3",
+    examples: [
+      { jp: "お皿", reading: "おさら", vi: "chiếc đĩa" },
+      { jp: "皿洗い", reading: "さらあらい", vi: "rửa bát đĩa" },
+    ],
+  },
+  {
+    id: "k-15-08",
+    char: "血",
+    hanViet: "HUYẾT",
+    meaning: "máu",
+    kunyomi: ["ち"],
+    onyomi: ["ケツ"],
+    chapter: "15.3",
+    examples: [
+      { jp: "血", reading: "ち", vi: "máu" },
+      { jp: "血液", reading: "けつえき", vi: "máu, huyết dịch" },
+    ],
+  },
+];
+
+export const kanjiChapters = ["15.1", "15.2", "15.3"];
