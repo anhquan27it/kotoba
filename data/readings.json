@@ -1,4 +1,1070 @@
 {
+  "5,000円もある = có tận 5.000 yên; 5,000円しかない = chỉ có 5.000 yên. Con số như nhau nhưng đánh giá của người nói khác nhau.": [
+    {
+      "text": "5,000"
+    },
+    {
+      "text": "円",
+      "reading": "えん"
+    },
+    {
+      "text": "もある = có tận 5.000 yên; 5,000"
+    },
+    {
+      "text": "円",
+      "reading": "えん"
+    },
+    {
+      "text": "しかない = chỉ có 5.000 yên. Con số như nhau nhưng đánh giá của người nói khác nhau."
+    }
+  ],
+  "ABCスクールの受付で学生カードを作る。": [
+    {
+      "text": "ABCスクールの"
+    },
+    {
+      "text": "受付",
+      "reading": "うけつけ"
+    },
+    {
+      "text": "で"
+    },
+    {
+      "text": "学生",
+      "reading": "がくせい"
+    },
+    {
+      "text": "カードを"
+    },
+    {
+      "text": "作",
+      "reading": "つく"
+    },
+    {
+      "text": "る。"
+    }
+  ],
+  "ABC英語スクール": [
+    {
+      "text": "ABC"
+    },
+    {
+      "text": "英語",
+      "reading": "えいご"
+    },
+    {
+      "text": "スクール"
+    }
+  ],
+  "A：15時からのチケットだから、お昼ご飯を食べてから見に行きたいな。一緒に食べない？映画館の近くに、おいしいベトナム料理のレストランがあるんだ。12時からレストランでお昼ご飯を食べて、それから映画！どうかな。": [
+    {
+      "text": "A：15"
+    },
+    {
+      "text": "時",
+      "reading": "じ"
+    },
+    {
+      "text": "からのチケットだから、お"
+    },
+    {
+      "text": "昼",
+      "reading": "ひる"
+    },
+    {
+      "text": "ご"
+    },
+    {
+      "text": "飯",
+      "reading": "はん"
+    },
+    {
+      "text": "を"
+    },
+    {
+      "text": "食",
+      "reading": "た"
+    },
+    {
+      "text": "べてから"
+    },
+    {
+      "text": "見",
+      "reading": "み"
+    },
+    {
+      "text": "に"
+    },
+    {
+      "text": "行",
+      "reading": "い"
+    },
+    {
+      "text": "きたいな。"
+    },
+    {
+      "text": "一緒",
+      "reading": "いっしょ"
+    },
+    {
+      "text": "に"
+    },
+    {
+      "text": "食",
+      "reading": "た"
+    },
+    {
+      "text": "べない？"
+    },
+    {
+      "text": "映画",
+      "reading": "えいが"
+    },
+    {
+      "text": "館",
+      "reading": "かん"
+    },
+    {
+      "text": "の"
+    },
+    {
+      "text": "近",
+      "reading": "ちか"
+    },
+    {
+      "text": "くに、おいしいベトナム"
+    },
+    {
+      "text": "料理",
+      "reading": "りょうり"
+    },
+    {
+      "text": "のレストランがあるんだ。12"
+    },
+    {
+      "text": "時",
+      "reading": "じ"
+    },
+    {
+      "text": "からレストランでお"
+    },
+    {
+      "text": "昼",
+      "reading": "ひる"
+    },
+    {
+      "text": "ご"
+    },
+    {
+      "text": "飯",
+      "reading": "はん"
+    },
+    {
+      "text": "を"
+    },
+    {
+      "text": "食",
+      "reading": "た"
+    },
+    {
+      "text": "べて、それから"
+    },
+    {
+      "text": "映画",
+      "reading": "えいが"
+    },
+    {
+      "text": "！どうかな。"
+    }
+  ],
+  "A：あ、そうなんだ。じゃあ、映画を見てからご飯を食べよう。それから買い物しよう。": [
+    {
+      "text": "A：あ、そうなんだ。じゃあ、"
+    },
+    {
+      "text": "映画",
+      "reading": "えいが"
+    },
+    {
+      "text": "を"
+    },
+    {
+      "text": "見",
+      "reading": "み"
+    },
+    {
+      "text": "てからご"
+    },
+    {
+      "text": "飯",
+      "reading": "はん"
+    },
+    {
+      "text": "を"
+    },
+    {
+      "text": "食",
+      "reading": "た"
+    },
+    {
+      "text": "べよう。それから"
+    },
+    {
+      "text": "買",
+      "reading": "か"
+    },
+    {
+      "text": "い"
+    },
+    {
+      "text": "物",
+      "reading": "もの"
+    },
+    {
+      "text": "しよう。"
+    }
+  ],
+  "A：あの新しいアクション映画。しょうたくん、絶対好きだと思うんだ。映画の後で買い物でもしない？": [
+    {
+      "text": "A：あの"
+    },
+    {
+      "text": "新",
+      "reading": "あたら"
+    },
+    {
+      "text": "しいアクション"
+    },
+    {
+      "text": "映画",
+      "reading": "えいが"
+    },
+    {
+      "text": "。しょうたくん、"
+    },
+    {
+      "text": "絶対",
+      "reading": "ぜったい"
+    },
+    {
+      "text": "好",
+      "reading": "す"
+    },
+    {
+      "text": "きだと"
+    },
+    {
+      "text": "思",
+      "reading": "おも"
+    },
+    {
+      "text": "うんだ。"
+    },
+    {
+      "text": "映画",
+      "reading": "えいが"
+    },
+    {
+      "text": "の"
+    },
+    {
+      "text": "後",
+      "reading": "のち"
+    },
+    {
+      "text": "で"
+    },
+    {
+      "text": "買",
+      "reading": "か"
+    },
+    {
+      "text": "い"
+    },
+    {
+      "text": "物",
+      "reading": "もの"
+    },
+    {
+      "text": "でもしない？"
+    }
+  ],
+  "A：これ、あげる。B：ありがとう。これ、どこで買ったの？A：買ったんじゃなくて、友達がくれたんだ。": [
+    {
+      "text": "A：これ、あげる。B：ありがとう。これ、どこで"
+    },
+    {
+      "text": "買",
+      "reading": "か"
+    },
+    {
+      "text": "ったの？A："
+    },
+    {
+      "text": "買",
+      "reading": "か"
+    },
+    {
+      "text": "ったんじゃなくて、"
+    },
+    {
+      "text": "友達",
+      "reading": "ともだち"
+    },
+    {
+      "text": "がくれたんだ。"
+    }
+  ],
+  "A：これ、旅行のお土産です。どうぞ。B：あ、ありがとうございます。どこに行ったんですか。": [
+    {
+      "text": "A：これ、"
+    },
+    {
+      "text": "旅行",
+      "reading": "りょこう"
+    },
+    {
+      "text": "のお"
+    },
+    {
+      "text": "土産",
+      "reading": "みやげ"
+    },
+    {
+      "text": "です。どうぞ。B：あ、ありがとうございます。どこに"
+    },
+    {
+      "text": "行",
+      "reading": "い"
+    },
+    {
+      "text": "ったんですか。"
+    }
+  ],
+  "A：しょうたくん、明日時間ある？映画のチケットがあるんだけど、一緒に行かない？": [
+    {
+      "text": "A：しょうたくん、"
+    },
+    {
+      "text": "明日",
+      "reading": "あした"
+    },
+    {
+      "text": "時間",
+      "reading": "じかん"
+    },
+    {
+      "text": "ある？"
+    },
+    {
+      "text": "映画",
+      "reading": "えいが"
+    },
+    {
+      "text": "のチケットがあるんだけど、"
+    },
+    {
+      "text": "一緒",
+      "reading": "いっしょ"
+    },
+    {
+      "text": "に"
+    },
+    {
+      "text": "行",
+      "reading": "い"
+    },
+    {
+      "text": "かない？"
+    }
+  ],
+  "A：どこの学校に通ってるんですか。B：ズン森の日本語学校に通っています。": [
+    {
+      "text": "A：どこの"
+    },
+    {
+      "text": "学校",
+      "reading": "がっこう"
+    },
+    {
+      "text": "に"
+    },
+    {
+      "text": "通",
+      "reading": "かよ"
+    },
+    {
+      "text": "ってるんですか。B：ズン"
+    },
+    {
+      "text": "森",
+      "reading": "もり"
+    },
+    {
+      "text": "の"
+    },
+    {
+      "text": "日本語",
+      "reading": "にほんご"
+    },
+    {
+      "text": "学校",
+      "reading": "がっこう"
+    },
+    {
+      "text": "に"
+    },
+    {
+      "text": "通",
+      "reading": "かよ"
+    },
+    {
+      "text": "っています。"
+    }
+  ],
+  "A：一緒にカラオケに行きませんか？B：すみません、今日はちょっと時間がないんです。": [
+    {
+      "text": "A："
+    },
+    {
+      "text": "一緒",
+      "reading": "いっしょ"
+    },
+    {
+      "text": "にカラオケに"
+    },
+    {
+      "text": "行",
+      "reading": "い"
+    },
+    {
+      "text": "きませんか？B：すみません、"
+    },
+    {
+      "text": "今日",
+      "reading": "きょう"
+    },
+    {
+      "text": "はちょっと"
+    },
+    {
+      "text": "時間",
+      "reading": "じかん"
+    },
+    {
+      "text": "がないんです。"
+    }
+  ],
+  "A：今日は元気がないね。B：うん、昨日から、ご飯があまり食べられないんだ。": [
+    {
+      "text": "A："
+    },
+    {
+      "text": "今日",
+      "reading": "きょう"
+    },
+    {
+      "text": "は"
+    },
+    {
+      "text": "元気",
+      "reading": "げんき"
+    },
+    {
+      "text": "がないね。B：うん、"
+    },
+    {
+      "text": "昨日",
+      "reading": "きのう"
+    },
+    {
+      "text": "から、ご"
+    },
+    {
+      "text": "飯",
+      "reading": "はん"
+    },
+    {
+      "text": "があまり"
+    },
+    {
+      "text": "食",
+      "reading": "た"
+    },
+    {
+      "text": "べられないんだ。"
+    }
+  ],
+  "A：今日飲みに行きませんか。B：あ～、すみません。今日は子供の誕生日なんですよね。A：ああ、そうなんですね！じゃあ、早く帰らないと。": [
+    {
+      "text": "A："
+    },
+    {
+      "text": "今日",
+      "reading": "きょう"
+    },
+    {
+      "text": "飲",
+      "reading": "の"
+    },
+    {
+      "text": "みに"
+    },
+    {
+      "text": "行",
+      "reading": "い"
+    },
+    {
+      "text": "きませんか。B：あ～、すみません。"
+    },
+    {
+      "text": "今日",
+      "reading": "きょう"
+    },
+    {
+      "text": "は"
+    },
+    {
+      "text": "子供",
+      "reading": "こども"
+    },
+    {
+      "text": "の"
+    },
+    {
+      "text": "誕生",
+      "reading": "たんじょう"
+    },
+    {
+      "text": "日",
+      "reading": "にち"
+    },
+    {
+      "text": "なんですよね。A：ああ、そうなんですね！じゃあ、"
+    },
+    {
+      "text": "早",
+      "reading": "はや"
+    },
+    {
+      "text": "く"
+    },
+    {
+      "text": "帰",
+      "reading": "かえ"
+    },
+    {
+      "text": "らないと。"
+    }
+  ],
+  "A：何か、いるんですか。B：猫がいるんですよ。": [
+    {
+      "text": "A："
+    },
+    {
+      "text": "何",
+      "reading": "なに"
+    },
+    {
+      "text": "か、いるんですか。B："
+    },
+    {
+      "text": "猫",
+      "reading": "ねこ"
+    },
+    {
+      "text": "がいるんですよ。"
+    }
+  ],
+  "A：何の仕事をしているんですか。B：工場で働いています。": [
+    {
+      "text": "A："
+    },
+    {
+      "text": "何",
+      "reading": "なに"
+    },
+    {
+      "text": "の"
+    },
+    {
+      "text": "仕事",
+      "reading": "しごと"
+    },
+    {
+      "text": "をしているんですか。B："
+    },
+    {
+      "text": "工場",
+      "reading": "こうじょう"
+    },
+    {
+      "text": "で"
+    },
+    {
+      "text": "働",
+      "reading": "はたら"
+    },
+    {
+      "text": "いています。"
+    }
+  ],
+  "A：何を書いているんですか。B：手紙です。": [
+    {
+      "text": "A："
+    },
+    {
+      "text": "何",
+      "reading": "なに"
+    },
+    {
+      "text": "を"
+    },
+    {
+      "text": "書",
+      "reading": "か"
+    },
+    {
+      "text": "いているんですか。B："
+    },
+    {
+      "text": "手紙",
+      "reading": "てがみ"
+    },
+    {
+      "text": "です。"
+    }
+  ],
+  "A：大丈夫ですか。B：昨日から、頭が痛いんです。": [
+    {
+      "text": "A："
+    },
+    {
+      "text": "大丈夫",
+      "reading": "だいじょうぶ"
+    },
+    {
+      "text": "ですか。B："
+    },
+    {
+      "text": "昨日",
+      "reading": "きのう"
+    },
+    {
+      "text": "から、"
+    },
+    {
+      "text": "頭",
+      "reading": "あたま"
+    },
+    {
+      "text": "が"
+    },
+    {
+      "text": "痛",
+      "reading": "いた"
+    },
+    {
+      "text": "いんです。"
+    }
+  ],
+  "A：明日、サッカーの試合があるんだけど、一緒に見に行かない？B：明日？うーん、行きたいんだけど、用事があるんだよね。": [
+    {
+      "text": "A："
+    },
+    {
+      "text": "明日",
+      "reading": "あした"
+    },
+    {
+      "text": "、サッカーの"
+    },
+    {
+      "text": "試合",
+      "reading": "しあい"
+    },
+    {
+      "text": "があるんだけど、"
+    },
+    {
+      "text": "一緒",
+      "reading": "いっしょ"
+    },
+    {
+      "text": "に"
+    },
+    {
+      "text": "見",
+      "reading": "み"
+    },
+    {
+      "text": "に"
+    },
+    {
+      "text": "行",
+      "reading": "い"
+    },
+    {
+      "text": "かない？B："
+    },
+    {
+      "text": "明日",
+      "reading": "あした"
+    },
+    {
+      "text": "？うーん、"
+    },
+    {
+      "text": "行",
+      "reading": "い"
+    },
+    {
+      "text": "きたいんだけど、"
+    },
+    {
+      "text": "用事",
+      "reading": "ようじ"
+    },
+    {
+      "text": "があるんだよね。"
+    }
+  ],
+  "A：明日、テストがあるよ。B：まじで？": [
+    {
+      "text": "A："
+    },
+    {
+      "text": "明日",
+      "reading": "あした"
+    },
+    {
+      "text": "、テストがあるよ。B：まじで？"
+    }
+  ],
+  "A：昨日、町で佐藤先生に会ったんですよ。B：え、どこで会ったんですか。": [
+    {
+      "text": "A："
+    },
+    {
+      "text": "昨日",
+      "reading": "きのう"
+    },
+    {
+      "text": "、"
+    },
+    {
+      "text": "町",
+      "reading": "まち"
+    },
+    {
+      "text": "で"
+    },
+    {
+      "text": "佐藤",
+      "reading": "さとう"
+    },
+    {
+      "text": "先生",
+      "reading": "せんせい"
+    },
+    {
+      "text": "に"
+    },
+    {
+      "text": "会",
+      "reading": "あ"
+    },
+    {
+      "text": "ったんですよ。B：え、どこで"
+    },
+    {
+      "text": "会",
+      "reading": "あ"
+    },
+    {
+      "text": "ったんですか。"
+    }
+  ],
+  "A：昨日、花火を見たんですよ。B：へえ、どこで見たんですか。": [
+    {
+      "text": "A："
+    },
+    {
+      "text": "昨日",
+      "reading": "きのう"
+    },
+    {
+      "text": "、"
+    },
+    {
+      "text": "花火",
+      "reading": "はなび"
+    },
+    {
+      "text": "を"
+    },
+    {
+      "text": "見",
+      "reading": "み"
+    },
+    {
+      "text": "たんですよ。B：へえ、どこで"
+    },
+    {
+      "text": "見",
+      "reading": "み"
+    },
+    {
+      "text": "たんですか。"
+    }
+  ],
+  "A：田中さんは誰と話しているんですか。B：妹さんとですよ。": [
+    {
+      "text": "A："
+    },
+    {
+      "text": "田中",
+      "reading": "たなか"
+    },
+    {
+      "text": "さんは"
+    },
+    {
+      "text": "誰",
+      "reading": "だれ"
+    },
+    {
+      "text": "と"
+    },
+    {
+      "text": "話",
+      "reading": "はな"
+    },
+    {
+      "text": "しているんですか。B："
+    },
+    {
+      "text": "妹",
+      "reading": "いもうと"
+    },
+    {
+      "text": "さんとですよ。"
+    }
+  ],
+  "B：ああ！あれ見たいと思っていたんだ。買い物もしたいな。映画は何時から？": [
+    {
+      "text": "B：ああ！あれ"
+    },
+    {
+      "text": "見",
+      "reading": "み"
+    },
+    {
+      "text": "たいと"
+    },
+    {
+      "text": "思",
+      "reading": "おも"
+    },
+    {
+      "text": "っていたんだ。"
+    },
+    {
+      "text": "買",
+      "reading": "か"
+    },
+    {
+      "text": "い"
+    },
+    {
+      "text": "物",
+      "reading": "もの"
+    },
+    {
+      "text": "もしたいな。"
+    },
+    {
+      "text": "映画",
+      "reading": "えいが"
+    },
+    {
+      "text": "は"
+    },
+    {
+      "text": "何",
+      "reading": "なん"
+    },
+    {
+      "text": "時",
+      "reading": "じ"
+    },
+    {
+      "text": "から？"
+    }
+  ],
+  "B：いいね！行きたい！何を見ようか。": [
+    {
+      "text": "B：いいね！"
+    },
+    {
+      "text": "行",
+      "reading": "い"
+    },
+    {
+      "text": "きたい！"
+    },
+    {
+      "text": "何",
+      "reading": "なに"
+    },
+    {
+      "text": "を"
+    },
+    {
+      "text": "見",
+      "reading": "み"
+    },
+    {
+      "text": "ようか。"
+    }
+  ],
+  "B：明日は13時までアルバイトがあるんだ。だから、お昼ご飯は行けないな…。でもベトナム料理食べたいから、レストランは昼じゃなくて夜に行こうよ！14時半に映画館で会って、映画の後でベトナム料理。どう？": [
+    {
+      "text": "B："
+    },
+    {
+      "text": "明日",
+      "reading": "あした"
+    },
+    {
+      "text": "は13"
+    },
+    {
+      "text": "時",
+      "reading": "じ"
+    },
+    {
+      "text": "までアルバイトがあるんだ。だから、お"
+    },
+    {
+      "text": "昼",
+      "reading": "ひる"
+    },
+    {
+      "text": "ご"
+    },
+    {
+      "text": "飯",
+      "reading": "はん"
+    },
+    {
+      "text": "は"
+    },
+    {
+      "text": "行",
+      "reading": "い"
+    },
+    {
+      "text": "けないな…。でもベトナム"
+    },
+    {
+      "text": "料理",
+      "reading": "りょうり"
+    },
+    {
+      "text": "食",
+      "reading": "た"
+    },
+    {
+      "text": "べたいから、レストランは"
+    },
+    {
+      "text": "昼",
+      "reading": "ひる"
+    },
+    {
+      "text": "じゃなくて"
+    },
+    {
+      "text": "夜",
+      "reading": "よる"
+    },
+    {
+      "text": "に"
+    },
+    {
+      "text": "行",
+      "reading": "い"
+    },
+    {
+      "text": "こうよ！14"
+    },
+    {
+      "text": "時半",
+      "reading": "じはん"
+    },
+    {
+      "text": "に"
+    },
+    {
+      "text": "映画",
+      "reading": "えいが"
+    },
+    {
+      "text": "館",
+      "reading": "かん"
+    },
+    {
+      "text": "で"
+    },
+    {
+      "text": "会",
+      "reading": "あ"
+    },
+    {
+      "text": "って、"
+    },
+    {
+      "text": "映画",
+      "reading": "えいが"
+    },
+    {
+      "text": "の"
+    },
+    {
+      "text": "後",
+      "reading": "のち"
+    },
+    {
+      "text": "でベトナム"
+    },
+    {
+      "text": "料理",
+      "reading": "りょうり"
+    },
+    {
+      "text": "。どう？"
+    }
+  ],
+  "Chỉ đổi だ thành な ở dạng khẳng định hiện tại của danh từ/tính từ な. Dạng quá khứ, phủ định giữ thể thường: 仕事だったんです, 仕事じゃないんです.": [
+    {
+      "text": "Chỉ đổi だ thành な ở dạng khẳng định hiện tại của danh từ/tính từ な. Dạng quá khứ, phủ định giữ thể thường: "
+    },
+    {
+      "text": "仕事",
+      "reading": "しごと"
+    },
+    {
+      "text": "だったんです, "
+    },
+    {
+      "text": "仕事",
+      "reading": "しごと"
+    },
+    {
+      "text": "じゃないんです."
+    }
+  ],
   "Câu 店の前には、たくさんの人が並んでいました cho biết nhiều người xếp hàng trước quán. Người kể đi cùng bạn (友達と一緒に), nên lựa chọn đi một mình cũng sai.": [
     {
       "text": "Câu "
@@ -46,6 +1112,110 @@
       "text": "に), nên lựa chọn đi một mình cũng sai."
     }
   ],
+  "Câu 高木さん、会社をやめるそうですね cho biết Takagi sẽ nghỉ việc. Trưởng phòng là người truyền tin, Yamada là người nhận thư và Takamura là người viết thư.": [
+    {
+      "text": "Câu "
+    },
+    {
+      "text": "高木",
+      "reading": "たかぎ"
+    },
+    {
+      "text": "さん、"
+    },
+    {
+      "text": "会社",
+      "reading": "かいしゃ"
+    },
+    {
+      "text": "をやめるそうですね cho biết Takagi sẽ nghỉ việc. Trưởng phòng là người truyền tin, Yamada là người nhận thư và Takamura là người viết thư."
+    }
+  ],
+  "Có thể nêu nguồn bằng ～によると hoặc ～から聞いた話では.": [
+    {
+      "text": "Có thể nêu nguồn bằng ～によると hoặc ～から"
+    },
+    {
+      "text": "聞",
+      "reading": "き"
+    },
+    {
+      "text": "いた"
+    },
+    {
+      "text": "話",
+      "reading": "はなし"
+    },
+    {
+      "text": "では."
+    }
+  ],
+  "Có thể nối với cấu trúc khác: 行きたいんです, 行かなければいけないんです, 住んでいるんです, 仕事みたいなんです, 仕事のはずなんです, 仕事かもしれないんです.": [
+    {
+      "text": "Có thể nối với cấu trúc khác: "
+    },
+    {
+      "text": "行",
+      "reading": "い"
+    },
+    {
+      "text": "きたいんです, "
+    },
+    {
+      "text": "行",
+      "reading": "い"
+    },
+    {
+      "text": "かなければいけないんです, "
+    },
+    {
+      "text": "住",
+      "reading": "す"
+    },
+    {
+      "text": "んでいるんです, "
+    },
+    {
+      "text": "仕事",
+      "reading": "しごと"
+    },
+    {
+      "text": "みたいなんです, "
+    },
+    {
+      "text": "仕事",
+      "reading": "しごと"
+    },
+    {
+      "text": "のはずなんです, "
+    },
+    {
+      "text": "仕事",
+      "reading": "しごと"
+    },
+    {
+      "text": "かもしれないんです."
+    }
+  ],
+  "Danh từ nối trực tiếp với みたいだ, nhưng cần の trước ようだ: 雨みたいだ / 雨のようだ.": [
+    {
+      "text": "Danh từ nối trực tiếp với みたいだ, nhưng cần の trước ようだ: "
+    },
+    {
+      "text": "雨",
+      "reading": "あめ"
+    },
+    {
+      "text": "みたいだ / "
+    },
+    {
+      "text": "雨",
+      "reading": "あめ"
+    },
+    {
+      "text": "のようだ."
+    }
+  ],
   "Danh từ nối trực tiếp với みたいです: 休みみたいです. Với ようです thì cần の: 休みのようです.": [
     {
       "text": "Danh từ nối trực tiếp với みたいです: "
@@ -77,6 +1247,30 @@
       "text": " nối trực tiếp với かもしれません, không thêm だ. Cũng chấp nhận dạng thường かもしれない để luyện nhận biết mẫu."
     }
   ],
+  "Danh từ/tính từ な ở dạng quá khứ vẫn giữ だった: 学生だったらしい. Không áp dụng quy tắc bỏ だ cho mọi thì.": [
+    {
+      "text": "Danh từ/tính từ な ở dạng quá khứ vẫn giữ だった: "
+    },
+    {
+      "text": "学生",
+      "reading": "がくせい"
+    },
+    {
+      "text": "だったらしい. Không áp dụng quy tắc bỏ だ cho mọi thì."
+    }
+  ],
+  "Dùng thể thường quá khứ 行った, không nối んですか sau ました.": [
+    {
+      "text": "Dùng thể thường quá khứ "
+    },
+    {
+      "text": "行",
+      "reading": "おこな"
+    },
+    {
+      "text": "った, không nối んですか sau ました."
+    }
+  ],
   "Dùng かもしれません để nói: “Người đó có lẽ là sinh viên.” Điền phần còn thiếu: あの人は学生＿＿。": [
     {
       "text": "Dùng かもしれません để nói: “Người đó có lẽ là sinh viên.” Điền phần còn thiếu: あの"
@@ -96,6 +1290,216 @@
       "text": "＿＿。"
     }
   ],
+  "Dạng lịch sự là らしいです. Phủ định/quá khứ của thông tin đặt trước らしい: 来ないらしい, 来たらしい.": [
+    {
+      "text": "Dạng lịch sự là らしいです. Phủ định/quá khứ của thông tin đặt trước らしい: "
+    },
+    {
+      "text": "来",
+      "reading": "こ"
+    },
+    {
+      "text": "ないらしい, "
+    },
+    {
+      "text": "来",
+      "reading": "き"
+    },
+    {
+      "text": "たらしい."
+    }
+  ],
+  "Dạng lịch sự: と思います. Phủ định của mệnh đề: 来ないと思います = tôi nghĩ sẽ không đến.": [
+    {
+      "text": "Dạng lịch sự: と"
+    },
+    {
+      "text": "思",
+      "reading": "おも"
+    },
+    {
+      "text": "います. Phủ định của mệnh đề: "
+    },
+    {
+      "text": "来",
+      "reading": "こ"
+    },
+    {
+      "text": "ないと"
+    },
+    {
+      "text": "思",
+      "reading": "おも"
+    },
+    {
+      "text": "います = tôi nghĩ sẽ không đến."
+    }
+  ],
+  "Dạng lịch sự: みたいです. Quá khứ/phủ định của sự việc nằm trước mẫu: 優勝したみたいです, 来ないみたいです.": [
+    {
+      "text": "Dạng lịch sự: みたいです. Quá khứ/phủ định của sự việc nằm trước mẫu: "
+    },
+    {
+      "text": "優勝",
+      "reading": "ゆうしょう"
+    },
+    {
+      "text": "したみたいです, "
+    },
+    {
+      "text": "来",
+      "reading": "こ"
+    },
+    {
+      "text": "ないみたいです."
+    }
+  ],
+  "Giới thiệu (～を, 人に)": [
+    {
+      "text": "Giới thiệu (～を, "
+    },
+    {
+      "text": "人",
+      "reading": "ひと"
+    },
+    {
+      "text": "に)"
+    }
+  ],
+  "Giữ đúng đơn vị đếm: 10杯も, ３万円も. する sau số tiền ở đây nghĩa là ‘có giá/tốn’.": [
+    {
+      "text": "Giữ đúng đơn vị đếm: "
+    },
+    {
+      "text": "10杯",
+      "reading": "じゅっぱい"
+    },
+    {
+      "text": "も, ３"
+    },
+    {
+      "text": "万",
+      "reading": "まん"
+    },
+    {
+      "text": "円",
+      "reading": "えん"
+    },
+    {
+      "text": "も. する sau số tiền ở đây nghĩa là ‘có giá/tốn’."
+    }
+  ],
+  "Hỏi chi tiết về một điều đang nhìn thấy hoặc xác nhận suy đoán từ dấu hiệu cụ thể. Có thể đi cùng 何, いつ, どこ, どうして, どうやって; dấu hiệu trước mắt giúp người nghe hiểu câu hỏi.": [
+    {
+      "text": "Hỏi chi tiết về một điều đang nhìn thấy hoặc xác nhận suy đoán từ dấu hiệu cụ thể. Có thể đi cùng "
+    },
+    {
+      "text": "何",
+      "reading": "なに"
+    },
+    {
+      "text": ", いつ, どこ, どうして, どうやって; dấu hiệu trước mắt giúp người nghe hiểu câu hỏi."
+    }
+  ],
+  "Khi hỏi trung tính lần đầu về sở thích, ý kiến hoặc món muốn chọn, thường dùng câu hỏi lịch sự thông thường: 甘いものが好きですか, 日本語は難しいと思いますか, 何を食べますか.": [
+    {
+      "text": "Khi hỏi trung tính lần đầu về sở thích, ý kiến hoặc món muốn chọn, thường dùng câu hỏi lịch sự thông thường: "
+    },
+    {
+      "text": "甘",
+      "reading": "あま"
+    },
+    {
+      "text": "いものが"
+    },
+    {
+      "text": "好",
+      "reading": "す"
+    },
+    {
+      "text": "きですか, "
+    },
+    {
+      "text": "日本語",
+      "reading": "にほんご"
+    },
+    {
+      "text": "は"
+    },
+    {
+      "text": "難",
+      "reading": "むずか"
+    },
+    {
+      "text": "しいと"
+    },
+    {
+      "text": "思",
+      "reading": "おも"
+    },
+    {
+      "text": "いますか, "
+    },
+    {
+      "text": "何",
+      "reading": "なに"
+    },
+    {
+      "text": "を"
+    },
+    {
+      "text": "食",
+      "reading": "た"
+    },
+    {
+      "text": "べますか."
+    }
+  ],
+  "Khi nói suy nghĩ của người khác, cần căn cứ, chẳng hạn 本人がそう言っていました; không tự khẳng định suy nghĩ trong đầu họ.": [
+    {
+      "text": "Khi nói suy nghĩ của người khác, cần căn cứ, chẳng hạn "
+    },
+    {
+      "text": "本人",
+      "reading": "ほんにん"
+    },
+    {
+      "text": "がそう"
+    },
+    {
+      "text": "言",
+      "reading": "い"
+    },
+    {
+      "text": "っていました; không tự khẳng định suy nghĩ trong đầu họ."
+    }
+  ],
+  "Khi nói sự việc quá khứ/phủ định, đổi mệnh đề trước そうだ: 行ったそうです, 行かないそうです, 学生だったそうです. Trong cách dùng của bài, không đổi đuôi thành そうでした / そうではありません để diễn tả thì hoặc phủ định của sự việc.": [
+    {
+      "text": "Khi nói sự việc quá khứ/phủ định, đổi mệnh đề trước そうだ: "
+    },
+    {
+      "text": "行",
+      "reading": "おこな"
+    },
+    {
+      "text": "ったそうです, "
+    },
+    {
+      "text": "行",
+      "reading": "い"
+    },
+    {
+      "text": "かないそうです, "
+    },
+    {
+      "text": "学生",
+      "reading": "がくせい"
+    },
+    {
+      "text": "だったそうです. Trong cách dùng của bài, không đổi đuôi thành そうでした / そうではありません để diễn tả thì hoặc phủ định của sự việc."
+    }
+  ],
   "Không thêm な giữa danh từ 休み và みたいです.": [
     {
       "text": "Không thêm な giữa danh từ "
@@ -106,6 +1510,581 @@
     },
     {
       "text": "み và みたいです."
+    }
+  ],
+  "Liệt kê đặc điểm, lý do với し và nêu ý kiến với と思う.": [
+    {
+      "text": "Liệt kê đặc điểm, lý do với し và nêu ý kiến với と"
+    },
+    {
+      "text": "思",
+      "reading": "おも"
+    },
+    {
+      "text": "う."
+    }
+  ],
+  "Lời cuối xác nhận 映画を見てからご飯を食べよう。それから買い物しよう: xem phim, ăn rồi mua sắm. B làm thêm đến 13 giờ, nên kế hoạch ăn trưa lúc 12 giờ đã được thay đổi. Câu hỏi được biên tập từ câu hỏi nguồn để yêu cầu toàn bộ thứ tự cuối cùng, tránh hai lựa chọn cùng đúng một phần.": [
+    {
+      "text": "Lời cuối xác nhận "
+    },
+    {
+      "text": "映画",
+      "reading": "えいが"
+    },
+    {
+      "text": "を"
+    },
+    {
+      "text": "見",
+      "reading": "み"
+    },
+    {
+      "text": "てからご"
+    },
+    {
+      "text": "飯",
+      "reading": "はん"
+    },
+    {
+      "text": "を"
+    },
+    {
+      "text": "食",
+      "reading": "た"
+    },
+    {
+      "text": "べよう。それから"
+    },
+    {
+      "text": "買",
+      "reading": "か"
+    },
+    {
+      "text": "い"
+    },
+    {
+      "text": "物",
+      "reading": "もの"
+    },
+    {
+      "text": "しよう: xem phim, ăn rồi mua sắm. B làm thêm đến 13 giờ, nên kế hoạch ăn trưa lúc 12 giờ đã được thay đổi. Câu hỏi được biên tập từ câu hỏi nguồn để yêu cầu toàn bộ thứ tự cuối cùng, tránh hai lựa chọn cùng đúng một phần."
+    }
+  ],
+  "Mục đích chính là 今度ベトナム語を教えてくださいませんか: nhờ Hayashi dạy tiếng Việt cho Yoshida để nói với du học sinh đến homestay. Bánh hoặc bữa ăn là cách cảm ơn, không phải yêu cầu chính.": [
+    {
+      "text": "Mục đích chính là "
+    },
+    {
+      "text": "今度",
+      "reading": "こんど"
+    },
+    {
+      "text": "ベトナム"
+    },
+    {
+      "text": "語",
+      "reading": "ご"
+    },
+    {
+      "text": "を"
+    },
+    {
+      "text": "教",
+      "reading": "おし"
+    },
+    {
+      "text": "えてくださいませんか: nhờ Hayashi dạy tiếng Việt cho Yoshida để nói với du học sinh đến homestay. Bánh hoặc bữa ăn là cách cảm ơn, không phải yêu cầu chính."
+    }
+  ],
+  "Nguồn: N4_Chương 17.pdf do người học cung cấp (19 trang). Danh sách từ vựng, kanji, mẫu ngữ pháp, ví dụ ngữ pháp và ba đoạn đọc được nhập từ tài liệu. Câu ví dụ từ vựng, bản dịch, hướng dẫn phân biệt/lỗi thường gặp là nội dung biên soạn bổ sung của Kotoba; không phải ví dụ nguyên bản của giáo trình. Nhãn A/B trong đoạn LINE được thêm để phân biệt người gửi. Câu hỏi thứ nhất được biên tập để chỉ có một đáp án đúng. 大きな được ghi rõ là từ bổ nghĩa đứng trước danh từ. Phần nghe chưa triển khai.": [
+    {
+      "text": "Nguồn: N4_Chương 17.pdf do người học cung cấp (19 trang). Danh sách từ vựng, kanji, mẫu ngữ pháp, ví dụ ngữ pháp và ba đoạn đọc được nhập từ tài liệu. Câu ví dụ từ vựng, bản dịch, hướng dẫn phân biệt/lỗi thường gặp là nội dung biên soạn bổ sung của Kotoba; không phải ví dụ nguyên bản của giáo trình. Nhãn A/B trong đoạn LINE được thêm để phân biệt người gửi. Câu hỏi thứ nhất được biên tập để chỉ có một đáp án đúng. "
+    },
+    {
+      "text": "大",
+      "reading": "おお"
+    },
+    {
+      "text": "きな được ghi rõ là từ bổ nghĩa đứng trước danh từ. Phần nghe chưa triển khai."
+    }
+  ],
+  "Nếu muốn nói ‘chỉ có’, dùng しか + phủ định. Nếu muốn nói ‘có tận’, dùng 5,000円もある.": [
+    {
+      "text": "Nếu muốn nói ‘chỉ có’, dùng しか + phủ định. Nếu muốn nói ‘có tận’, dùng 5,000"
+    },
+    {
+      "text": "円",
+      "reading": "えん"
+    },
+    {
+      "text": "もある."
+    }
+  ],
+  "Q：1週間に1回だけ通いたいんですが、できますか？\nA：はい。ABC英語スクールでは、好きな日に授業が受けられます。先生一人と学生一人の授業（マンツーマン授業）で、1回3,000円です。現金しか使えません。": [
+    {
+      "text": "Q：1"
+    },
+    {
+      "text": "週間",
+      "reading": "しゅうかん"
+    },
+    {
+      "text": "に1"
+    },
+    {
+      "text": "回",
+      "reading": "かい"
+    },
+    {
+      "text": "だけ"
+    },
+    {
+      "text": "通",
+      "reading": "かよ"
+    },
+    {
+      "text": "いたいんですが、できますか？\nA：はい。ABC"
+    },
+    {
+      "text": "英語",
+      "reading": "えいご"
+    },
+    {
+      "text": "スクールでは、"
+    },
+    {
+      "text": "好",
+      "reading": "す"
+    },
+    {
+      "text": "きな"
+    },
+    {
+      "text": "日",
+      "reading": "にち"
+    },
+    {
+      "text": "に"
+    },
+    {
+      "text": "授業",
+      "reading": "じゅぎょう"
+    },
+    {
+      "text": "が"
+    },
+    {
+      "text": "受",
+      "reading": "う"
+    },
+    {
+      "text": "けられます。"
+    },
+    {
+      "text": "先生",
+      "reading": "せんせい"
+    },
+    {
+      "text": "一人",
+      "reading": "ひとり"
+    },
+    {
+      "text": "と"
+    },
+    {
+      "text": "学生",
+      "reading": "がくせい"
+    },
+    {
+      "text": "一人",
+      "reading": "ひとり"
+    },
+    {
+      "text": "の"
+    },
+    {
+      "text": "授業",
+      "reading": "じゅぎょう"
+    },
+    {
+      "text": "（マンツーマン"
+    },
+    {
+      "text": "授業",
+      "reading": "じゅぎょう"
+    },
+    {
+      "text": "）で、1"
+    },
+    {
+      "text": "回",
+      "reading": "かい"
+    },
+    {
+      "text": "3,000"
+    },
+    {
+      "text": "円",
+      "reading": "えん"
+    },
+    {
+      "text": "です。"
+    },
+    {
+      "text": "現金",
+      "reading": "げんきん"
+    },
+    {
+      "text": "しか"
+    },
+    {
+      "text": "使",
+      "reading": "つか"
+    },
+    {
+      "text": "えません。"
+    }
+  ],
+  "Q：50歳で、英語がとても苦手なんですが、私でも入れますか。\nA：ABC英語スクールはゼロから英語を教えますから、安心してください。小学生から大人まで、誰でも英語を習うことができますから、ぜひ一度見学に来てください。": [
+    {
+      "text": "Q：50"
+    },
+    {
+      "text": "歳",
+      "reading": "さい"
+    },
+    {
+      "text": "で、"
+    },
+    {
+      "text": "英語",
+      "reading": "えいご"
+    },
+    {
+      "text": "がとても"
+    },
+    {
+      "text": "苦手",
+      "reading": "にがて"
+    },
+    {
+      "text": "なんですが、"
+    },
+    {
+      "text": "私",
+      "reading": "わたし"
+    },
+    {
+      "text": "でも"
+    },
+    {
+      "text": "入",
+      "reading": "い"
+    },
+    {
+      "text": "れますか。\nA：ABC"
+    },
+    {
+      "text": "英語",
+      "reading": "えいご"
+    },
+    {
+      "text": "スクールはゼロから"
+    },
+    {
+      "text": "英語",
+      "reading": "えいご"
+    },
+    {
+      "text": "を"
+    },
+    {
+      "text": "教",
+      "reading": "おし"
+    },
+    {
+      "text": "えますから、"
+    },
+    {
+      "text": "安心",
+      "reading": "あんしん"
+    },
+    {
+      "text": "してください。"
+    },
+    {
+      "text": "小学生",
+      "reading": "しょうがくせい"
+    },
+    {
+      "text": "から"
+    },
+    {
+      "text": "大人",
+      "reading": "おとな"
+    },
+    {
+      "text": "まで、"
+    },
+    {
+      "text": "誰",
+      "reading": "だれ"
+    },
+    {
+      "text": "でも"
+    },
+    {
+      "text": "英語",
+      "reading": "えいご"
+    },
+    {
+      "text": "を"
+    },
+    {
+      "text": "習",
+      "reading": "なら"
+    },
+    {
+      "text": "うことができますから、ぜひ"
+    },
+    {
+      "text": "一",
+      "reading": "いち"
+    },
+    {
+      "text": "度",
+      "reading": "ど"
+    },
+    {
+      "text": "見学",
+      "reading": "けんがく"
+    },
+    {
+      "text": "に"
+    },
+    {
+      "text": "来",
+      "reading": "き"
+    },
+    {
+      "text": "てください。"
+    }
+  ],
+  "Q：ABC英語スクールに入りたいんですが、どうすればいいですか。\nA：受付で申し込んで、学生カードを作ってください。学生カードは無料で作れます。": [
+    {
+      "text": "Q：ABC"
+    },
+    {
+      "text": "英語",
+      "reading": "えいご"
+    },
+    {
+      "text": "スクールに"
+    },
+    {
+      "text": "入",
+      "reading": "はい"
+    },
+    {
+      "text": "りたいんですが、どうすればいいですか。\nA："
+    },
+    {
+      "text": "受付",
+      "reading": "うけつけ"
+    },
+    {
+      "text": "で"
+    },
+    {
+      "text": "申",
+      "reading": "もう"
+    },
+    {
+      "text": "し"
+    },
+    {
+      "text": "込",
+      "reading": "こ"
+    },
+    {
+      "text": "んで、"
+    },
+    {
+      "text": "学生",
+      "reading": "がくせい"
+    },
+    {
+      "text": "カードを"
+    },
+    {
+      "text": "作",
+      "reading": "つく"
+    },
+    {
+      "text": "ってください。"
+    },
+    {
+      "text": "学生",
+      "reading": "がくせい"
+    },
+    {
+      "text": "カードは"
+    },
+    {
+      "text": "無料",
+      "reading": "むりょう"
+    },
+    {
+      "text": "で"
+    },
+    {
+      "text": "作",
+      "reading": "つく"
+    },
+    {
+      "text": "れます。"
+    }
+  ],
+  "Q：授業のお金はどうやって払えばいいですか。\nA：現金とクレジットカードが使えます。現金：最初の授業の日に受付で払ってください。クレジットカード：インターネットのWEBサイトで払ってください。": [
+    {
+      "text": "Q："
+    },
+    {
+      "text": "授業",
+      "reading": "じゅぎょう"
+    },
+    {
+      "text": "のお"
+    },
+    {
+      "text": "金",
+      "reading": "かね"
+    },
+    {
+      "text": "はどうやって"
+    },
+    {
+      "text": "払",
+      "reading": "はら"
+    },
+    {
+      "text": "えばいいですか。\nA："
+    },
+    {
+      "text": "現金",
+      "reading": "げんきん"
+    },
+    {
+      "text": "とクレジットカードが"
+    },
+    {
+      "text": "使",
+      "reading": "つか"
+    },
+    {
+      "text": "えます。"
+    },
+    {
+      "text": "現金",
+      "reading": "げんきん"
+    },
+    {
+      "text": "："
+    },
+    {
+      "text": "最初",
+      "reading": "さいしょ"
+    },
+    {
+      "text": "の"
+    },
+    {
+      "text": "授業",
+      "reading": "じゅぎょう"
+    },
+    {
+      "text": "の"
+    },
+    {
+      "text": "日",
+      "reading": "にち"
+    },
+    {
+      "text": "に"
+    },
+    {
+      "text": "受付",
+      "reading": "うけつけ"
+    },
+    {
+      "text": "で"
+    },
+    {
+      "text": "払",
+      "reading": "はら"
+    },
+    {
+      "text": "ってください。クレジットカード：インターネットのWEBサイトで"
+    },
+    {
+      "text": "払",
+      "reading": "はら"
+    },
+    {
+      "text": "ってください。"
+    }
+  ],
+  "Q：自分の英語のレベルがわからないんですが、どのクラスに入ればいいですか。\nA：テストをしてクラスを決めます。テストは無料です。": [
+    {
+      "text": "Q："
+    },
+    {
+      "text": "自分",
+      "reading": "じぶん"
+    },
+    {
+      "text": "の"
+    },
+    {
+      "text": "英語",
+      "reading": "えいご"
+    },
+    {
+      "text": "のレベルがわからないんですが、どのクラスに"
+    },
+    {
+      "text": "入",
+      "reading": "はい"
+    },
+    {
+      "text": "ればいいですか。\nA：テストをしてクラスを"
+    },
+    {
+      "text": "決",
+      "reading": "き"
+    },
+    {
+      "text": "めます。テストは"
+    },
+    {
+      "text": "無料",
+      "reading": "むりょう"
+    },
+    {
+      "text": "です。"
+    }
+  ],
+  "Rủ, mời ai đó (人を) đến địa điểm/sự kiện (～に)": [
+    {
+      "text": "Rủ, mời ai đó ("
+    },
+    {
+      "text": "人",
+      "reading": "じん"
+    },
+    {
+      "text": "を) đến địa điểm/sự kiện (～に)"
     }
   ],
   "So sánh 明日は寒いでしょう。 (dự đoán) với 今日は寒いでしょう？ (mong người nghe đồng tình). Không chỉ dựa vào dấu hỏi để hiểu mọi trường hợp.": [
@@ -153,6 +2132,30 @@
       "text": "」「きっと」…"
     }
   ],
+  "Thể thường + と思う": [
+    {
+      "text": "Thể thường + と"
+    },
+    {
+      "text": "思",
+      "reading": "おも"
+    },
+    {
+      "text": "う"
+    }
+  ],
+  "Thể thường + と言っていました": [
+    {
+      "text": "Thể thường + と"
+    },
+    {
+      "text": "言",
+      "reading": "い"
+    },
+    {
+      "text": "っていました"
+    }
+  ],
   "Thể thường của tính từ い · ví dụ 高い": [
     {
       "text": "Thể thường của tính từ い · ví dụ "
@@ -189,6 +2192,99 @@
       "text": "く"
     }
   ],
+  "Thể thường, giữ だ ở khẳng định hiện tại + と思う": [
+    {
+      "text": "Thể thường, giữ だ ở khẳng định hiện tại + と"
+    },
+    {
+      "text": "思",
+      "reading": "おも"
+    },
+    {
+      "text": "う"
+    }
+  ],
+  "Thể thường, giữ だ ở khẳng định hiện tại + と言っていました": [
+    {
+      "text": "Thể thường, giữ だ ở khẳng định hiện tại + と"
+    },
+    {
+      "text": "言",
+      "reading": "い"
+    },
+    {
+      "text": "っていました"
+    }
+  ],
+  "Trong bối cảnh đã có gợi ý cụ thể, 好きなんですか vẫn có thể phù hợp. Cần xét sắc thái hỏi thêm/xác nhận, không cấm một mẫu chỉ vì đó là câu hỏi sở thích.": [
+    {
+      "text": "Trong bối cảnh đã có gợi ý cụ thể, "
+    },
+    {
+      "text": "好",
+      "reading": "す"
+    },
+    {
+      "text": "きなんですか vẫn có thể phù hợp. Cần xét sắc thái hỏi thêm/xác nhận, không cấm một mẫu chỉ vì đó là câu hỏi sở thích."
+    }
+  ],
+  "Trong hội thoại thân mật, どこで買ったんですか → どこで買ったの？.": [
+    {
+      "text": "Trong hội thoại thân mật, どこで"
+    },
+    {
+      "text": "買",
+      "reading": "か"
+    },
+    {
+      "text": "ったんですか → どこで"
+    },
+    {
+      "text": "買",
+      "reading": "か"
+    },
+    {
+      "text": "ったの？."
+    }
+  ],
+  "Trong hội thoại: と言っていました → って言っていた / って言ってた.": [
+    {
+      "text": "Trong hội thoại: と"
+    },
+    {
+      "text": "言",
+      "reading": "い"
+    },
+    {
+      "text": "っていました → って"
+    },
+    {
+      "text": "言",
+      "reading": "い"
+    },
+    {
+      "text": "っていた / って"
+    },
+    {
+      "text": "言",
+      "reading": "い"
+    },
+    {
+      "text": "ってた."
+    }
+  ],
+  "Trích dẫn lời nói với と言っていました và nhận biết dạng hội thoại rút gọn.": [
+    {
+      "text": "Trích dẫn lời nói với と"
+    },
+    {
+      "text": "言",
+      "reading": "い"
+    },
+    {
+      "text": "っていました và nhận biết dạng hội thoại rút gọn."
+    }
+  ],
   "Tên phim ở ngay câu đầu: 映画「ロック・スター」. Chấp nhận cả ロック・スター và ロックスター; khi viết tiếng Nhật hãy dùng katakana cho tên này.": [
     {
       "text": "Tên phim ở ngay câu đầu: "
@@ -199,6 +2295,18 @@
     },
     {
       "text": "「ロック・スター」. Chấp nhận cả ロック・スター và ロックスター; khi viết tiếng Nhật hãy dùng katakana cho tên này."
+    }
+  ],
+  "Tình trạng; trạng thái (～がいい / 悪い)": [
+    {
+      "text": "Tình trạng; trạng thái (～がいい / "
+    },
+    {
+      "text": "悪",
+      "reading": "わる"
+    },
+    {
+      "text": "い)"
     }
   ],
   "runrun：音楽がとてもよかったです。また見たいです。": [
@@ -303,6 +2411,63 @@
     },
     {
       "text": "るかもしれません (chiều tối có thể có mưa). Vì vậy không thể chọn trời nắng, mưa cả ngày hoặc có tuyết."
+    }
+  ],
+  "Đuôi giải thích không làm thay đổi thì: 昨日から痛いんです nói tình trạng vẫn đau; 昨日は痛かったんです nói trạng thái quá khứ.": [
+    {
+      "text": "Đuôi giải thích không làm thay đổi thì: "
+    },
+    {
+      "text": "昨日",
+      "reading": "きのう"
+    },
+    {
+      "text": "から"
+    },
+    {
+      "text": "痛",
+      "reading": "いた"
+    },
+    {
+      "text": "いんです nói tình trạng vẫn đau; "
+    },
+    {
+      "text": "昨日",
+      "reading": "きのう"
+    },
+    {
+      "text": "は"
+    },
+    {
+      "text": "痛",
+      "reading": "いた"
+    },
+    {
+      "text": "かったんです nói trạng thái quá khứ."
+    }
+  ],
+  "Đưa ra thông tin mới về bản thân với sắc thái giải thích, chia sẻ để người nghe hiểu hoàn cảnh. Thường mở đầu bằng 実は (thật ra). んです liên kết thông tin với mối quan tâm hoặc tình huống của cuộc nói chuyện.": [
+    {
+      "text": "Đưa ra thông tin mới về bản thân với sắc thái giải thích, chia sẻ để người nghe hiểu hoàn cảnh. Thường mở đầu bằng "
+    },
+    {
+      "text": "実",
+      "reading": "じつ"
+    },
+    {
+      "text": "は (thật ra). んです liên kết thông tin với mối quan tâm hoặc tình huống của cuộc nói chuyện."
+    }
+  ],
+  "「Lời nói nguyên văn」+ と言っていました": [
+    {
+      "text": "「Lời nói nguyên văn」+ と"
+    },
+    {
+      "text": "言",
+      "reading": "い"
+    },
+    {
+      "text": "っていました"
     }
   ],
   "「このかばん、かわいいでしょう？」の意味はどれですか。": [
@@ -761,6 +2926,46 @@
       "text": "はどれですか。"
     }
   ],
+  "「私の友達」はたくさん練習したから、日本語が上手です。": [
+    {
+      "text": "「"
+    },
+    {
+      "text": "私",
+      "reading": "わたし"
+    },
+    {
+      "text": "の"
+    },
+    {
+      "text": "友達",
+      "reading": "ともだち"
+    },
+    {
+      "text": "」はたくさん"
+    },
+    {
+      "text": "練習",
+      "reading": "れんしゅう"
+    },
+    {
+      "text": "したから、"
+    },
+    {
+      "text": "日本語",
+      "reading": "にほんご"
+    },
+    {
+      "text": "が"
+    },
+    {
+      "text": "上手",
+      "reading": "じょうず"
+    },
+    {
+      "text": "です。"
+    }
+  ],
   "「血」の読み方（訓読み）はどれですか。": [
     {
       "text": "「"
@@ -938,6 +3143,30 @@
       "text": "があるみたいですね ＝ Có vẻ nổi tiếng nhỉ."
     }
   ],
+  "あそこの店、なくなったみたいだよ。": [
+    {
+      "text": "あそこの"
+    },
+    {
+      "text": "店",
+      "reading": "みせ"
+    },
+    {
+      "text": "、なくなったみたいだよ。"
+    }
+  ],
+  "あのお店、おいしいらしいね。": [
+    {
+      "text": "あのお"
+    },
+    {
+      "text": "店",
+      "reading": "みせ"
+    },
+    {
+      "text": "、おいしいらしいね。"
+    }
+  ],
   "あのアパート、いつも部屋が暗いよね。…誰も住んでいないみたいだね。": [
     {
       "text": "あのアパート、いつも"
@@ -988,6 +3217,25 @@
     },
     {
       "text": "＿＿。"
+    }
+  ],
+  "あの人は元気みたいだ。": [
+    {
+      "text": "あの"
+    },
+    {
+      "text": "人",
+      "reading": "ひと"
+    },
+    {
+      "text": "は"
+    },
+    {
+      "text": "元気",
+      "reading": "げんき"
+    },
+    {
+      "text": "みたいだ。"
     }
   ],
   "あの人は学生かもしれない。": [
@@ -1047,6 +3295,63 @@
       "text": "です。"
     }
   ],
+  "あの店はおいしいみたいだ。": [
+    {
+      "text": "あの"
+    },
+    {
+      "text": "店",
+      "reading": "みせ"
+    },
+    {
+      "text": "はおいしいみたいだ。"
+    }
+  ],
+  "あの店はおいしいらしい。": [
+    {
+      "text": "あの"
+    },
+    {
+      "text": "店",
+      "reading": "みせ"
+    },
+    {
+      "text": "はおいしいらしい。"
+    }
+  ],
+  "あの歌手の恋人は、女優の石田まりらしいですよ。": [
+    {
+      "text": "あの"
+    },
+    {
+      "text": "歌手",
+      "reading": "かしゅ"
+    },
+    {
+      "text": "の"
+    },
+    {
+      "text": "恋人",
+      "reading": "こいびと"
+    },
+    {
+      "text": "は、"
+    },
+    {
+      "text": "女優",
+      "reading": "じょゆう"
+    },
+    {
+      "text": "の"
+    },
+    {
+      "text": "石田",
+      "reading": "いしだ"
+    },
+    {
+      "text": "まりらしいですよ。"
+    }
+  ],
   "あまり使っていないので、きれいなはずだ。": [
     {
       "text": "あまり"
@@ -1069,6 +3374,184 @@
     },
     {
       "text": "わなかったから、きれいなはずです。"
+    }
+  ],
+  "ありがとうございます。でも、日本語より、英語のほうが得意なんです。": [
+    {
+      "text": "ありがとうございます。でも、"
+    },
+    {
+      "text": "日本語",
+      "reading": "にほんご"
+    },
+    {
+      "text": "より、"
+    },
+    {
+      "text": "英語",
+      "reading": "えいご"
+    },
+    {
+      "text": "のほうが"
+    },
+    {
+      "text": "得意",
+      "reading": "とくい"
+    },
+    {
+      "text": "なんです。"
+    }
+  ],
+  "いつ日本に来たんですか。": [
+    {
+      "text": "いつ"
+    },
+    {
+      "text": "日本",
+      "reading": "にっぽん"
+    },
+    {
+      "text": "に"
+    },
+    {
+      "text": "来",
+      "reading": "き"
+    },
+    {
+      "text": "たんですか。"
+    }
+  ],
+  "いつ日本に来ましたか hỏi thời điểm trung tính; いつ日本に来たんですか hỏi chi tiết trong cuộc trò chuyện về người đang sống ở Nhật. どれくらい / どのくらい đều dùng được để hỏi khoảng thời gian.": [
+    {
+      "text": "いつ"
+    },
+    {
+      "text": "日本",
+      "reading": "にっぽん"
+    },
+    {
+      "text": "に"
+    },
+    {
+      "text": "来",
+      "reading": "き"
+    },
+    {
+      "text": "ましたか hỏi thời điểm trung tính; いつ"
+    },
+    {
+      "text": "日本",
+      "reading": "にっぽん"
+    },
+    {
+      "text": "に"
+    },
+    {
+      "text": "来",
+      "reading": "き"
+    },
+    {
+      "text": "たんですか hỏi chi tiết trong cuộc trò chuyện về người đang sống ở Nhật. どれくらい / どのくらい đều dùng được để hỏi khoảng thời gian."
+    }
+  ],
+  "いろは　日本料理：500円～1200円　評価：2.9（31）\nうどんとカレーを食べました。料理はあまりおいしくなかったです。お客さんも少なかったです。でも、駅から近いし、とても安かったし、また行くと思います。": [
+    {
+      "text": "いろは　"
+    },
+    {
+      "text": "日本",
+      "reading": "にっぽん"
+    },
+    {
+      "text": "料理",
+      "reading": "りょうり"
+    },
+    {
+      "text": "：500"
+    },
+    {
+      "text": "円",
+      "reading": "えん"
+    },
+    {
+      "text": "～1200"
+    },
+    {
+      "text": "円",
+      "reading": "えん"
+    },
+    {
+      "text": "　"
+    },
+    {
+      "text": "評価",
+      "reading": "ひょうか"
+    },
+    {
+      "text": "：2.9（31）\nうどんとカレーを"
+    },
+    {
+      "text": "食",
+      "reading": "た"
+    },
+    {
+      "text": "べました。"
+    },
+    {
+      "text": "料理",
+      "reading": "りょうり"
+    },
+    {
+      "text": "はあまりおいしくなかったです。お"
+    },
+    {
+      "text": "客",
+      "reading": "きゃく"
+    },
+    {
+      "text": "さんも"
+    },
+    {
+      "text": "少",
+      "reading": "すく"
+    },
+    {
+      "text": "なかったです。でも、"
+    },
+    {
+      "text": "駅",
+      "reading": "えき"
+    },
+    {
+      "text": "から"
+    },
+    {
+      "text": "近",
+      "reading": "ちか"
+    },
+    {
+      "text": "いし、とても"
+    },
+    {
+      "text": "安",
+      "reading": "やす"
+    },
+    {
+      "text": "かったし、また"
+    },
+    {
+      "text": "行",
+      "reading": "い"
+    },
+    {
+      "text": "くと"
+    },
+    {
+      "text": "思",
+      "reading": "おも"
+    },
+    {
+      "text": "います。"
     }
   ],
   "おかしいなぁ…。さっきここに置いたはずだけど…。めがねがない。": [
@@ -1095,6 +3578,156 @@
       "text": "いた＿＿だけど…。めがねがない。"
     }
   ],
+  "お大事に": [
+    {
+      "text": "お"
+    },
+    {
+      "text": "大事",
+      "reading": "だいじ"
+    },
+    {
+      "text": "に"
+    }
+  ],
+  "お正月": [
+    {
+      "text": "お"
+    },
+    {
+      "text": "正月",
+      "reading": "しょうがつ"
+    }
+  ],
+  "お正月に着物を着ました。": [
+    {
+      "text": "お"
+    },
+    {
+      "text": "正月",
+      "reading": "しょうがつ"
+    },
+    {
+      "text": "に"
+    },
+    {
+      "text": "着物",
+      "reading": "きもの"
+    },
+    {
+      "text": "を"
+    },
+    {
+      "text": "着",
+      "reading": "き"
+    },
+    {
+      "text": "ました。"
+    }
+  ],
+  "お疲れ様です。もう聞きましたか。高木さん、会社をやめるそうですね。マイさんから聞きました。７月まで働いて、その後すぐに北海道に引っ越すらしいと部長が言っていました。": [
+    {
+      "text": "お"
+    },
+    {
+      "text": "疲",
+      "reading": "つか"
+    },
+    {
+      "text": "れ"
+    },
+    {
+      "text": "様",
+      "reading": "さま"
+    },
+    {
+      "text": "です。もう"
+    },
+    {
+      "text": "聞",
+      "reading": "き"
+    },
+    {
+      "text": "きましたか。"
+    },
+    {
+      "text": "高木",
+      "reading": "たかぎ"
+    },
+    {
+      "text": "さん、"
+    },
+    {
+      "text": "会社",
+      "reading": "かいしゃ"
+    },
+    {
+      "text": "をやめるそうですね。マイさんから"
+    },
+    {
+      "text": "聞",
+      "reading": "き"
+    },
+    {
+      "text": "きました。"
+    },
+    {
+      "text": "７月",
+      "reading": "しちがつ"
+    },
+    {
+      "text": "まで"
+    },
+    {
+      "text": "働",
+      "reading": "はたら"
+    },
+    {
+      "text": "いて、その"
+    },
+    {
+      "text": "後",
+      "reading": "ご"
+    },
+    {
+      "text": "すぐに"
+    },
+    {
+      "text": "北海道",
+      "reading": "ほっかいどう"
+    },
+    {
+      "text": "に"
+    },
+    {
+      "text": "引",
+      "reading": "ひ"
+    },
+    {
+      "text": "っ"
+    },
+    {
+      "text": "越",
+      "reading": "こ"
+    },
+    {
+      "text": "すらしいと"
+    },
+    {
+      "text": "部長",
+      "reading": "ぶちょう"
+    },
+    {
+      "text": "が"
+    },
+    {
+      "text": "言",
+      "reading": "い"
+    },
+    {
+      "text": "っていました。"
+    }
+  ],
   "お皿": [
     {
       "text": "お"
@@ -1116,6 +3749,60 @@
       "text": "らせ"
     }
   ],
+  "お礼": [
+    {
+      "text": "お"
+    },
+    {
+      "text": "礼",
+      "reading": "れい"
+    }
+  ],
+  "お礼にケーキを持って行きました。": [
+    {
+      "text": "お"
+    },
+    {
+      "text": "礼",
+      "reading": "れい"
+    },
+    {
+      "text": "にケーキを"
+    },
+    {
+      "text": "持",
+      "reading": "も"
+    },
+    {
+      "text": "って"
+    },
+    {
+      "text": "行",
+      "reading": "い"
+    },
+    {
+      "text": "きました。"
+    }
+  ],
+  "お返事お待ちしています。": [
+    {
+      "text": "お"
+    },
+    {
+      "text": "返事",
+      "reading": "へんじ"
+    },
+    {
+      "text": "お"
+    },
+    {
+      "text": "待",
+      "reading": "ま"
+    },
+    {
+      "text": "ちしています。"
+    }
+  ],
   "きっと合格するでしょう。": [
     {
       "text": "きっと"
@@ -1128,6 +3815,44 @@
       "text": "するでしょう。"
     }
   ],
+  "こうやって漢字を書いてください。": [
+    {
+      "text": "こうやって"
+    },
+    {
+      "text": "漢字",
+      "reading": "かんじ"
+    },
+    {
+      "text": "を"
+    },
+    {
+      "text": "書",
+      "reading": "か"
+    },
+    {
+      "text": "いてください。"
+    }
+  ],
+  "ここで泳ぐのは危ないです。": [
+    {
+      "text": "ここで"
+    },
+    {
+      "text": "泳",
+      "reading": "およ"
+    },
+    {
+      "text": "ぐのは"
+    },
+    {
+      "text": "危",
+      "reading": "あぶ"
+    },
+    {
+      "text": "ないです。"
+    }
+  ],
   "ここは静かでしょう？": [
     {
       "text": "ここは"
@@ -1138,6 +3863,53 @@
     },
     {
       "text": "かでしょう？"
+    }
+  ],
+  "このお菓子はおいしいと思います。": [
+    {
+      "text": "このお"
+    },
+    {
+      "text": "菓子",
+      "reading": "かし"
+    },
+    {
+      "text": "はおいしいと"
+    },
+    {
+      "text": "思",
+      "reading": "おも"
+    },
+    {
+      "text": "います。"
+    }
+  ],
+  "このかばんは形がかわいいです。": [
+    {
+      "text": "このかばんは"
+    },
+    {
+      "text": "形",
+      "reading": "かたち"
+    },
+    {
+      "text": "がかわいいです。"
+    }
+  ],
+  "このかばんは１万円もするんです。": [
+    {
+      "text": "このかばんは１"
+    },
+    {
+      "text": "万",
+      "reading": "まん"
+    },
+    {
+      "text": "円",
+      "reading": "えん"
+    },
+    {
+      "text": "もするんです。"
     }
   ],
   "このケーキ、はじめて作ったから、おいしくないかもしれない。": [
@@ -1202,6 +3974,58 @@
       "text": "しいかもしれない。"
     }
   ],
+  "この小説は短いし、面白いし、おすすめですよ。": [
+    {
+      "text": "この"
+    },
+    {
+      "text": "小説",
+      "reading": "しょうせつ"
+    },
+    {
+      "text": "は"
+    },
+    {
+      "text": "短",
+      "reading": "みじか"
+    },
+    {
+      "text": "いし、"
+    },
+    {
+      "text": "面白",
+      "reading": "おもしろ"
+    },
+    {
+      "text": "いし、おすすめですよ。"
+    }
+  ],
+  "この小説は短いし、面白いです。": [
+    {
+      "text": "この"
+    },
+    {
+      "text": "小説",
+      "reading": "しょうせつ"
+    },
+    {
+      "text": "は"
+    },
+    {
+      "text": "短",
+      "reading": "みじか"
+    },
+    {
+      "text": "いし、"
+    },
+    {
+      "text": "面白",
+      "reading": "おもしろ"
+    },
+    {
+      "text": "いです。"
+    }
+  ],
   "この店のラーメンは人気がある＿＿ですね。": [
     {
       "text": "この"
@@ -1259,6 +4083,44 @@
     },
     {
       "text": "があるみたいですね。"
+    }
+  ],
+  "この店はおいしいし、おしゃれだし、しかも安い。": [
+    {
+      "text": "この"
+    },
+    {
+      "text": "店",
+      "reading": "みせ"
+    },
+    {
+      "text": "はおいしいし、おしゃれだし、しかも"
+    },
+    {
+      "text": "安",
+      "reading": "やす"
+    },
+    {
+      "text": "い。"
+    }
+  ],
+  "この店はおいしいです。しかも、安いです。": [
+    {
+      "text": "この"
+    },
+    {
+      "text": "店",
+      "reading": "みせ"
+    },
+    {
+      "text": "はおいしいです。しかも、"
+    },
+    {
+      "text": "安",
+      "reading": "やす"
+    },
+    {
+      "text": "いです。"
     }
   ],
   "この店はおいしいはずだ。": [
@@ -1341,6 +4203,51 @@
       "text": "です。"
     }
   ],
+  "この本はよく売れています。": [
+    {
+      "text": "この"
+    },
+    {
+      "text": "本",
+      "reading": "ほん"
+    },
+    {
+      "text": "はよく"
+    },
+    {
+      "text": "売",
+      "reading": "う"
+    },
+    {
+      "text": "れています。"
+    }
+  ],
+  "この町には知り合いがいます。": [
+    {
+      "text": "この"
+    },
+    {
+      "text": "町",
+      "reading": "まち"
+    },
+    {
+      "text": "には"
+    },
+    {
+      "text": "知",
+      "reading": "し"
+    },
+    {
+      "text": "り"
+    },
+    {
+      "text": "合",
+      "reading": "あ"
+    },
+    {
+      "text": "いがいます。"
+    }
+  ],
   "この町はだいぶ不便です。": [
     {
       "text": "この"
@@ -1398,6 +4305,103 @@
       "text": "＿＿ようです。"
     }
   ],
+  "この町は交通が便利です。": [
+    {
+      "text": "この"
+    },
+    {
+      "text": "町",
+      "reading": "まち"
+    },
+    {
+      "text": "は"
+    },
+    {
+      "text": "交通",
+      "reading": "こうつう"
+    },
+    {
+      "text": "が"
+    },
+    {
+      "text": "便利",
+      "reading": "べんり"
+    },
+    {
+      "text": "です。"
+    }
+  ],
+  "この町は便利だと思います。": [
+    {
+      "text": "この"
+    },
+    {
+      "text": "町",
+      "reading": "まち"
+    },
+    {
+      "text": "は"
+    },
+    {
+      "text": "便利",
+      "reading": "べんり"
+    },
+    {
+      "text": "だと"
+    },
+    {
+      "text": "思",
+      "reading": "おも"
+    },
+    {
+      "text": "います。"
+    }
+  ],
+  "この町は便利と思います。": [
+    {
+      "text": "この"
+    },
+    {
+      "text": "町",
+      "reading": "まち"
+    },
+    {
+      "text": "は"
+    },
+    {
+      "text": "便利",
+      "reading": "べんり"
+    },
+    {
+      "text": "と"
+    },
+    {
+      "text": "思",
+      "reading": "おも"
+    },
+    {
+      "text": "います。"
+    }
+  ],
+  "この町は静かだそうです。": [
+    {
+      "text": "この"
+    },
+    {
+      "text": "町",
+      "reading": "まち"
+    },
+    {
+      "text": "は"
+    },
+    {
+      "text": "静",
+      "reading": "しず"
+    },
+    {
+      "text": "かだそうです。"
+    }
+  ],
   "この町は静かでしょう。": [
     {
       "text": "この"
@@ -1434,6 +4438,97 @@
     },
     {
       "text": "かみたいだ。"
+    }
+  ],
+  "この町は静からしい。": [
+    {
+      "text": "この"
+    },
+    {
+      "text": "町",
+      "reading": "まち"
+    },
+    {
+      "text": "は"
+    },
+    {
+      "text": "静",
+      "reading": "しず"
+    },
+    {
+      "text": "からしい。"
+    }
+  ],
+  "この美容院は、カットだけで１万円もするらしいですよ。": [
+    {
+      "text": "この"
+    },
+    {
+      "text": "美容",
+      "reading": "びよう"
+    },
+    {
+      "text": "院",
+      "reading": "いん"
+    },
+    {
+      "text": "は、カットだけで１"
+    },
+    {
+      "text": "万",
+      "reading": "まん"
+    },
+    {
+      "text": "円",
+      "reading": "えん"
+    },
+    {
+      "text": "もするらしいですよ。"
+    }
+  ],
+  "この薬は苦いです。": [
+    {
+      "text": "この"
+    },
+    {
+      "text": "薬",
+      "reading": "くすり"
+    },
+    {
+      "text": "は"
+    },
+    {
+      "text": "苦",
+      "reading": "にが"
+    },
+    {
+      "text": "いです。"
+    }
+  ],
+  "この言葉の意味を教えてください。": [
+    {
+      "text": "この"
+    },
+    {
+      "text": "言葉",
+      "reading": "ことば"
+    },
+    {
+      "text": "の"
+    },
+    {
+      "text": "意味",
+      "reading": "いみ"
+    },
+    {
+      "text": "を"
+    },
+    {
+      "text": "教",
+      "reading": "おし"
+    },
+    {
+      "text": "えてください。"
     }
   ],
   "この遊園地は週末に混みます。": [
@@ -1492,6 +4587,25 @@
       "text": "みます。"
     }
   ],
+  "この電車はとても速いです。": [
+    {
+      "text": "この"
+    },
+    {
+      "text": "電車",
+      "reading": "でんしゃ"
+    },
+    {
+      "text": "はとても"
+    },
+    {
+      "text": "速",
+      "reading": "はや"
+    },
+    {
+      "text": "いです。"
+    }
+  ],
   "これは本物の革です。": [
     {
       "text": "これは"
@@ -1509,6 +4623,46 @@
     },
     {
       "text": "です。"
+    }
+  ],
+  "こんにちは、昨日はありがとうございました。木村さんから聞いたんですが、林さんはベトナムに留学したことがあるそうですね。": [
+    {
+      "text": "こんにちは、"
+    },
+    {
+      "text": "昨日",
+      "reading": "きのう"
+    },
+    {
+      "text": "はありがとうございました。"
+    },
+    {
+      "text": "木村",
+      "reading": "きむら"
+    },
+    {
+      "text": "さんから"
+    },
+    {
+      "text": "聞",
+      "reading": "き"
+    },
+    {
+      "text": "いたんですが、"
+    },
+    {
+      "text": "林",
+      "reading": "はやし"
+    },
+    {
+      "text": "さんはベトナムに"
+    },
+    {
+      "text": "留学",
+      "reading": "りゅうがく"
+    },
+    {
+      "text": "したことがあるそうですね。"
     }
   ],
   "しょうた：今日はミンくん、いないね。　鈴木：うん。休みみたいだね。": [
@@ -1615,6 +4769,25 @@
       "text": "みのようでした。"
     }
   ],
+  "その服はマイさんによく似合います。": [
+    {
+      "text": "その"
+    },
+    {
+      "text": "服",
+      "reading": "ふく"
+    },
+    {
+      "text": "はマイさんによく"
+    },
+    {
+      "text": "似合",
+      "reading": "にあ"
+    },
+    {
+      "text": "います。"
+    }
+  ],
   "たくさん勉強したから、きっと合格するだろうなあ。": [
     {
       "text": "たくさん"
@@ -1646,6 +4819,313 @@
       "text": "くなりました。"
     }
   ],
+  "ちょっとお願いがあるんですが、今度ベトナム語を教えてくださいませんか。実は、来月うちにベトナム人の留学生がホームステイに来るんです。その留学生の人は、簡単な日本語ならわかるそうなんですが、私もベトナム語で少し話したいんですよね。「こんにちは」や「どうぞ食べてください」など、簡単な言葉だけで大丈夫です。": [
+    {
+      "text": "ちょっとお"
+    },
+    {
+      "text": "願",
+      "reading": "ねが"
+    },
+    {
+      "text": "いがあるんですが、"
+    },
+    {
+      "text": "今度",
+      "reading": "こんど"
+    },
+    {
+      "text": "ベトナム"
+    },
+    {
+      "text": "語",
+      "reading": "ご"
+    },
+    {
+      "text": "を"
+    },
+    {
+      "text": "教",
+      "reading": "おし"
+    },
+    {
+      "text": "えてくださいませんか。"
+    },
+    {
+      "text": "実",
+      "reading": "じつ"
+    },
+    {
+      "text": "は、"
+    },
+    {
+      "text": "来月",
+      "reading": "らいげつ"
+    },
+    {
+      "text": "うちにベトナム"
+    },
+    {
+      "text": "人",
+      "reading": "じん"
+    },
+    {
+      "text": "の"
+    },
+    {
+      "text": "留学生",
+      "reading": "りゅうがくせい"
+    },
+    {
+      "text": "がホームステイに"
+    },
+    {
+      "text": "来",
+      "reading": "く"
+    },
+    {
+      "text": "るんです。その"
+    },
+    {
+      "text": "留学生",
+      "reading": "りゅうがくせい"
+    },
+    {
+      "text": "の"
+    },
+    {
+      "text": "人",
+      "reading": "ひと"
+    },
+    {
+      "text": "は、"
+    },
+    {
+      "text": "簡単",
+      "reading": "かんたん"
+    },
+    {
+      "text": "な"
+    },
+    {
+      "text": "日本語",
+      "reading": "にほんご"
+    },
+    {
+      "text": "ならわかるそうなんですが、"
+    },
+    {
+      "text": "私",
+      "reading": "わたし"
+    },
+    {
+      "text": "もベトナム"
+    },
+    {
+      "text": "語",
+      "reading": "ご"
+    },
+    {
+      "text": "で"
+    },
+    {
+      "text": "少",
+      "reading": "すこ"
+    },
+    {
+      "text": "し"
+    },
+    {
+      "text": "話",
+      "reading": "はな"
+    },
+    {
+      "text": "したいんですよね。「こんにちは」や「どうぞ"
+    },
+    {
+      "text": "食",
+      "reading": "た"
+    },
+    {
+      "text": "べてください」など、"
+    },
+    {
+      "text": "簡単",
+      "reading": "かんたん"
+    },
+    {
+      "text": "な"
+    },
+    {
+      "text": "言葉",
+      "reading": "ことば"
+    },
+    {
+      "text": "だけで"
+    },
+    {
+      "text": "大丈夫",
+      "reading": "だいじょうぶ"
+    },
+    {
+      "text": "です。"
+    }
+  ],
+  "ちょっと聞きたいんだけど、レポート、もう書いた？": [
+    {
+      "text": "ちょっと"
+    },
+    {
+      "text": "聞",
+      "reading": "き"
+    },
+    {
+      "text": "きたいんだけど、レポート、もう"
+    },
+    {
+      "text": "書",
+      "reading": "か"
+    },
+    {
+      "text": "いた？"
+    }
+  ],
+  "と思う đánh dấu ý kiến của người nói; と言っていました thuật lại lời người khác. そうだ truyền đạt điều nghe được.": [
+    {
+      "text": "と"
+    },
+    {
+      "text": "思",
+      "reading": "おも"
+    },
+    {
+      "text": "う đánh dấu ý kiến của người nói; と"
+    },
+    {
+      "text": "言",
+      "reading": "い"
+    },
+    {
+      "text": "っていました thuật lại lời người khác. そうだ truyền đạt điều nghe được."
+    }
+  ],
+  "と言っていました cho biết ai đã nói; そうだ truyền đạt tin mà không nhất thiết thuật lại hành động nói. らしい / みたいだ có thể không nêu nguồn.": [
+    {
+      "text": "と"
+    },
+    {
+      "text": "言",
+      "reading": "い"
+    },
+    {
+      "text": "っていました cho biết ai đã nói; そうだ truyền đạt tin mà không nhất thiết thuật lại hành động nói. らしい / みたいだ có thể không nêu nguồn."
+    }
+  ],
+  "どこから来たんですか。": [
+    {
+      "text": "どこから"
+    },
+    {
+      "text": "来",
+      "reading": "き"
+    },
+    {
+      "text": "たんですか。"
+    }
+  ],
+  "どこで日本語を勉強したんですか。": [
+    {
+      "text": "どこで"
+    },
+    {
+      "text": "日本語",
+      "reading": "にほんご"
+    },
+    {
+      "text": "を"
+    },
+    {
+      "text": "勉強",
+      "reading": "べんきょう"
+    },
+    {
+      "text": "したんですか。"
+    }
+  ],
+  "どこに行きましたんですか。": [
+    {
+      "text": "どこに"
+    },
+    {
+      "text": "行",
+      "reading": "い"
+    },
+    {
+      "text": "きましたんですか。"
+    }
+  ],
+  "どこに行ったんですか。": [
+    {
+      "text": "どこに"
+    },
+    {
+      "text": "行",
+      "reading": "い"
+    },
+    {
+      "text": "ったんですか。"
+    }
+  ],
+  "どこの学校に通っていますんですか。": [
+    {
+      "text": "どこの"
+    },
+    {
+      "text": "学校",
+      "reading": "がっこう"
+    },
+    {
+      "text": "に"
+    },
+    {
+      "text": "通",
+      "reading": "かよ"
+    },
+    {
+      "text": "っていますんですか。"
+    }
+  ],
+  "どこの学校に通っているんですか。": [
+    {
+      "text": "どこの"
+    },
+    {
+      "text": "学校",
+      "reading": "がっこう"
+    },
+    {
+      "text": "に"
+    },
+    {
+      "text": "通",
+      "reading": "かよ"
+    },
+    {
+      "text": "っているんですか。"
+    }
+  ],
+  "どこへ行くんですか。": [
+    {
+      "text": "どこへ"
+    },
+    {
+      "text": "行",
+      "reading": "い"
+    },
+    {
+      "text": "くんですか。"
+    }
+  ],
   "な dùng sau tính từ な; 休み ở đây là danh từ.": [
     {
       "text": "な dùng sau tính từ な; "
@@ -1658,6 +5138,22 @@
       "text": "み ở đây là danh từ."
     }
   ],
+  "なんで昨日来なかったの？": [
+    {
+      "text": "なんで"
+    },
+    {
+      "text": "昨日",
+      "reading": "きのう"
+    },
+    {
+      "text": "来",
+      "reading": "こ"
+    },
+    {
+      "text": "なかったの？"
+    }
+  ],
   "の dùng sau danh từ, còn 不便 ở đây là tính từ な.": [
     {
       "text": "の dùng sau danh từ, còn "
@@ -1668,6 +5164,37 @@
     },
     {
       "text": " ở đây là tính từ な."
+    }
+  ],
+  "のです / のだ thường gặp trong văn viết; んです / んだ thường gặp trong hội thoại. 行くんでしょう？ kết hợp giải thích với mong xác nhận.": [
+    {
+      "text": "のです / のだ thường gặp trong văn viết; んです / んだ thường gặp trong hội thoại. "
+    },
+    {
+      "text": "行",
+      "reading": "い"
+    },
+    {
+      "text": "くんでしょう？ kết hợp giải thích với mong xác nhận."
+    }
+  ],
+  "も sau số lượng ở đây có nghĩa nhấn mạnh ‘tận’, khác も nghĩa ‘cũng’ trong 私も行きます.": [
+    {
+      "text": "も sau số lượng ở đây có nghĩa nhấn mạnh ‘tận’, khác も nghĩa ‘cũng’ trong "
+    },
+    {
+      "text": "私",
+      "reading": "わたし"
+    },
+    {
+      "text": "も"
+    },
+    {
+      "text": "行",
+      "reading": "い"
+    },
+    {
+      "text": "きます."
     }
   ],
   "もしかしたら、あの人はベトナム人かもしれませんね。": [
@@ -1708,6 +5235,59 @@
       "text": "るかもしれません。"
     }
   ],
+  "やばい！電車に間に合わない！": [
+    {
+      "text": "やばい！"
+    },
+    {
+      "text": "電車",
+      "reading": "でんしゃ"
+    },
+    {
+      "text": "に"
+    },
+    {
+      "text": "間",
+      "reading": "ま"
+    },
+    {
+      "text": "に"
+    },
+    {
+      "text": "合",
+      "reading": "あ"
+    },
+    {
+      "text": "わない！"
+    }
+  ],
+  "わかります？一番新しいMoriphoneです。昨日買ったんですよ。": [
+    {
+      "text": "わかります？"
+    },
+    {
+      "text": "一番",
+      "reading": "いちばん"
+    },
+    {
+      "text": "新",
+      "reading": "あたら"
+    },
+    {
+      "text": "しいMoriphoneです。"
+    },
+    {
+      "text": "昨日",
+      "reading": "きのう"
+    },
+    {
+      "text": "買",
+      "reading": "か"
+    },
+    {
+      "text": "ったんですよ。"
+    }
+  ],
   "わたしの日本語ノート": [
     {
       "text": "わたしの"
@@ -1732,6 +5312,41 @@
       "text": "しました。"
     }
   ],
+  "インターネットで予約をして、見学をする。": [
+    {
+      "text": "インターネットで"
+    },
+    {
+      "text": "予約",
+      "reading": "よやく"
+    },
+    {
+      "text": "をして、"
+    },
+    {
+      "text": "見学",
+      "reading": "けんがく"
+    },
+    {
+      "text": "をする。"
+    }
+  ],
+  "カットだけで１万円もします。": [
+    {
+      "text": "カットだけで１"
+    },
+    {
+      "text": "万",
+      "reading": "まん"
+    },
+    {
+      "text": "円",
+      "reading": "えん"
+    },
+    {
+      "text": "もします。"
+    }
+  ],
   "ガソリンが高くなりました。": [
     {
       "text": "ガソリンが"
@@ -1754,6 +5369,56 @@
     },
     {
       "text": "まりました。"
+    }
+  ],
+  "コンサートのチケットが２枚あるんだけど、一緒に行かない？": [
+    {
+      "text": "コンサートのチケットが２"
+    },
+    {
+      "text": "枚",
+      "reading": "まい"
+    },
+    {
+      "text": "あるんだけど、"
+    },
+    {
+      "text": "一緒",
+      "reading": "いっしょ"
+    },
+    {
+      "text": "に"
+    },
+    {
+      "text": "行",
+      "reading": "い"
+    },
+    {
+      "text": "かない？"
+    }
+  ],
+  "コーヒーが苦手だんですか。": [
+    {
+      "text": "コーヒーが"
+    },
+    {
+      "text": "苦手",
+      "reading": "にがて"
+    },
+    {
+      "text": "だんですか。"
+    }
+  ],
+  "コーヒーが苦手なんですか。": [
+    {
+      "text": "コーヒーが"
+    },
+    {
+      "text": "苦手",
+      "reading": "にがて"
+    },
+    {
+      "text": "なんですか。"
     }
   ],
   "サッカーを楽しんでいます。": [
@@ -1796,6 +5461,200 @@
       "text": "するだろう。"
     }
   ],
+  "ダナンは食べ物もおいしいし、海もきれいだし、とてもいい所です。": [
+    {
+      "text": "ダナンは"
+    },
+    {
+      "text": "食",
+      "reading": "た"
+    },
+    {
+      "text": "べ"
+    },
+    {
+      "text": "物",
+      "reading": "もの"
+    },
+    {
+      "text": "もおいしいし、"
+    },
+    {
+      "text": "海",
+      "reading": "うみ"
+    },
+    {
+      "text": "もきれいだし、とてもいい"
+    },
+    {
+      "text": "所",
+      "reading": "しょ"
+    },
+    {
+      "text": "です。"
+    }
+  ],
+  "テレビでオリンピックを見ました。": [
+    {
+      "text": "テレビでオリンピックを"
+    },
+    {
+      "text": "見",
+      "reading": "み"
+    },
+    {
+      "text": "ました。"
+    }
+  ],
+  "トレビアン　フランス料理：1500円～5000円　評価：3.4（268）\n駅からは少し遠いですが、素敵なレストランです。土日は予約をしないと入れないそうです。私たちは月曜日に行きましたが、1時間待ちました。料理はきれいだし、おいしいし、安かったです。コースもあるそうです。ちょっと高いみたいですが、今度はコースを食べたいです！": [
+    {
+      "text": "トレビアン　フランス"
+    },
+    {
+      "text": "料理",
+      "reading": "りょうり"
+    },
+    {
+      "text": "：1500"
+    },
+    {
+      "text": "円",
+      "reading": "えん"
+    },
+    {
+      "text": "～5000"
+    },
+    {
+      "text": "円",
+      "reading": "えん"
+    },
+    {
+      "text": "　"
+    },
+    {
+      "text": "評価",
+      "reading": "ひょうか"
+    },
+    {
+      "text": "：3.4（268）\n"
+    },
+    {
+      "text": "駅",
+      "reading": "えき"
+    },
+    {
+      "text": "からは"
+    },
+    {
+      "text": "少",
+      "reading": "すこ"
+    },
+    {
+      "text": "し"
+    },
+    {
+      "text": "遠",
+      "reading": "とお"
+    },
+    {
+      "text": "いですが、"
+    },
+    {
+      "text": "素敵",
+      "reading": "すてき"
+    },
+    {
+      "text": "なレストランです。"
+    },
+    {
+      "text": "土日",
+      "reading": "どにち"
+    },
+    {
+      "text": "は"
+    },
+    {
+      "text": "予約",
+      "reading": "よやく"
+    },
+    {
+      "text": "をしないと"
+    },
+    {
+      "text": "入",
+      "reading": "い"
+    },
+    {
+      "text": "れないそうです。"
+    },
+    {
+      "text": "私",
+      "reading": "わたし"
+    },
+    {
+      "text": "たちは"
+    },
+    {
+      "text": "月曜日",
+      "reading": "げつようび"
+    },
+    {
+      "text": "に"
+    },
+    {
+      "text": "行",
+      "reading": "い"
+    },
+    {
+      "text": "きましたが、1"
+    },
+    {
+      "text": "時間",
+      "reading": "じかん"
+    },
+    {
+      "text": "待",
+      "reading": "ま"
+    },
+    {
+      "text": "ちました。"
+    },
+    {
+      "text": "料理",
+      "reading": "りょうり"
+    },
+    {
+      "text": "はきれいだし、おいしいし、"
+    },
+    {
+      "text": "安",
+      "reading": "やす"
+    },
+    {
+      "text": "かったです。コースもあるそうです。ちょっと"
+    },
+    {
+      "text": "高",
+      "reading": "たか"
+    },
+    {
+      "text": "いみたいですが、"
+    },
+    {
+      "text": "今度",
+      "reading": "こんど"
+    },
+    {
+      "text": "はコースを"
+    },
+    {
+      "text": "食",
+      "reading": "た"
+    },
+    {
+      "text": "べたいです！"
+    }
+  ],
   "ドアを引いてください。": [
     {
       "text": "ドアを"
@@ -1806,6 +5665,32 @@
     },
     {
       "text": "いてください。"
+    }
+  ],
+  "ナムさんは漢字は朝飯前だって言ってた。": [
+    {
+      "text": "ナムさんは"
+    },
+    {
+      "text": "漢字",
+      "reading": "かんじ"
+    },
+    {
+      "text": "は"
+    },
+    {
+      "text": "朝飯前",
+      "reading": "あさめしまえ"
+    },
+    {
+      "text": "だって"
+    },
+    {
+      "text": "言",
+      "reading": "い"
+    },
+    {
+      "text": "ってた。"
     }
   ],
   "バスの時間は1日に5本しかなかった。この町はだいぶ不便なようだ。": [
@@ -1848,6 +5733,37 @@
       "text": "なようだ。"
     }
   ],
+  "ビールを10杯も飲みました。": [
+    {
+      "text": "ビールを"
+    },
+    {
+      "text": "10杯",
+      "reading": "じゅっぱい"
+    },
+    {
+      "text": "も"
+    },
+    {
+      "text": "飲",
+      "reading": "の"
+    },
+    {
+      "text": "みました。"
+    }
+  ],
+  "ピアノもできるし、歌もうまいです。": [
+    {
+      "text": "ピアノもできるし、"
+    },
+    {
+      "text": "歌",
+      "reading": "うた"
+    },
+    {
+      "text": "もうまいです。"
+    }
+  ],
   "プーたろう：俳優が好きです。音楽もよかったです。": [
     {
       "text": "プーたろう："
@@ -1872,6 +5788,412 @@
     },
     {
       "text": "もよかったです。"
+    }
+  ],
+  "ベトナムが優勝したみたいだよ。": [
+    {
+      "text": "ベトナムが"
+    },
+    {
+      "text": "優勝",
+      "reading": "ゆうしょう"
+    },
+    {
+      "text": "したみたいだよ。"
+    }
+  ],
+  "ベトナム人の好きな食べ物は何ですか。": [
+    {
+      "text": "ベトナム"
+    },
+    {
+      "text": "人",
+      "reading": "じん"
+    },
+    {
+      "text": "の"
+    },
+    {
+      "text": "好",
+      "reading": "す"
+    },
+    {
+      "text": "きな"
+    },
+    {
+      "text": "食",
+      "reading": "た"
+    },
+    {
+      "text": "べ"
+    },
+    {
+      "text": "物",
+      "reading": "もの"
+    },
+    {
+      "text": "は"
+    },
+    {
+      "text": "何",
+      "reading": "なに"
+    },
+    {
+      "text": "ですか。"
+    }
+  ],
+  "ベトナム人留学生に日本語を教えてください。": [
+    {
+      "text": "ベトナム"
+    },
+    {
+      "text": "人",
+      "reading": "じん"
+    },
+    {
+      "text": "留学生",
+      "reading": "りゅうがくせい"
+    },
+    {
+      "text": "に"
+    },
+    {
+      "text": "日本語",
+      "reading": "にほんご"
+    },
+    {
+      "text": "を"
+    },
+    {
+      "text": "教",
+      "reading": "おし"
+    },
+    {
+      "text": "えてください。"
+    }
+  ],
+  "ベトナム料理 → 買い物 → 映画": [
+    {
+      "text": "ベトナム"
+    },
+    {
+      "text": "料理",
+      "reading": "りょうり"
+    },
+    {
+      "text": " → "
+    },
+    {
+      "text": "買",
+      "reading": "か"
+    },
+    {
+      "text": "い"
+    },
+    {
+      "text": "物",
+      "reading": "もの"
+    },
+    {
+      "text": " → "
+    },
+    {
+      "text": "映画",
+      "reading": "えいが"
+    }
+  ],
+  "ボーナスで新しいパソコンを買いました。": [
+    {
+      "text": "ボーナスで"
+    },
+    {
+      "text": "新",
+      "reading": "あたら"
+    },
+    {
+      "text": "しいパソコンを"
+    },
+    {
+      "text": "買",
+      "reading": "か"
+    },
+    {
+      "text": "いました。"
+    }
+  ],
+  "マイさんは甘いものが好きだと言っていました。": [
+    {
+      "text": "マイさんは"
+    },
+    {
+      "text": "甘",
+      "reading": "あま"
+    },
+    {
+      "text": "いものが"
+    },
+    {
+      "text": "好",
+      "reading": "す"
+    },
+    {
+      "text": "きだと"
+    },
+    {
+      "text": "言",
+      "reading": "い"
+    },
+    {
+      "text": "っていました。"
+    }
+  ],
+  "マイさんは頭が痛いって言ってたよ。": [
+    {
+      "text": "マイさんは"
+    },
+    {
+      "text": "頭",
+      "reading": "あたま"
+    },
+    {
+      "text": "が"
+    },
+    {
+      "text": "痛",
+      "reading": "いた"
+    },
+    {
+      "text": "いって"
+    },
+    {
+      "text": "言",
+      "reading": "い"
+    },
+    {
+      "text": "ってたよ。"
+    }
+  ],
+  "マイさんは頭が痛いと言っていました。": [
+    {
+      "text": "マイさんは"
+    },
+    {
+      "text": "頭",
+      "reading": "あたま"
+    },
+    {
+      "text": "が"
+    },
+    {
+      "text": "痛",
+      "reading": "いた"
+    },
+    {
+      "text": "いと"
+    },
+    {
+      "text": "言",
+      "reading": "い"
+    },
+    {
+      "text": "っていました。"
+    }
+  ],
+  "マイさんは頭もいいし、明るいから、モテるでしょう。": [
+    {
+      "text": "マイさんは"
+    },
+    {
+      "text": "頭",
+      "reading": "あたま"
+    },
+    {
+      "text": "もいいし、"
+    },
+    {
+      "text": "明",
+      "reading": "あか"
+    },
+    {
+      "text": "るいから、モテるでしょう。"
+    }
+  ],
+  "ミンさん、今日の飲み会に来るって言ってた？": [
+    {
+      "text": "ミンさん、"
+    },
+    {
+      "text": "今日",
+      "reading": "きょう"
+    },
+    {
+      "text": "の"
+    },
+    {
+      "text": "飲",
+      "reading": "の"
+    },
+    {
+      "text": "み"
+    },
+    {
+      "text": "会",
+      "reading": "かい"
+    },
+    {
+      "text": "に"
+    },
+    {
+      "text": "来",
+      "reading": "く"
+    },
+    {
+      "text": "るって"
+    },
+    {
+      "text": "言",
+      "reading": "い"
+    },
+    {
+      "text": "ってた？"
+    }
+  ],
+  "ラッキーハノイ　ベトナム料理：800円～1500円　評価：3.2（15）\nとても小さいお店です。あまり有名じゃないから？12時に行きましたが、すぐ入れました。カウンター席が3つと、2人の席が2つありました。4人では入れないかもしれません。でも、料理はとてもおいしかったです！フォーがいちばんおいしかったです。駅からも近いし、また行きたいです！": [
+    {
+      "text": "ラッキーハノイ　ベトナム"
+    },
+    {
+      "text": "料理",
+      "reading": "りょうり"
+    },
+    {
+      "text": "：800"
+    },
+    {
+      "text": "円",
+      "reading": "えん"
+    },
+    {
+      "text": "～1500"
+    },
+    {
+      "text": "円",
+      "reading": "えん"
+    },
+    {
+      "text": "　"
+    },
+    {
+      "text": "評価",
+      "reading": "ひょうか"
+    },
+    {
+      "text": "：3.2（15）\nとても"
+    },
+    {
+      "text": "小",
+      "reading": "ちい"
+    },
+    {
+      "text": "さいお"
+    },
+    {
+      "text": "店",
+      "reading": "みせ"
+    },
+    {
+      "text": "です。あまり"
+    },
+    {
+      "text": "有名",
+      "reading": "ゆうめい"
+    },
+    {
+      "text": "じゃないから？12"
+    },
+    {
+      "text": "時",
+      "reading": "じ"
+    },
+    {
+      "text": "に"
+    },
+    {
+      "text": "行",
+      "reading": "い"
+    },
+    {
+      "text": "きましたが、すぐ"
+    },
+    {
+      "text": "入",
+      "reading": "い"
+    },
+    {
+      "text": "れました。カウンター"
+    },
+    {
+      "text": "席",
+      "reading": "せき"
+    },
+    {
+      "text": "が3つと、"
+    },
+    {
+      "text": "2人",
+      "reading": "ふたり"
+    },
+    {
+      "text": "の"
+    },
+    {
+      "text": "席",
+      "reading": "せき"
+    },
+    {
+      "text": "が2つありました。"
+    },
+    {
+      "text": "4人",
+      "reading": "よにん"
+    },
+    {
+      "text": "では"
+    },
+    {
+      "text": "入",
+      "reading": "い"
+    },
+    {
+      "text": "れないかもしれません。でも、"
+    },
+    {
+      "text": "料理",
+      "reading": "りょうり"
+    },
+    {
+      "text": "はとてもおいしかったです！フォーがいちばんおいしかったです。"
+    },
+    {
+      "text": "駅",
+      "reading": "えき"
+    },
+    {
+      "text": "からも"
+    },
+    {
+      "text": "近",
+      "reading": "ちか"
+    },
+    {
+      "text": "いし、また"
+    },
+    {
+      "text": "行",
+      "reading": "い"
+    },
+    {
+      "text": "きたいです！"
     }
   ],
   "ラーメン屋の前にたくさんの人が並んでいました。": [
@@ -1945,6 +6267,51 @@
       "text": "まっていました。"
     }
   ],
+  "レストランでフォーを注文しました。": [
+    {
+      "text": "レストランでフォーを"
+    },
+    {
+      "text": "注文",
+      "reading": "ちゅうもん"
+    },
+    {
+      "text": "しました。"
+    }
+  ],
+  "レベル確認テストを予約して、テストのお金を払う。": [
+    {
+      "text": "レベル"
+    },
+    {
+      "text": "確認",
+      "reading": "かくにん"
+    },
+    {
+      "text": "テストを"
+    },
+    {
+      "text": "予約",
+      "reading": "よやく"
+    },
+    {
+      "text": "して、テストのお"
+    },
+    {
+      "text": "金",
+      "reading": "かね"
+    },
+    {
+      "text": "を"
+    },
+    {
+      "text": "払",
+      "reading": "はら"
+    },
+    {
+      "text": "う。"
+    }
+  ],
   "ロック音楽が好き": [
     {
       "text": "ロック"
@@ -1962,6 +6329,53 @@
     },
     {
       "text": "き"
+    }
+  ],
+  "・レベル確認テストの予約はこちら\n・マンツーマン授業の予約はこちら\n・見学の予約はこちら": [
+    {
+      "text": "・レベル"
+    },
+    {
+      "text": "確認",
+      "reading": "かくにん"
+    },
+    {
+      "text": "テストの"
+    },
+    {
+      "text": "予約",
+      "reading": "よやく"
+    },
+    {
+      "text": "はこちら\n・マンツーマン"
+    },
+    {
+      "text": "授業",
+      "reading": "じゅぎょう"
+    },
+    {
+      "text": "の"
+    },
+    {
+      "text": "予約",
+      "reading": "よやく"
+    },
+    {
+      "text": "はこちら\n・"
+    },
+    {
+      "text": "見学",
+      "reading": "けんがく"
+    },
+    {
+      "text": "の"
+    },
+    {
+      "text": "予約",
+      "reading": "よやく"
+    },
+    {
+      "text": "はこちら"
     }
   ],
   "一日中晴れます。": [
@@ -2005,6 +6419,50 @@
       "text": "がる"
     }
   ],
+  "上の文章について、正しい内容の文を選んでください。": [
+    {
+      "text": "上",
+      "reading": "うえ"
+    },
+    {
+      "text": "の"
+    },
+    {
+      "text": "文章",
+      "reading": "ぶんしょう"
+    },
+    {
+      "text": "について、"
+    },
+    {
+      "text": "正",
+      "reading": "ただ"
+    },
+    {
+      "text": "しい"
+    },
+    {
+      "text": "内容",
+      "reading": "ないよう"
+    },
+    {
+      "text": "の"
+    },
+    {
+      "text": "文",
+      "reading": "ぶん"
+    },
+    {
+      "text": "を"
+    },
+    {
+      "text": "選",
+      "reading": "えら"
+    },
+    {
+      "text": "んでください。"
+    }
+  ],
   "下がる": [
     {
       "text": "下",
@@ -2036,6 +6494,12 @@
       "reading": "ふどうさん"
     }
   ],
+  "不思議": [
+    {
+      "text": "不思議",
+      "reading": "ふしぎ"
+    }
+  ],
   "中止する": [
     {
       "text": "中止",
@@ -2043,6 +6507,12 @@
     },
     {
       "text": "する"
+    }
+  ],
+  "主人公": [
+    {
+      "text": "主人公",
+      "reading": "しゅじんこう"
     }
   ],
   "乾く": [
@@ -2076,6 +6546,132 @@
       "text": "をつけてください。"
     }
   ],
+  "亡くなる": [
+    {
+      "text": "亡",
+      "reading": "な"
+    },
+    {
+      "text": "くなる"
+    }
+  ],
+  "交通": [
+    {
+      "text": "交通",
+      "reading": "こうつう"
+    }
+  ],
+  "今、みなさんに暇な日を聞いています。山田さんが参加できる日を教えてください。田中さんとマイさんはいつでもいいそうです。": [
+    {
+      "text": "今",
+      "reading": "いま"
+    },
+    {
+      "text": "、みなさんに"
+    },
+    {
+      "text": "暇",
+      "reading": "ひま"
+    },
+    {
+      "text": "な"
+    },
+    {
+      "text": "日",
+      "reading": "にち"
+    },
+    {
+      "text": "を"
+    },
+    {
+      "text": "聞",
+      "reading": "き"
+    },
+    {
+      "text": "いています。"
+    },
+    {
+      "text": "山田",
+      "reading": "やまだ"
+    },
+    {
+      "text": "さんが"
+    },
+    {
+      "text": "参加",
+      "reading": "さんか"
+    },
+    {
+      "text": "できる"
+    },
+    {
+      "text": "日",
+      "reading": "にち"
+    },
+    {
+      "text": "を"
+    },
+    {
+      "text": "教",
+      "reading": "おし"
+    },
+    {
+      "text": "えてください。"
+    },
+    {
+      "text": "田中",
+      "reading": "たなか"
+    },
+    {
+      "text": "さんとマイさんはいつでもいいそうです。"
+    }
+  ],
+  "今、休憩だと思います。": [
+    {
+      "text": "今",
+      "reading": "いま"
+    },
+    {
+      "text": "、"
+    },
+    {
+      "text": "休憩",
+      "reading": "きゅうけい"
+    },
+    {
+      "text": "だと"
+    },
+    {
+      "text": "思",
+      "reading": "おも"
+    },
+    {
+      "text": "います。"
+    }
+  ],
+  "今、休憩だと思いますよ。": [
+    {
+      "text": "今",
+      "reading": "いま"
+    },
+    {
+      "text": "、"
+    },
+    {
+      "text": "休憩",
+      "reading": "きゅうけい"
+    },
+    {
+      "text": "だと"
+    },
+    {
+      "text": "思",
+      "reading": "おも"
+    },
+    {
+      "text": "いますよ。"
+    }
+  ],
   "今年の試験は厳しいでしょう。": [
     {
       "text": "今年",
@@ -2097,6 +6693,54 @@
     },
     {
       "text": "しいでしょう。"
+    }
+  ],
+  "今日は40℃もあります。": [
+    {
+      "text": "今日",
+      "reading": "きょう"
+    },
+    {
+      "text": "は40℃もあります。"
+    }
+  ],
+  "今日は40℃もある！": [
+    {
+      "text": "今日",
+      "reading": "きょう"
+    },
+    {
+      "text": "は40℃もある！"
+    }
+  ],
+  "今日は休みだし、映画を見ましょう。": [
+    {
+      "text": "今日",
+      "reading": "きょう"
+    },
+    {
+      "text": "は"
+    },
+    {
+      "text": "休",
+      "reading": "やす"
+    },
+    {
+      "text": "みだし、"
+    },
+    {
+      "text": "映画",
+      "reading": "えいが"
+    },
+    {
+      "text": "を"
+    },
+    {
+      "text": "見",
+      "reading": "み"
+    },
+    {
+      "text": "ましょう。"
     }
   ],
   "今日は休みだはずだ。": [
@@ -2259,6 +6903,405 @@
       "text": "み＿＿ようです。"
     }
   ],
+  "今日は体の調子が悪いんです。": [
+    {
+      "text": "今日",
+      "reading": "きょう"
+    },
+    {
+      "text": "は"
+    },
+    {
+      "text": "体",
+      "reading": "からだ"
+    },
+    {
+      "text": "の"
+    },
+    {
+      "text": "調子",
+      "reading": "ちょうし"
+    },
+    {
+      "text": "が"
+    },
+    {
+      "text": "悪",
+      "reading": "わる"
+    },
+    {
+      "text": "いんです。"
+    }
+  ],
+  "今日は時間がありません chỉ thông báo không có thời gian; 今日は時間がないんです giải thích cho việc không thể nhận lời. から nêu quan hệ nguyên nhân một cách rõ ràng.": [
+    {
+      "text": "今日",
+      "reading": "きょう"
+    },
+    {
+      "text": "は"
+    },
+    {
+      "text": "時間",
+      "reading": "じかん"
+    },
+    {
+      "text": "がありません chỉ thông báo không có thời gian; "
+    },
+    {
+      "text": "今日",
+      "reading": "きょう"
+    },
+    {
+      "text": "は"
+    },
+    {
+      "text": "時間",
+      "reading": "じかん"
+    },
+    {
+      "text": "がないんです giải thích cho việc không thể nhận lời. から nêu quan hệ nguyên nhân một cách rõ ràng."
+    }
+  ],
+  "今日は時間がありませんんです。": [
+    {
+      "text": "今日",
+      "reading": "きょう"
+    },
+    {
+      "text": "は"
+    },
+    {
+      "text": "時間",
+      "reading": "じかん"
+    },
+    {
+      "text": "がありませんんです。"
+    }
+  ],
+  "今日は時間がないんです。": [
+    {
+      "text": "今日",
+      "reading": "きょう"
+    },
+    {
+      "text": "は"
+    },
+    {
+      "text": "時間",
+      "reading": "じかん"
+    },
+    {
+      "text": "がないんです。"
+    }
+  ],
+  "今日は来ないと思います。": [
+    {
+      "text": "今日",
+      "reading": "きょう"
+    },
+    {
+      "text": "は"
+    },
+    {
+      "text": "来",
+      "reading": "こ"
+    },
+    {
+      "text": "ないと"
+    },
+    {
+      "text": "思",
+      "reading": "おも"
+    },
+    {
+      "text": "います。"
+    }
+  ],
+  "今日は来ないと思うよ。レポートを出さなきゃいけないって言ってたから。": [
+    {
+      "text": "今日",
+      "reading": "きょう"
+    },
+    {
+      "text": "は"
+    },
+    {
+      "text": "来",
+      "reading": "こ"
+    },
+    {
+      "text": "ないと"
+    },
+    {
+      "text": "思",
+      "reading": "おも"
+    },
+    {
+      "text": "うよ。レポートを"
+    },
+    {
+      "text": "出",
+      "reading": "だ"
+    },
+    {
+      "text": "さなきゃいけないって"
+    },
+    {
+      "text": "言",
+      "reading": "い"
+    },
+    {
+      "text": "ってたから。"
+    }
+  ],
+  "今日は気分がいいです。": [
+    {
+      "text": "今日",
+      "reading": "きょう"
+    },
+    {
+      "text": "は"
+    },
+    {
+      "text": "気分",
+      "reading": "きぶん"
+    },
+    {
+      "text": "がいいです。"
+    }
+  ],
+  "今日は財布に5,000円しかない。": [
+    {
+      "text": "今日",
+      "reading": "きょう"
+    },
+    {
+      "text": "は"
+    },
+    {
+      "text": "財布",
+      "reading": "さいふ"
+    },
+    {
+      "text": "に5,000"
+    },
+    {
+      "text": "円",
+      "reading": "えん"
+    },
+    {
+      "text": "しかない。"
+    }
+  ],
+  "今日は財布に5,000円もある。": [
+    {
+      "text": "今日",
+      "reading": "きょう"
+    },
+    {
+      "text": "は"
+    },
+    {
+      "text": "財布",
+      "reading": "さいふ"
+    },
+    {
+      "text": "に5,000"
+    },
+    {
+      "text": "円",
+      "reading": "えん"
+    },
+    {
+      "text": "もある。"
+    }
+  ],
+  "今日は雨が降るみたいだよ。": [
+    {
+      "text": "今日",
+      "reading": "きょう"
+    },
+    {
+      "text": "は"
+    },
+    {
+      "text": "雨",
+      "reading": "あめ"
+    },
+    {
+      "text": "が"
+    },
+    {
+      "text": "降",
+      "reading": "ふ"
+    },
+    {
+      "text": "るみたいだよ。"
+    }
+  ],
+  "今週末": [
+    {
+      "text": "今週末",
+      "reading": "こんしゅうまつ"
+    }
+  ],
+  "今週末、友達と旅行に行きます。": [
+    {
+      "text": "今週",
+      "reading": "こんしゅう"
+    },
+    {
+      "text": "末",
+      "reading": "まつ"
+    },
+    {
+      "text": "、"
+    },
+    {
+      "text": "友達",
+      "reading": "ともだち"
+    },
+    {
+      "text": "と"
+    },
+    {
+      "text": "旅行",
+      "reading": "りょこう"
+    },
+    {
+      "text": "に"
+    },
+    {
+      "text": "行",
+      "reading": "い"
+    },
+    {
+      "text": "きます。"
+    }
+  ],
+  "今週末、台風が来るらしいよ。": [
+    {
+      "text": "今週",
+      "reading": "こんしゅう"
+    },
+    {
+      "text": "末",
+      "reading": "まつ"
+    },
+    {
+      "text": "、"
+    },
+    {
+      "text": "台風",
+      "reading": "たいふう"
+    },
+    {
+      "text": "が"
+    },
+    {
+      "text": "来",
+      "reading": "く"
+    },
+    {
+      "text": "るらしいよ。"
+    }
+  ],
+  "仕事じゃないです": [
+    {
+      "text": "仕事",
+      "reading": "しごと"
+    },
+    {
+      "text": "じゃないです"
+    }
+  ],
+  "仕事じゃないんです": [
+    {
+      "text": "仕事",
+      "reading": "しごと"
+    },
+    {
+      "text": "じゃないんです"
+    }
+  ],
+  "仕事じゃなかったです": [
+    {
+      "text": "仕事",
+      "reading": "しごと"
+    },
+    {
+      "text": "じゃなかったです"
+    }
+  ],
+  "仕事じゃなかったんです": [
+    {
+      "text": "仕事",
+      "reading": "しごと"
+    },
+    {
+      "text": "じゃなかったんです"
+    }
+  ],
+  "仕事だったんです": [
+    {
+      "text": "仕事",
+      "reading": "しごと"
+    },
+    {
+      "text": "だったんです"
+    }
+  ],
+  "仕事でした": [
+    {
+      "text": "仕事",
+      "reading": "しごと"
+    },
+    {
+      "text": "でした"
+    }
+  ],
+  "仕事です": [
+    {
+      "text": "仕事",
+      "reading": "しごと"
+    },
+    {
+      "text": "です"
+    }
+  ],
+  "仕事なんです": [
+    {
+      "text": "仕事",
+      "reading": "しごと"
+    },
+    {
+      "text": "なんです"
+    }
+  ],
+  "仕事なんです。仕事だったんです。仕事じゃないんです。": [
+    {
+      "text": "仕事",
+      "reading": "しごと"
+    },
+    {
+      "text": "なんです。"
+    },
+    {
+      "text": "仕事",
+      "reading": "しごと"
+    },
+    {
+      "text": "だったんです。"
+    },
+    {
+      "text": "仕事",
+      "reading": "しごと"
+    },
+    {
+      "text": "じゃないんです。"
+    }
+  ],
   "休み là danh từ. Danh từ kết hợp với の trước ようです: 休みのようです (hình như là ngày nghỉ).": [
     {
       "text": "休",
@@ -2307,6 +7350,160 @@
     },
     {
       "text": "みみたいだ。"
+    }
+  ],
+  "似合う": [
+    {
+      "text": "似合",
+      "reading": "にあ"
+    },
+    {
+      "text": "う"
+    }
+  ],
+  "佐藤さんの希望にいちばん合うレストランはどれですか。": [
+    {
+      "text": "佐藤",
+      "reading": "さとう"
+    },
+    {
+      "text": "さんの"
+    },
+    {
+      "text": "希望",
+      "reading": "きぼう"
+    },
+    {
+      "text": "にいちばん"
+    },
+    {
+      "text": "合",
+      "reading": "あ"
+    },
+    {
+      "text": "うレストランはどれですか。"
+    }
+  ],
+  "佐藤さんは今から1人でランチに行きます。今、12時です。13時に会社に帰らないといけません。会社は駅の近くにあります。1000円ぐらいの、おいしい料理が食べたいです。": [
+    {
+      "text": "佐藤",
+      "reading": "さとう"
+    },
+    {
+      "text": "さんは"
+    },
+    {
+      "text": "今",
+      "reading": "いま"
+    },
+    {
+      "text": "から"
+    },
+    {
+      "text": "1人",
+      "reading": "ひとり"
+    },
+    {
+      "text": "でランチに"
+    },
+    {
+      "text": "行",
+      "reading": "い"
+    },
+    {
+      "text": "きます。"
+    },
+    {
+      "text": "今",
+      "reading": "いま"
+    },
+    {
+      "text": "、12"
+    },
+    {
+      "text": "時",
+      "reading": "じ"
+    },
+    {
+      "text": "です。13"
+    },
+    {
+      "text": "時",
+      "reading": "じ"
+    },
+    {
+      "text": "に"
+    },
+    {
+      "text": "会社",
+      "reading": "かいしゃ"
+    },
+    {
+      "text": "に"
+    },
+    {
+      "text": "帰",
+      "reading": "かえ"
+    },
+    {
+      "text": "らないといけません。"
+    },
+    {
+      "text": "会社",
+      "reading": "かいしゃ"
+    },
+    {
+      "text": "は"
+    },
+    {
+      "text": "駅",
+      "reading": "えき"
+    },
+    {
+      "text": "の"
+    },
+    {
+      "text": "近",
+      "reading": "ちか"
+    },
+    {
+      "text": "くにあります。1000"
+    },
+    {
+      "text": "円",
+      "reading": "えん"
+    },
+    {
+      "text": "ぐらいの、おいしい"
+    },
+    {
+      "text": "料理",
+      "reading": "りょうり"
+    },
+    {
+      "text": "が"
+    },
+    {
+      "text": "食",
+      "reading": "た"
+    },
+    {
+      "text": "べたいです。"
+    }
+  ],
+  "何をしているんですか。": [
+    {
+      "text": "何",
+      "reading": "なに"
+    },
+    {
+      "text": "をしているんですか。"
+    }
+  ],
+  "保育園": [
+    {
+      "text": "保育園",
+      "reading": "ほいくえん"
     }
   ],
   "借りたお金を返します。": [
@@ -2397,6 +7594,176 @@
       "text": "く（はたらく）＝ làm việc."
     }
   ],
+  "優勝（する）": [
+    {
+      "text": "優勝",
+      "reading": "ゆうしょう"
+    },
+    {
+      "text": "（する）"
+    }
+  ],
+  "兄はイギリスに住んでいます。": [
+    {
+      "text": "兄",
+      "reading": "あに"
+    },
+    {
+      "text": "はイギリスに"
+    },
+    {
+      "text": "住",
+      "reading": "す"
+    },
+    {
+      "text": "んでいます。"
+    }
+  ],
+  "先生、今お時間よろしいですか。": [
+    {
+      "text": "先生",
+      "reading": "せんせい"
+    },
+    {
+      "text": "、"
+    },
+    {
+      "text": "今",
+      "reading": "こん"
+    },
+    {
+      "text": "お"
+    },
+    {
+      "text": "時間",
+      "reading": "じかん"
+    },
+    {
+      "text": "よろしいですか。"
+    }
+  ],
+  "先生、質問があるんですが、今お時間よろしいですか。": [
+    {
+      "text": "先生",
+      "reading": "せんせい"
+    },
+    {
+      "text": "、"
+    },
+    {
+      "text": "質問",
+      "reading": "しつもん"
+    },
+    {
+      "text": "があるんですが、"
+    },
+    {
+      "text": "今",
+      "reading": "こん"
+    },
+    {
+      "text": "お"
+    },
+    {
+      "text": "時間",
+      "reading": "じかん"
+    },
+    {
+      "text": "よろしいですか。"
+    }
+  ],
+  "先生は、明日テストがあると言っていましたよ。": [
+    {
+      "text": "先生",
+      "reading": "せんせい"
+    },
+    {
+      "text": "は、"
+    },
+    {
+      "text": "明日",
+      "reading": "あした"
+    },
+    {
+      "text": "テストがあると"
+    },
+    {
+      "text": "言",
+      "reading": "い"
+    },
+    {
+      "text": "っていましたよ。"
+    }
+  ],
+  "先生は「明日テストがあります」と言っていました。": [
+    {
+      "text": "先生",
+      "reading": "せんせい"
+    },
+    {
+      "text": "は「"
+    },
+    {
+      "text": "明日",
+      "reading": "あした"
+    },
+    {
+      "text": "テストがあります」と"
+    },
+    {
+      "text": "言",
+      "reading": "い"
+    },
+    {
+      "text": "っていました。"
+    }
+  ],
+  "先生は明日テストがありますと言っていました。": [
+    {
+      "text": "先生",
+      "reading": "せんせい"
+    },
+    {
+      "text": "は"
+    },
+    {
+      "text": "明日",
+      "reading": "あした"
+    },
+    {
+      "text": "テストがありますと"
+    },
+    {
+      "text": "言",
+      "reading": "い"
+    },
+    {
+      "text": "っていました。"
+    }
+  ],
+  "先生は明日テストがあると言っていました。": [
+    {
+      "text": "先生",
+      "reading": "せんせい"
+    },
+    {
+      "text": "は"
+    },
+    {
+      "text": "明日",
+      "reading": "あした"
+    },
+    {
+      "text": "テストがあると"
+    },
+    {
+      "text": "言",
+      "reading": "い"
+    },
+    {
+      "text": "っていました。"
+    }
+  ],
   "入り口": [
     {
       "text": "入",
@@ -2462,6 +7829,81 @@
       "reading": "ぜんりょく"
     }
   ],
+  "公": [
+    {
+      "text": "公",
+      "reading": "こう"
+    }
+  ],
+  "公園": [
+    {
+      "text": "公園",
+      "reading": "こうえん"
+    }
+  ],
+  "具合": [
+    {
+      "text": "具合",
+      "reading": "ぐあい"
+    }
+  ],
+  "具合が悪いので、病院に行きます。": [
+    {
+      "text": "具合",
+      "reading": "ぐあい"
+    },
+    {
+      "text": "が"
+    },
+    {
+      "text": "悪",
+      "reading": "わる"
+    },
+    {
+      "text": "いので、"
+    },
+    {
+      "text": "病院",
+      "reading": "びょういん"
+    },
+    {
+      "text": "に"
+    },
+    {
+      "text": "行",
+      "reading": "い"
+    },
+    {
+      "text": "きます。"
+    }
+  ],
+  "初めてなんですが、どうすればいいですか。": [
+    {
+      "text": "初",
+      "reading": "はじ"
+    },
+    {
+      "text": "めてなんですが、どうすればいいですか。"
+    }
+  ],
+  "別れる": [
+    {
+      "text": "別",
+      "reading": "わか"
+    },
+    {
+      "text": "れる"
+    }
+  ],
+  "利用（する）": [
+    {
+      "text": "利用",
+      "reading": "りよう"
+    },
+    {
+      "text": "（する）"
+    }
+  ],
   "力": [
     {
       "text": "力",
@@ -2512,10 +7954,25 @@
       "reading": "どうぶつ"
     }
   ],
+  "動物園": [
+    {
+      "text": "動物園",
+      "reading": "どうぶつえん"
+    }
+  ],
   "動画": [
     {
       "text": "動画",
       "reading": "どうが"
+    }
+  ],
+  "勝つ": [
+    {
+      "text": "勝",
+      "reading": "か"
+    },
+    {
+      "text": "つ"
     }
   ],
   "医": [
@@ -2552,10 +8009,90 @@
       "text": "（はいしゃ）＝ nha sĩ."
     }
   ],
+  "午後、病院に行かなければならないんですが、早退してもよろしいでしょうか。": [
+    {
+      "text": "午後",
+      "reading": "ごご"
+    },
+    {
+      "text": "、"
+    },
+    {
+      "text": "病院",
+      "reading": "びょういん"
+    },
+    {
+      "text": "に"
+    },
+    {
+      "text": "行",
+      "reading": "い"
+    },
+    {
+      "text": "かなければならないんですが、"
+    },
+    {
+      "text": "早退",
+      "reading": "そうたい"
+    },
+    {
+      "text": "してもよろしいでしょうか。"
+    }
+  ],
+  "午後は来ますよ。午前中は、用事があると言っていました。": [
+    {
+      "text": "午後",
+      "reading": "ごご"
+    },
+    {
+      "text": "は"
+    },
+    {
+      "text": "来",
+      "reading": "き"
+    },
+    {
+      "text": "ますよ。"
+    },
+    {
+      "text": "午前",
+      "reading": "ごぜん"
+    },
+    {
+      "text": "中",
+      "reading": "ちゅう"
+    },
+    {
+      "text": "は、"
+    },
+    {
+      "text": "用事",
+      "reading": "ようじ"
+    },
+    {
+      "text": "があると"
+    },
+    {
+      "text": "言",
+      "reading": "い"
+    },
+    {
+      "text": "っていました。"
+    }
+  ],
   "協力": [
     {
       "text": "協力",
       "reading": "きょうりょく"
+    }
+  ],
+  "危ない": [
+    {
+      "text": "危",
+      "reading": "あぶ"
+    },
+    {
+      "text": "ない"
     }
   ],
   "厳しい": [
@@ -2574,6 +8111,48 @@
     },
     {
       "text": "しい（きびしい）＝ nghiêm khắc, khắt khe; gay gắt."
+    }
+  ],
+  "去": [
+    {
+      "text": "去",
+      "reading": "きょ"
+    }
+  ],
+  "去年": [
+    {
+      "text": "去年",
+      "reading": "きょねん"
+    }
+  ],
+  "去年、日本語の勉強を始めました。": [
+    {
+      "text": "去年",
+      "reading": "きょねん"
+    },
+    {
+      "text": "、"
+    },
+    {
+      "text": "日本語",
+      "reading": "にほんご"
+    },
+    {
+      "text": "の"
+    },
+    {
+      "text": "勉強",
+      "reading": "べんきょう"
+    },
+    {
+      "text": "を"
+    },
+    {
+      "text": "始",
+      "reading": "はじ"
+    },
+    {
+      "text": "めました。"
     }
   ],
   "友達が家に集まりました。": [
@@ -2597,6 +8176,121 @@
     },
     {
       "text": "まりました。"
+    }
+  ],
+  "友達とミュージカルを見に行きました。": [
+    {
+      "text": "友達",
+      "reading": "ともだち"
+    },
+    {
+      "text": "とミュージカルを"
+    },
+    {
+      "text": "見",
+      "reading": "み"
+    },
+    {
+      "text": "に"
+    },
+    {
+      "text": "行",
+      "reading": "い"
+    },
+    {
+      "text": "きました。"
+    }
+  ],
+  "友達に日本の同僚を紹介しました。": [
+    {
+      "text": "友達",
+      "reading": "ともだち"
+    },
+    {
+      "text": "に"
+    },
+    {
+      "text": "日本",
+      "reading": "にっぽん"
+    },
+    {
+      "text": "の"
+    },
+    {
+      "text": "同僚",
+      "reading": "どうりょう"
+    },
+    {
+      "text": "を"
+    },
+    {
+      "text": "紹介",
+      "reading": "しょうかい"
+    },
+    {
+      "text": "しました。"
+    }
+  ],
+  "友達を映画に誘いました。": [
+    {
+      "text": "友達",
+      "reading": "ともだち"
+    },
+    {
+      "text": "を"
+    },
+    {
+      "text": "映画",
+      "reading": "えいが"
+    },
+    {
+      "text": "に"
+    },
+    {
+      "text": "誘",
+      "reading": "さそ"
+    },
+    {
+      "text": "いました。"
+    }
+  ],
+  "受付で3000円払って、見学をする。": [
+    {
+      "text": "受付",
+      "reading": "うけつけ"
+    },
+    {
+      "text": "で3000"
+    },
+    {
+      "text": "円",
+      "reading": "えん"
+    },
+    {
+      "text": "払",
+      "reading": "はら"
+    },
+    {
+      "text": "って、"
+    },
+    {
+      "text": "見学",
+      "reading": "けんがく"
+    },
+    {
+      "text": "をする。"
+    }
+  ],
+  "台": [
+    {
+      "text": "台",
+      "reading": "だい"
+    }
+  ],
+  "台所": [
+    {
+      "text": "台所",
+      "reading": "だいどころ"
     }
   ],
   "台風": [
@@ -2651,6 +8345,22 @@
       "text": "みだろうね。"
     }
   ],
+  "台風が来るらしい。": [
+    {
+      "text": "台風",
+      "reading": "たいふう"
+    },
+    {
+      "text": "が"
+    },
+    {
+      "text": "来",
+      "reading": "く"
+    },
+    {
+      "text": "るらしい。"
+    }
+  ],
   "台風で学校が休みになりました。": [
     {
       "text": "台風",
@@ -2690,6 +8400,39 @@
     },
     {
       "text": "う"
+    }
+  ],
+  "吉田": [
+    {
+      "text": "吉田",
+      "reading": "よしだ"
+    }
+  ],
+  "吉田さんは、このメールで何が一番言いたいですか。": [
+    {
+      "text": "吉田",
+      "reading": "よしだ"
+    },
+    {
+      "text": "さんは、このメールで"
+    },
+    {
+      "text": "何",
+      "reading": "なに"
+    },
+    {
+      "text": "が"
+    },
+    {
+      "text": "一番",
+      "reading": "いちばん"
+    },
+    {
+      "text": "言",
+      "reading": "い"
+    },
+    {
+      "text": "いたいですか。"
     }
   ],
   "同じ": [
@@ -2779,6 +8522,108 @@
       "text": "（không có な）"
     }
   ],
+  "同僚": [
+    {
+      "text": "同僚",
+      "reading": "どうりょう"
+    }
+  ],
+  "同僚と昼ご飯を食べました。": [
+    {
+      "text": "同僚",
+      "reading": "どうりょう"
+    },
+    {
+      "text": "と"
+    },
+    {
+      "text": "昼",
+      "reading": "ひる"
+    },
+    {
+      "text": "ご"
+    },
+    {
+      "text": "飯",
+      "reading": "はん"
+    },
+    {
+      "text": "を"
+    },
+    {
+      "text": "食",
+      "reading": "た"
+    },
+    {
+      "text": "べました。"
+    }
+  ],
+  "嘘": [
+    {
+      "text": "嘘",
+      "reading": "うそ"
+    }
+  ],
+  "嘘をつかないでください。": [
+    {
+      "text": "嘘",
+      "reading": "うそ"
+    },
+    {
+      "text": "をつかないでください。"
+    }
+  ],
+  "園": [
+    {
+      "text": "園",
+      "reading": "えん"
+    }
+  ],
+  "地": [
+    {
+      "text": "地",
+      "reading": "ち"
+    }
+  ],
+  "地下鉄": [
+    {
+      "text": "地下鉄",
+      "reading": "ちかてつ"
+    }
+  ],
+  "地図": [
+    {
+      "text": "地図",
+      "reading": "ちず"
+    }
+  ],
+  "地震": [
+    {
+      "text": "地震",
+      "reading": "じしん"
+    }
+  ],
+  "地面": [
+    {
+      "text": "地面",
+      "reading": "じめん"
+    }
+  ],
+  "場所": [
+    {
+      "text": "場所",
+      "reading": "ばしょ"
+    }
+  ],
+  "売れる": [
+    {
+      "text": "売",
+      "reading": "う"
+    },
+    {
+      "text": "れる"
+    }
+  ],
   "外はもう真っ暗になりました。": [
     {
       "text": "外",
@@ -2850,6 +8695,126 @@
       "text": "いました。"
     }
   ],
+  "大きな": [
+    {
+      "text": "大",
+      "reading": "おお"
+    },
+    {
+      "text": "きな"
+    }
+  ],
+  "大きな音にびっくりしました。": [
+    {
+      "text": "大",
+      "reading": "おお"
+    },
+    {
+      "text": "きな"
+    },
+    {
+      "text": "音",
+      "reading": "おと"
+    },
+    {
+      "text": "にびっくりしました。"
+    }
+  ],
+  "大変じゃないです": [
+    {
+      "text": "大変",
+      "reading": "たいへん"
+    },
+    {
+      "text": "じゃないです"
+    }
+  ],
+  "大変じゃないんです": [
+    {
+      "text": "大変",
+      "reading": "たいへん"
+    },
+    {
+      "text": "じゃないんです"
+    }
+  ],
+  "大変じゃなかったです": [
+    {
+      "text": "大変",
+      "reading": "たいへん"
+    },
+    {
+      "text": "じゃなかったです"
+    }
+  ],
+  "大変じゃなかったんです": [
+    {
+      "text": "大変",
+      "reading": "たいへん"
+    },
+    {
+      "text": "じゃなかったんです"
+    }
+  ],
+  "大変だったんです": [
+    {
+      "text": "大変",
+      "reading": "たいへん"
+    },
+    {
+      "text": "だったんです"
+    }
+  ],
+  "大変でした": [
+    {
+      "text": "大変",
+      "reading": "たいへん"
+    },
+    {
+      "text": "でした"
+    }
+  ],
+  "大変です": [
+    {
+      "text": "大変",
+      "reading": "たいへん"
+    },
+    {
+      "text": "です"
+    }
+  ],
+  "大変なんです": [
+    {
+      "text": "大変",
+      "reading": "たいへん"
+    },
+    {
+      "text": "なんです"
+    }
+  ],
+  "大変なんです。大変だったんです。大変じゃないんです。": [
+    {
+      "text": "大変",
+      "reading": "たいへん"
+    },
+    {
+      "text": "なんです。"
+    },
+    {
+      "text": "大変",
+      "reading": "たいへん"
+    },
+    {
+      "text": "だったんです。"
+    },
+    {
+      "text": "大変",
+      "reading": "たいへん"
+    },
+    {
+      "text": "じゃないんです。"
+    }
+  ],
   "大阪の天気はどうですか。": [
     {
       "text": "大阪",
@@ -2864,6 +8829,32 @@
     },
     {
       "text": "はどうですか。"
+    }
+  ],
+  "大阪市に住んでいます。": [
+    {
+      "text": "大阪",
+      "reading": "おおさか"
+    },
+    {
+      "text": "市",
+      "reading": "し"
+    },
+    {
+      "text": "に"
+    },
+    {
+      "text": "住",
+      "reading": "す"
+    },
+    {
+      "text": "んでいます。"
+    }
+  ],
+  "天気予報": [
+    {
+      "text": "天気予報",
+      "reading": "てんきよほう"
     }
   ],
   "天気予報です。今日、大阪は曇りで、夕方には雨が降るかもしれません。気温も下がります。": [
@@ -2935,6 +8926,33 @@
       "text": "がります。"
     }
   ],
+  "天気予報によると、明日は雨だそうです。": [
+    {
+      "text": "天気",
+      "reading": "てんき"
+    },
+    {
+      "text": "予報",
+      "reading": "よほう"
+    },
+    {
+      "text": "によると、"
+    },
+    {
+      "text": "明日",
+      "reading": "あした"
+    },
+    {
+      "text": "は"
+    },
+    {
+      "text": "雨",
+      "reading": "あめ"
+    },
+    {
+      "text": "だそうです。"
+    }
+  ],
   "失敗する": [
     {
       "text": "失敗",
@@ -2967,6 +8985,45 @@
     },
     {
       "text": "き"
+    }
+  ],
+  "女性": [
+    {
+      "text": "女性",
+      "reading": "じょせい"
+    }
+  ],
+  "始": [
+    {
+      "text": "始",
+      "reading": "し"
+    }
+  ],
+  "始まります": [
+    {
+      "text": "始",
+      "reading": "はじ"
+    },
+    {
+      "text": "まります"
+    }
+  ],
+  "始めます": [
+    {
+      "text": "始",
+      "reading": "はじ"
+    },
+    {
+      "text": "めます"
+    }
+  ],
+  "始める": [
+    {
+      "text": "始",
+      "reading": "はじ"
+    },
+    {
+      "text": "める"
     }
   ],
   "子供と遊園地に行きました。": [
@@ -3002,6 +9059,110 @@
       "reading": "がく"
     }
   ],
+  "学校は家から遠いです。": [
+    {
+      "text": "学校",
+      "reading": "がっこう"
+    },
+    {
+      "text": "は"
+    },
+    {
+      "text": "家",
+      "reading": "いえ"
+    },
+    {
+      "text": "から"
+    },
+    {
+      "text": "遠",
+      "reading": "とお"
+    },
+    {
+      "text": "いです。"
+    }
+  ],
+  "学校までどうやって行くんですか。": [
+    {
+      "text": "学校",
+      "reading": "がっこう"
+    },
+    {
+      "text": "までどうやって"
+    },
+    {
+      "text": "行",
+      "reading": "い"
+    },
+    {
+      "text": "くんですか。"
+    }
+  ],
+  "安心します": [
+    {
+      "text": "安心",
+      "reading": "あんしん"
+    },
+    {
+      "text": "します"
+    }
+  ],
+  "実は": [
+    {
+      "text": "実",
+      "reading": "じつ"
+    },
+    {
+      "text": "は"
+    }
+  ],
+  "実は、来月日本に行くんです。": [
+    {
+      "text": "実",
+      "reading": "じつ"
+    },
+    {
+      "text": "は、"
+    },
+    {
+      "text": "来月",
+      "reading": "らいげつ"
+    },
+    {
+      "text": "日本",
+      "reading": "にっぽん"
+    },
+    {
+      "text": "に"
+    },
+    {
+      "text": "行",
+      "reading": "い"
+    },
+    {
+      "text": "くんです。"
+    }
+  ],
+  "実は、来週結婚するんです。": [
+    {
+      "text": "実",
+      "reading": "じつ"
+    },
+    {
+      "text": "は、"
+    },
+    {
+      "text": "来週",
+      "reading": "らいしゅう"
+    },
+    {
+      "text": "結婚",
+      "reading": "けっこん"
+    },
+    {
+      "text": "するんです。"
+    }
+  ],
   "家ができました。": [
     {
       "text": "家",
@@ -3027,6 +9188,35 @@
       "text": "にしました。"
     }
   ],
+  "将来": [
+    {
+      "text": "将来",
+      "reading": "しょうらい"
+    }
+  ],
+  "将来、日本で働きたいです。": [
+    {
+      "text": "将来",
+      "reading": "しょうらい"
+    },
+    {
+      "text": "、"
+    },
+    {
+      "text": "日本",
+      "reading": "にっぽん"
+    },
+    {
+      "text": "で"
+    },
+    {
+      "text": "働",
+      "reading": "はたら"
+    },
+    {
+      "text": "きたいです。"
+    }
+  ],
   "小さな一歩": [
     {
       "text": "小",
@@ -3038,6 +9228,12 @@
     {
       "text": "一歩",
       "reading": "いっぽ"
+    }
+  ],
+  "小説": [
+    {
+      "text": "小説",
+      "reading": "しょうせつ"
     }
   ],
   "少しずつ、毎日。": [
@@ -3088,6 +9284,42 @@
     },
     {
       "text": "しみました。"
+    }
+  ],
+  "山田さん": [
+    {
+      "text": "山田",
+      "reading": "やまだ"
+    },
+    {
+      "text": "さん"
+    }
+  ],
+  "山田さんへ": [
+    {
+      "text": "山田",
+      "reading": "やまだ"
+    },
+    {
+      "text": "さんへ"
+    }
+  ],
+  "工": [
+    {
+      "text": "工",
+      "reading": "こう"
+    }
+  ],
+  "工事": [
+    {
+      "text": "工事",
+      "reading": "こうじ"
+    }
+  ],
+  "工場": [
+    {
+      "text": "工場",
+      "reading": "こうじょう"
     }
   ],
   "差す": [
@@ -3151,6 +9383,27 @@
       "text": "みます。"
     }
   ],
+  "広": [
+    {
+      "text": "広",
+      "reading": "こう"
+    }
+  ],
+  "広い": [
+    {
+      "text": "広",
+      "reading": "ひろ"
+    },
+    {
+      "text": "い"
+    }
+  ],
+  "広告": [
+    {
+      "text": "広告",
+      "reading": "こうこく"
+    }
+  ],
   "引く": [
     {
       "text": "引",
@@ -3158,6 +9411,92 @@
     },
     {
       "text": "く"
+    }
+  ],
+  "引っ越す": [
+    {
+      "text": "引",
+      "reading": "ひ"
+    },
+    {
+      "text": "っ"
+    },
+    {
+      "text": "越",
+      "reading": "こ"
+    },
+    {
+      "text": "す"
+    }
+  ],
+  "引越ししたいけど、お金もないし無理かもしれないなあ。": [
+    {
+      "text": "引越",
+      "reading": "ひっこ"
+    },
+    {
+      "text": "ししたいけど、お"
+    },
+    {
+      "text": "金",
+      "reading": "かね"
+    },
+    {
+      "text": "もないし"
+    },
+    {
+      "text": "無理",
+      "reading": "むり"
+    },
+    {
+      "text": "かもしれないなあ。"
+    }
+  ],
+  "引越しの準備をしています。": [
+    {
+      "text": "引越",
+      "reading": "ひっこ"
+    },
+    {
+      "text": "しの"
+    },
+    {
+      "text": "準備",
+      "reading": "じゅんび"
+    },
+    {
+      "text": "をしています。"
+    }
+  ],
+  "引越し（する）": [
+    {
+      "text": "引越",
+      "reading": "ひっこ"
+    },
+    {
+      "text": "し（する）"
+    }
+  ],
+  "弟はサッカーの選手です。": [
+    {
+      "text": "弟",
+      "reading": "おとうと"
+    },
+    {
+      "text": "はサッカーの"
+    },
+    {
+      "text": "選手",
+      "reading": "せんしゅ"
+    },
+    {
+      "text": "です。"
+    }
+  ],
+  "形": [
+    {
+      "text": "形",
+      "reading": "かたち"
     }
   ],
   "彼": [
@@ -3187,6 +9526,67 @@
     },
     {
       "text": "です。"
+    }
+  ],
+  "待ち合わせの場所は駅の前です。": [
+    {
+      "text": "待",
+      "reading": "ま"
+    },
+    {
+      "text": "ち"
+    },
+    {
+      "text": "合",
+      "reading": "あ"
+    },
+    {
+      "text": "わせの"
+    },
+    {
+      "text": "場所",
+      "reading": "ばしょ"
+    },
+    {
+      "text": "は"
+    },
+    {
+      "text": "駅",
+      "reading": "えき"
+    },
+    {
+      "text": "の"
+    },
+    {
+      "text": "前",
+      "reading": "まえ"
+    },
+    {
+      "text": "です。"
+    }
+  ],
+  "得意 là tính từ な, nên だ → な trước んです ở khẳng định hiện tại.": [
+    {
+      "text": "得意",
+      "reading": "とくい"
+    },
+    {
+      "text": " là tính từ な, nên だ → な trước んです ở khẳng định hiện tại."
+    }
+  ],
+  "心": [
+    {
+      "text": "心",
+      "reading": "こころ"
+    }
+  ],
+  "心配します": [
+    {
+      "text": "心配",
+      "reading": "しんぱい"
+    },
+    {
+      "text": "します"
     }
   ],
   "忙しいから、飲み会に行けないかもしれません。": [
@@ -3242,6 +9642,49 @@
       "text": "しなくてもいいですよ。"
     }
   ],
+  "思": [
+    {
+      "text": "思",
+      "reading": "し"
+    }
+  ],
+  "思います": [
+    {
+      "text": "思",
+      "reading": "おも"
+    },
+    {
+      "text": "います"
+    }
+  ],
+  "思い出します": [
+    {
+      "text": "思",
+      "reading": "おも"
+    },
+    {
+      "text": "い"
+    },
+    {
+      "text": "出",
+      "reading": "だ"
+    },
+    {
+      "text": "します"
+    }
+  ],
+  "性": [
+    {
+      "text": "性",
+      "reading": "せい"
+    }
+  ],
+  "性格": [
+    {
+      "text": "性格",
+      "reading": "せいかく"
+    }
+  ],
   "怪我する": [
     {
       "text": "怪我",
@@ -3249,6 +9692,107 @@
     },
     {
       "text": "する"
+    }
+  ],
+  "悪いです": [
+    {
+      "text": "悪",
+      "reading": "わる"
+    },
+    {
+      "text": "いです"
+    }
+  ],
+  "悪いんです": [
+    {
+      "text": "悪",
+      "reading": "わる"
+    },
+    {
+      "text": "いんです"
+    }
+  ],
+  "悪いんです。悪かったんです。悪くないんです。": [
+    {
+      "text": "悪",
+      "reading": "わる"
+    },
+    {
+      "text": "いんです。"
+    },
+    {
+      "text": "悪",
+      "reading": "わる"
+    },
+    {
+      "text": "かったんです。"
+    },
+    {
+      "text": "悪",
+      "reading": "わる"
+    },
+    {
+      "text": "くないんです。"
+    }
+  ],
+  "悪かったです": [
+    {
+      "text": "悪",
+      "reading": "わる"
+    },
+    {
+      "text": "かったです"
+    }
+  ],
+  "悪かったんです": [
+    {
+      "text": "悪",
+      "reading": "わる"
+    },
+    {
+      "text": "かったんです"
+    }
+  ],
+  "悪くないです": [
+    {
+      "text": "悪",
+      "reading": "わる"
+    },
+    {
+      "text": "くないです"
+    }
+  ],
+  "悪くないんです": [
+    {
+      "text": "悪",
+      "reading": "わる"
+    },
+    {
+      "text": "くないんです"
+    }
+  ],
+  "悪くなかったです": [
+    {
+      "text": "悪",
+      "reading": "わる"
+    },
+    {
+      "text": "くなかったです"
+    }
+  ],
+  "悪くなかったんです": [
+    {
+      "text": "悪",
+      "reading": "わる"
+    },
+    {
+      "text": "くなかったんです"
+    }
+  ],
+  "意味": [
+    {
+      "text": "意味",
+      "reading": "いみ"
     }
   ],
   "感動": [
@@ -3311,6 +9855,18 @@
       "reading": "しょうち"
     }
   ],
+  "政": [
+    {
+      "text": "政",
+      "reading": "せい"
+    }
+  ],
+  "政治": [
+    {
+      "text": "政治",
+      "reading": "せいじ"
+    }
+  ],
   "救急車": [
     {
       "text": "救急車",
@@ -3368,6 +9924,28 @@
     },
     {
       "text": "（きゅうきゅうしゃ）＝ xe cấp cứu."
+    }
+  ],
+  "教科書": [
+    {
+      "text": "教科書",
+      "reading": "きょうかしょ"
+    }
+  ],
+  "教科書を開いてください。": [
+    {
+      "text": "教科書",
+      "reading": "きょうかしょ"
+    },
+    {
+      "text": "を"
+    },
+    {
+      "text": "開",
+      "reading": "ひら"
+    },
+    {
+      "text": "いてください。"
     }
   ],
   "文法": [
@@ -3487,6 +10065,382 @@
       "text": "みのはずだ。"
     }
   ],
+  "日曜日に友達と花見に行きます。": [
+    {
+      "text": "日曜日",
+      "reading": "にちようび"
+    },
+    {
+      "text": "に"
+    },
+    {
+      "text": "友達",
+      "reading": "ともだち"
+    },
+    {
+      "text": "と"
+    },
+    {
+      "text": "花見",
+      "reading": "はなみ"
+    },
+    {
+      "text": "に"
+    },
+    {
+      "text": "行",
+      "reading": "い"
+    },
+    {
+      "text": "きます。"
+    }
+  ],
+  "日本にはどれくらい住んでいるんですか。": [
+    {
+      "text": "日本",
+      "reading": "にっぽん"
+    },
+    {
+      "text": "にはどれくらい"
+    },
+    {
+      "text": "住",
+      "reading": "す"
+    },
+    {
+      "text": "んでいるんですか。"
+    }
+  ],
+  "日本の友達とチャットで話しています。": [
+    {
+      "text": "日本",
+      "reading": "にっぽん"
+    },
+    {
+      "text": "の"
+    },
+    {
+      "text": "友達",
+      "reading": "ともだち"
+    },
+    {
+      "text": "とチャットで"
+    },
+    {
+      "text": "話",
+      "reading": "はな"
+    },
+    {
+      "text": "しています。"
+    }
+  ],
+  "日本の文化に興味があります。": [
+    {
+      "text": "日本",
+      "reading": "にっぽん"
+    },
+    {
+      "text": "の"
+    },
+    {
+      "text": "文化",
+      "reading": "ぶんか"
+    },
+    {
+      "text": "に"
+    },
+    {
+      "text": "興味",
+      "reading": "きょうみ"
+    },
+    {
+      "text": "があります。"
+    }
+  ],
+  "日本は台風も来るし、地震もあるし、危ないと思います。": [
+    {
+      "text": "日本",
+      "reading": "にっぽん"
+    },
+    {
+      "text": "は"
+    },
+    {
+      "text": "台風",
+      "reading": "たいふう"
+    },
+    {
+      "text": "も"
+    },
+    {
+      "text": "来",
+      "reading": "く"
+    },
+    {
+      "text": "るし、"
+    },
+    {
+      "text": "地震",
+      "reading": "じしん"
+    },
+    {
+      "text": "もあるし、"
+    },
+    {
+      "text": "危",
+      "reading": "あぶ"
+    },
+    {
+      "text": "ないと"
+    },
+    {
+      "text": "思",
+      "reading": "おも"
+    },
+    {
+      "text": "います。"
+    }
+  ],
+  "日本語が上手で、羨ましいです。": [
+    {
+      "text": "日本語",
+      "reading": "にほんご"
+    },
+    {
+      "text": "が"
+    },
+    {
+      "text": "上手",
+      "reading": "じょうず"
+    },
+    {
+      "text": "で、"
+    },
+    {
+      "text": "羨",
+      "reading": "うらや"
+    },
+    {
+      "text": "ましいです。"
+    }
+  ],
+  "日本語が苦手なんですが、入れますか。": [
+    {
+      "text": "日本語",
+      "reading": "にほんご"
+    },
+    {
+      "text": "が"
+    },
+    {
+      "text": "苦手",
+      "reading": "にがて"
+    },
+    {
+      "text": "なんですが、"
+    },
+    {
+      "text": "入",
+      "reading": "い"
+    },
+    {
+      "text": "れますか。"
+    }
+  ],
+  "日本語にはたくさんの文字もあるし、発音も文法も、ベトナム語と全然違うし、日本語はとても難しいとベトナム人の皆さんは思うかもしれません。でも、私のベトナム人の友達は日本語がとても上手です。その人は、日本語をたくさん練習したと言っていました。": [
+    {
+      "text": "日本語",
+      "reading": "にほんご"
+    },
+    {
+      "text": "にはたくさんの"
+    },
+    {
+      "text": "文字",
+      "reading": "もじ"
+    },
+    {
+      "text": "もあるし、"
+    },
+    {
+      "text": "発音",
+      "reading": "はつおん"
+    },
+    {
+      "text": "も"
+    },
+    {
+      "text": "文法",
+      "reading": "ぶんぽう"
+    },
+    {
+      "text": "も、ベトナム"
+    },
+    {
+      "text": "語",
+      "reading": "ご"
+    },
+    {
+      "text": "と"
+    },
+    {
+      "text": "全然",
+      "reading": "ぜんぜん"
+    },
+    {
+      "text": "違",
+      "reading": "ちが"
+    },
+    {
+      "text": "うし、"
+    },
+    {
+      "text": "日本語",
+      "reading": "にほんご"
+    },
+    {
+      "text": "はとても"
+    },
+    {
+      "text": "難",
+      "reading": "むずか"
+    },
+    {
+      "text": "しいとベトナム"
+    },
+    {
+      "text": "人",
+      "reading": "じん"
+    },
+    {
+      "text": "の"
+    },
+    {
+      "text": "皆",
+      "reading": "みな"
+    },
+    {
+      "text": "さんは"
+    },
+    {
+      "text": "思",
+      "reading": "おも"
+    },
+    {
+      "text": "うかもしれません。でも、"
+    },
+    {
+      "text": "私",
+      "reading": "わたし"
+    },
+    {
+      "text": "のベトナム"
+    },
+    {
+      "text": "人",
+      "reading": "じん"
+    },
+    {
+      "text": "の"
+    },
+    {
+      "text": "友達",
+      "reading": "ともだち"
+    },
+    {
+      "text": "は"
+    },
+    {
+      "text": "日本語",
+      "reading": "にほんご"
+    },
+    {
+      "text": "がとても"
+    },
+    {
+      "text": "上手",
+      "reading": "じょうず"
+    },
+    {
+      "text": "です。その"
+    },
+    {
+      "text": "人",
+      "reading": "ひと"
+    },
+    {
+      "text": "は、"
+    },
+    {
+      "text": "日本語",
+      "reading": "にほんご"
+    },
+    {
+      "text": "をたくさん"
+    },
+    {
+      "text": "練習",
+      "reading": "れんしゅう"
+    },
+    {
+      "text": "したと"
+    },
+    {
+      "text": "言",
+      "reading": "い"
+    },
+    {
+      "text": "っていました。"
+    }
+  ],
+  "日本語に興味があるんです。": [
+    {
+      "text": "日本語",
+      "reading": "にほんご"
+    },
+    {
+      "text": "に"
+    },
+    {
+      "text": "興味",
+      "reading": "きょうみ"
+    },
+    {
+      "text": "があるんです。"
+    }
+  ],
+  "日本語はベトナム語より難しいです。": [
+    {
+      "text": "日本語",
+      "reading": "にほんご"
+    },
+    {
+      "text": "はベトナム"
+    },
+    {
+      "text": "語",
+      "reading": "ご"
+    },
+    {
+      "text": "より"
+    },
+    {
+      "text": "難",
+      "reading": "むずか"
+    },
+    {
+      "text": "しいです。"
+    }
+  ],
+  "早い": [
+    {
+      "text": "早",
+      "reading": "はや"
+    },
+    {
+      "text": "い"
+    }
+  ],
   "明日の飲み会、しょうたくんも行くでしょう？": [
     {
       "text": "明日",
@@ -3531,6 +10485,26 @@
     },
     {
       "text": "れます。"
+    }
+  ],
+  "明日はテストです。だから、今晩勉強します。": [
+    {
+      "text": "明日",
+      "reading": "あした"
+    },
+    {
+      "text": "はテストです。だから、"
+    },
+    {
+      "text": "今晩",
+      "reading": "こんばん"
+    },
+    {
+      "text": "勉強",
+      "reading": "べんきょう"
+    },
+    {
+      "text": "します。"
     }
   ],
   "明日は今日より気温が下がるでしょう。": [
@@ -3595,6 +10569,54 @@
       "text": "みでしょう。"
     }
   ],
+  "明日は台風だみたいだ。": [
+    {
+      "text": "明日",
+      "reading": "あした"
+    },
+    {
+      "text": "は"
+    },
+    {
+      "text": "台風",
+      "reading": "たいふう"
+    },
+    {
+      "text": "だみたいだ。"
+    }
+  ],
+  "明日は台風みたいだ。": [
+    {
+      "text": "明日",
+      "reading": "あした"
+    },
+    {
+      "text": "は"
+    },
+    {
+      "text": "台風",
+      "reading": "たいふう"
+    },
+    {
+      "text": "みたいだ。"
+    }
+  ],
+  "明日は台風みたいだね。": [
+    {
+      "text": "明日",
+      "reading": "あした"
+    },
+    {
+      "text": "は"
+    },
+    {
+      "text": "台風",
+      "reading": "たいふう"
+    },
+    {
+      "text": "みたいだね。"
+    }
+  ],
   "明日は寒いでしょう。": [
     {
       "text": "明日",
@@ -3609,6 +10631,52 @@
     },
     {
       "text": "いでしょう。"
+    }
+  ],
+  "明日は恋人とデートです。": [
+    {
+      "text": "明日",
+      "reading": "あした"
+    },
+    {
+      "text": "は"
+    },
+    {
+      "text": "恋人",
+      "reading": "こいびと"
+    },
+    {
+      "text": "とデートです。"
+    }
+  ],
+  "明日は早い電車で行きます。": [
+    {
+      "text": "明日",
+      "reading": "あした"
+    },
+    {
+      "text": "は"
+    },
+    {
+      "text": "早",
+      "reading": "はや"
+    },
+    {
+      "text": "い"
+    },
+    {
+      "text": "電車",
+      "reading": "でんしゃ"
+    },
+    {
+      "text": "で"
+    },
+    {
+      "text": "行",
+      "reading": "い"
+    },
+    {
+      "text": "きます。"
     }
   ],
   "明日は暇かもしれない。": [
@@ -3671,6 +10739,120 @@
     },
     {
       "text": "る＿＿。"
+    }
+  ],
+  "明日は雨だらしい。": [
+    {
+      "text": "明日",
+      "reading": "あした"
+    },
+    {
+      "text": "は"
+    },
+    {
+      "text": "雨",
+      "reading": "あめ"
+    },
+    {
+      "text": "だらしい。"
+    }
+  ],
+  "明日は雨らしい。": [
+    {
+      "text": "明日",
+      "reading": "あした"
+    },
+    {
+      "text": "は"
+    },
+    {
+      "text": "雨",
+      "reading": "あめ"
+    },
+    {
+      "text": "らしい。"
+    }
+  ],
+  "明日は雨らしいから、コンサートは中止だろうね。": [
+    {
+      "text": "明日",
+      "reading": "あした"
+    },
+    {
+      "text": "は"
+    },
+    {
+      "text": "雨",
+      "reading": "あめ"
+    },
+    {
+      "text": "らしいから、コンサートは"
+    },
+    {
+      "text": "中止",
+      "reading": "ちゅうし"
+    },
+    {
+      "text": "だろうね。"
+    }
+  ],
+  "昔、田中さんはエンジニアだそうでした。": [
+    {
+      "text": "昔",
+      "reading": "むかし"
+    },
+    {
+      "text": "、"
+    },
+    {
+      "text": "田中",
+      "reading": "たなか"
+    },
+    {
+      "text": "さんはエンジニアだそうでした。"
+    }
+  ],
+  "昔、田中さんはエンジニアだったそうです。": [
+    {
+      "text": "昔",
+      "reading": "むかし"
+    },
+    {
+      "text": "、"
+    },
+    {
+      "text": "田中",
+      "reading": "たなか"
+    },
+    {
+      "text": "さんはエンジニアだったそうです。"
+    }
+  ],
+  "映画 → ベトナム料理 → 買い物": [
+    {
+      "text": "映画",
+      "reading": "えいが"
+    },
+    {
+      "text": " → ベトナム"
+    },
+    {
+      "text": "料理",
+      "reading": "りょうり"
+    },
+    {
+      "text": " → "
+    },
+    {
+      "text": "買",
+      "reading": "か"
+    },
+    {
+      "text": "い"
+    },
+    {
+      "text": "物",
+      "reading": "もの"
     }
   ],
   "映画「ロック・スター」を見た４人のコメントです。": [
@@ -3770,6 +10952,38 @@
       "text": "がここにぶつかったようです。"
     }
   ],
+  "昨日、地震があったらしいね。": [
+    {
+      "text": "昨日",
+      "reading": "きのう"
+    },
+    {
+      "text": "、"
+    },
+    {
+      "text": "地震",
+      "reading": "じしん"
+    },
+    {
+      "text": "があったらしいね。"
+    }
+  ],
+  "昨日、地震がありました。": [
+    {
+      "text": "昨日",
+      "reading": "きのう"
+    },
+    {
+      "text": "、"
+    },
+    {
+      "text": "地震",
+      "reading": "じしん"
+    },
+    {
+      "text": "がありました。"
+    }
+  ],
   "昨日、彼に会いました。": [
     {
       "text": "昨日",
@@ -3788,6 +11002,232 @@
     {
       "text": "会",
       "reading": "あ"
+    },
+    {
+      "text": "いました。"
+    }
+  ],
+  "昨日、田中さんはベトナム料理を食べたそうです。": [
+    {
+      "text": "昨日",
+      "reading": "きのう"
+    },
+    {
+      "text": "、"
+    },
+    {
+      "text": "田中",
+      "reading": "たなか"
+    },
+    {
+      "text": "さんはベトナム"
+    },
+    {
+      "text": "料理",
+      "reading": "りょうり"
+    },
+    {
+      "text": "を"
+    },
+    {
+      "text": "食",
+      "reading": "た"
+    },
+    {
+      "text": "べたそうです。"
+    }
+  ],
+  "昨日、田中さんは飲み会でビールを10杯も飲んだそうです。": [
+    {
+      "text": "昨日",
+      "reading": "きのう"
+    },
+    {
+      "text": "、"
+    },
+    {
+      "text": "田中",
+      "reading": "たなか"
+    },
+    {
+      "text": "さんは"
+    },
+    {
+      "text": "飲",
+      "reading": "の"
+    },
+    {
+      "text": "み"
+    },
+    {
+      "text": "会",
+      "reading": "かい"
+    },
+    {
+      "text": "でビールを"
+    },
+    {
+      "text": "10杯",
+      "reading": "じゅっぱい"
+    },
+    {
+      "text": "も"
+    },
+    {
+      "text": "飲",
+      "reading": "の"
+    },
+    {
+      "text": "んだそうです。"
+    }
+  ],
+  "昨日から頭が痛いんです。": [
+    {
+      "text": "昨日",
+      "reading": "きのう"
+    },
+    {
+      "text": "から"
+    },
+    {
+      "text": "頭",
+      "reading": "あたま"
+    },
+    {
+      "text": "が"
+    },
+    {
+      "text": "痛",
+      "reading": "いた"
+    },
+    {
+      "text": "いんです。"
+    }
+  ],
+  "昨日の試合に負けました。": [
+    {
+      "text": "昨日",
+      "reading": "きのう"
+    },
+    {
+      "text": "の"
+    },
+    {
+      "text": "試合",
+      "reading": "しあい"
+    },
+    {
+      "text": "に"
+    },
+    {
+      "text": "負",
+      "reading": "ま"
+    },
+    {
+      "text": "けました。"
+    }
+  ],
+  "昼ご飯 → 映画 → 買い物": [
+    {
+      "text": "昼",
+      "reading": "ひる"
+    },
+    {
+      "text": "ご"
+    },
+    {
+      "text": "飯",
+      "reading": "はん"
+    },
+    {
+      "text": " → "
+    },
+    {
+      "text": "映画",
+      "reading": "えいが"
+    },
+    {
+      "text": " → "
+    },
+    {
+      "text": "買",
+      "reading": "か"
+    },
+    {
+      "text": "い"
+    },
+    {
+      "text": "物",
+      "reading": "もの"
+    }
+  ],
+  "昼ご飯の後で、少し昼寝をしました。": [
+    {
+      "text": "昼",
+      "reading": "ひる"
+    },
+    {
+      "text": "ご"
+    },
+    {
+      "text": "飯",
+      "reading": "はん"
+    },
+    {
+      "text": "の"
+    },
+    {
+      "text": "後",
+      "reading": "のち"
+    },
+    {
+      "text": "で、"
+    },
+    {
+      "text": "少",
+      "reading": "すこ"
+    },
+    {
+      "text": "し"
+    },
+    {
+      "text": "昼寝",
+      "reading": "ひるね"
+    },
+    {
+      "text": "をしました。"
+    }
+  ],
+  "昼寝": [
+    {
+      "text": "昼寝",
+      "reading": "ひるね"
+    }
+  ],
+  "時計": [
+    {
+      "text": "時計",
+      "reading": "とけい"
+    }
+  ],
+  "時計の電池を買いました。": [
+    {
+      "text": "時計",
+      "reading": "とけい"
+    },
+    {
+      "text": "の"
+    },
+    {
+      "text": "電池",
+      "reading": "でんち"
+    },
+    {
+      "text": "を"
+    },
+    {
+      "text": "買",
+      "reading": "か"
     },
     {
       "text": "いました。"
@@ -3821,6 +11261,65 @@
     },
     {
       "text": "るかもしれません。"
+    }
+  ],
+  "最初": [
+    {
+      "text": "最初",
+      "reading": "さいしょ"
+    }
+  ],
+  "最初に名前を書いてください。": [
+    {
+      "text": "最初",
+      "reading": "さいしょ"
+    },
+    {
+      "text": "に"
+    },
+    {
+      "text": "名前",
+      "reading": "なまえ"
+    },
+    {
+      "text": "を"
+    },
+    {
+      "text": "書",
+      "reading": "か"
+    },
+    {
+      "text": "いてください。"
+    }
+  ],
+  "有名なお店のお菓子だから、おいしいと思います。": [
+    {
+      "text": "有名",
+      "reading": "ゆうめい"
+    },
+    {
+      "text": "なお"
+    },
+    {
+      "text": "店",
+      "reading": "みせ"
+    },
+    {
+      "text": "のお"
+    },
+    {
+      "text": "菓子",
+      "reading": "かし"
+    },
+    {
+      "text": "だから、おいしいと"
+    },
+    {
+      "text": "思",
+      "reading": "おも"
+    },
+    {
+      "text": "います。"
     }
   ],
   "有名人": [
@@ -3861,6 +11360,43 @@
       "text": "きました。"
     }
   ],
+  "服も買いたいし、旅行にも行きたいし、お金がほしいなあ。": [
+    {
+      "text": "服",
+      "reading": "ふく"
+    },
+    {
+      "text": "も"
+    },
+    {
+      "text": "買",
+      "reading": "か"
+    },
+    {
+      "text": "いたいし、"
+    },
+    {
+      "text": "旅行",
+      "reading": "りょこう"
+    },
+    {
+      "text": "にも"
+    },
+    {
+      "text": "行",
+      "reading": "い"
+    },
+    {
+      "text": "きたいし、お"
+    },
+    {
+      "text": "金",
+      "reading": "かね"
+    },
+    {
+      "text": "がほしいなあ。"
+    }
+  ],
   "本を図書館に返しました。": [
     {
       "text": "本",
@@ -3899,6 +11435,509 @@
       "text": "みたいですね。"
     }
   ],
+  "来るとは思いません nghĩa là ‘tôi không nghĩ sẽ đến’, khác cấu trúc với 来ないと思います.": [
+    {
+      "text": "来",
+      "reading": "く"
+    },
+    {
+      "text": "るとは"
+    },
+    {
+      "text": "思",
+      "reading": "おも"
+    },
+    {
+      "text": "いません nghĩa là ‘tôi không nghĩ sẽ đến’, khác cấu trúc với "
+    },
+    {
+      "text": "来",
+      "reading": "こ"
+    },
+    {
+      "text": "ないと"
+    },
+    {
+      "text": "思",
+      "reading": "おも"
+    },
+    {
+      "text": "います."
+    }
+  ],
+  "来月、大阪に引っ越します。": [
+    {
+      "text": "来月",
+      "reading": "らいげつ"
+    },
+    {
+      "text": "、"
+    },
+    {
+      "text": "大阪",
+      "reading": "おおさか"
+    },
+    {
+      "text": "に"
+    },
+    {
+      "text": "引",
+      "reading": "ひ"
+    },
+    {
+      "text": "っ"
+    },
+    {
+      "text": "越",
+      "reading": "こ"
+    },
+    {
+      "text": "します。"
+    }
+  ],
+  "来来軒": [
+    {
+      "text": "来来軒",
+      "reading": "らいらいけん"
+    }
+  ],
+  "来来軒　中華料理：1000円～3000円　評価：3.1（84）\nお店は少し汚かったです。でも、人がたくさんいました。料理は1000円の麻婆豆腐が一番安かったです。でも、全部量がとても多かったから、安いと思いました。1人より、3人とか4人とかで行きたいです。": [
+    {
+      "text": "来来軒",
+      "reading": "らいらいけん"
+    },
+    {
+      "text": "　"
+    },
+    {
+      "text": "中華",
+      "reading": "ちゅうか"
+    },
+    {
+      "text": "料理",
+      "reading": "りょうり"
+    },
+    {
+      "text": "：1000"
+    },
+    {
+      "text": "円",
+      "reading": "えん"
+    },
+    {
+      "text": "～3000"
+    },
+    {
+      "text": "円",
+      "reading": "えん"
+    },
+    {
+      "text": "　"
+    },
+    {
+      "text": "評価",
+      "reading": "ひょうか"
+    },
+    {
+      "text": "：3.1（84）\nお"
+    },
+    {
+      "text": "店",
+      "reading": "みせ"
+    },
+    {
+      "text": "は"
+    },
+    {
+      "text": "少",
+      "reading": "すこ"
+    },
+    {
+      "text": "し"
+    },
+    {
+      "text": "汚",
+      "reading": "きたな"
+    },
+    {
+      "text": "かったです。でも、"
+    },
+    {
+      "text": "人",
+      "reading": "ひと"
+    },
+    {
+      "text": "がたくさんいました。"
+    },
+    {
+      "text": "料理",
+      "reading": "りょうり"
+    },
+    {
+      "text": "は1000"
+    },
+    {
+      "text": "円",
+      "reading": "えん"
+    },
+    {
+      "text": "の"
+    },
+    {
+      "text": "麻婆豆腐",
+      "reading": "まーぼーどうふ"
+    },
+    {
+      "text": "が"
+    },
+    {
+      "text": "一番",
+      "reading": "いちばん"
+    },
+    {
+      "text": "安",
+      "reading": "やす"
+    },
+    {
+      "text": "かったです。でも、"
+    },
+    {
+      "text": "全部",
+      "reading": "ぜんぶ"
+    },
+    {
+      "text": "量",
+      "reading": "りょう"
+    },
+    {
+      "text": "がとても"
+    },
+    {
+      "text": "多",
+      "reading": "おお"
+    },
+    {
+      "text": "かったから、"
+    },
+    {
+      "text": "安",
+      "reading": "やす"
+    },
+    {
+      "text": "いと"
+    },
+    {
+      "text": "思",
+      "reading": "おも"
+    },
+    {
+      "text": "いました。"
+    },
+    {
+      "text": "1人",
+      "reading": "ひとり"
+    },
+    {
+      "text": "より、"
+    },
+    {
+      "text": "3人",
+      "reading": "さんにん"
+    },
+    {
+      "text": "とか"
+    },
+    {
+      "text": "4人",
+      "reading": "よにん"
+    },
+    {
+      "text": "とかで"
+    },
+    {
+      "text": "行",
+      "reading": "い"
+    },
+    {
+      "text": "きたいです。"
+    }
+  ],
+  "来週結婚します trình bày thông tin trung tính; 実は、来週結婚するんです chia sẻ thông tin với sắc thái giải thích hoặc bộc bạch. Không thêm んです vào mọi câu thông báo.": [
+    {
+      "text": "来週",
+      "reading": "らいしゅう"
+    },
+    {
+      "text": "結婚",
+      "reading": "けっこん"
+    },
+    {
+      "text": "します trình bày thông tin trung tính; "
+    },
+    {
+      "text": "実",
+      "reading": "じつ"
+    },
+    {
+      "text": "は、"
+    },
+    {
+      "text": "来週",
+      "reading": "らいしゅう"
+    },
+    {
+      "text": "結婚",
+      "reading": "けっこん"
+    },
+    {
+      "text": "するんです chia sẻ thông tin với sắc thái giải thích hoặc bộc bạch. Không thêm んです vào mọi câu thông báo."
+    }
+  ],
+  "林さんの好きなレストランはどこですか。": [
+    {
+      "text": "林",
+      "reading": "はやし"
+    },
+    {
+      "text": "さんの"
+    },
+    {
+      "text": "好",
+      "reading": "す"
+    },
+    {
+      "text": "きなレストランはどこですか。"
+    }
+  ],
+  "林さんへ": [
+    {
+      "text": "林",
+      "reading": "はやし"
+    },
+    {
+      "text": "さんへ"
+    }
+  ],
+  "林さんもお忙しいと思いますから、1回か2回で大丈夫です。もちろんお礼はします！ケーキが好きでしたよね。ケーキでもいいし、食事でもいいです。好きなレストランを教えてくだされば、そこでごちそうします。": [
+    {
+      "text": "林",
+      "reading": "はやし"
+    },
+    {
+      "text": "さんもお"
+    },
+    {
+      "text": "忙",
+      "reading": "いそが"
+    },
+    {
+      "text": "しいと"
+    },
+    {
+      "text": "思",
+      "reading": "おも"
+    },
+    {
+      "text": "いますから、1"
+    },
+    {
+      "text": "回",
+      "reading": "かい"
+    },
+    {
+      "text": "か2"
+    },
+    {
+      "text": "回",
+      "reading": "かい"
+    },
+    {
+      "text": "で"
+    },
+    {
+      "text": "大丈夫",
+      "reading": "だいじょうぶ"
+    },
+    {
+      "text": "です。もちろんお"
+    },
+    {
+      "text": "礼",
+      "reading": "れい"
+    },
+    {
+      "text": "はします！ケーキが"
+    },
+    {
+      "text": "好",
+      "reading": "す"
+    },
+    {
+      "text": "きでしたよね。ケーキでもいいし、"
+    },
+    {
+      "text": "食事",
+      "reading": "しょくじ"
+    },
+    {
+      "text": "でもいいです。"
+    },
+    {
+      "text": "好",
+      "reading": "す"
+    },
+    {
+      "text": "きなレストランを"
+    },
+    {
+      "text": "教",
+      "reading": "おし"
+    },
+    {
+      "text": "えてくだされば、そこでごちそうします。"
+    }
+  ],
+  "森田さんはこれから何をすればいいですか。": [
+    {
+      "text": "森田",
+      "reading": "もりた"
+    },
+    {
+      "text": "さんはこれから"
+    },
+    {
+      "text": "何",
+      "reading": "なに"
+    },
+    {
+      "text": "をすればいいですか。"
+    }
+  ],
+  "森田さんは英語を勉強したいと思っています。英語は中学校と高校でしか勉強したことがありません。英語はとても苦手ですから、一番簡単なクラスに入りたいと思っています。学校に入る前に、見学をしたいです。": [
+    {
+      "text": "森田",
+      "reading": "もりた"
+    },
+    {
+      "text": "さんは"
+    },
+    {
+      "text": "英語",
+      "reading": "えいご"
+    },
+    {
+      "text": "を"
+    },
+    {
+      "text": "勉強",
+      "reading": "べんきょう"
+    },
+    {
+      "text": "したいと"
+    },
+    {
+      "text": "思",
+      "reading": "おも"
+    },
+    {
+      "text": "っています。"
+    },
+    {
+      "text": "英語",
+      "reading": "えいご"
+    },
+    {
+      "text": "は"
+    },
+    {
+      "text": "中学校",
+      "reading": "ちゅうがっこう"
+    },
+    {
+      "text": "と"
+    },
+    {
+      "text": "高校",
+      "reading": "こうこう"
+    },
+    {
+      "text": "でしか"
+    },
+    {
+      "text": "勉強",
+      "reading": "べんきょう"
+    },
+    {
+      "text": "したことがありません。"
+    },
+    {
+      "text": "英語",
+      "reading": "えいご"
+    },
+    {
+      "text": "はとても"
+    },
+    {
+      "text": "苦手",
+      "reading": "にがて"
+    },
+    {
+      "text": "ですから、"
+    },
+    {
+      "text": "一番",
+      "reading": "いちばん"
+    },
+    {
+      "text": "簡単",
+      "reading": "かんたん"
+    },
+    {
+      "text": "なクラスに"
+    },
+    {
+      "text": "入",
+      "reading": "はい"
+    },
+    {
+      "text": "りたいと"
+    },
+    {
+      "text": "思",
+      "reading": "おも"
+    },
+    {
+      "text": "っています。"
+    },
+    {
+      "text": "学校",
+      "reading": "がっこう"
+    },
+    {
+      "text": "に"
+    },
+    {
+      "text": "入",
+      "reading": "はい"
+    },
+    {
+      "text": "る"
+    },
+    {
+      "text": "前",
+      "reading": "まえ"
+    },
+    {
+      "text": "に、"
+    },
+    {
+      "text": "見学",
+      "reading": "けんがく"
+    },
+    {
+      "text": "をしたいです。"
+    }
+  ],
   "楽しむ": [
     {
       "text": "楽",
@@ -3917,6 +11956,47 @@
       "text": "しむ（たのしむ）＝ tận hưởng, thưởng thức."
     }
   ],
+  "楽器が上手な人は、外国語も上手です。": [
+    {
+      "text": "楽器",
+      "reading": "がっき"
+    },
+    {
+      "text": "が"
+    },
+    {
+      "text": "上手",
+      "reading": "じょうず"
+    },
+    {
+      "text": "な"
+    },
+    {
+      "text": "人",
+      "reading": "ひと"
+    },
+    {
+      "text": "は、"
+    },
+    {
+      "text": "外国",
+      "reading": "がいこく"
+    },
+    {
+      "text": "語",
+      "reading": "ご"
+    },
+    {
+      "text": "も"
+    },
+    {
+      "text": "上手",
+      "reading": "じょうず"
+    },
+    {
+      "text": "です。"
+    }
+  ],
   "止む": [
     {
       "text": "止",
@@ -3924,6 +12004,21 @@
     },
     {
       "text": "む"
+    }
+  ],
+  "正": [
+    {
+      "text": "正",
+      "reading": "せい"
+    }
+  ],
+  "正しい": [
+    {
+      "text": "正",
+      "reading": "ただ"
+    },
+    {
+      "text": "しい"
     }
   ],
   "正しい文はどれですか。": [
@@ -3948,6 +12043,107 @@
       "reading": "はいしゃ"
     }
   ],
+  "毎日30分、日本語のCDで発音を練習したそうです。それから、週に2、3回、日本人とチャットやテレビ電話で話したそうです。": [
+    {
+      "text": "毎日",
+      "reading": "まいにち"
+    },
+    {
+      "text": "30"
+    },
+    {
+      "text": "分",
+      "reading": "ふん"
+    },
+    {
+      "text": "、"
+    },
+    {
+      "text": "日本語",
+      "reading": "にほんご"
+    },
+    {
+      "text": "のCDで"
+    },
+    {
+      "text": "発音",
+      "reading": "はつおん"
+    },
+    {
+      "text": "を"
+    },
+    {
+      "text": "練習",
+      "reading": "れんしゅう"
+    },
+    {
+      "text": "したそうです。それから、"
+    },
+    {
+      "text": "週",
+      "reading": "しゅう"
+    },
+    {
+      "text": "に2、3"
+    },
+    {
+      "text": "回",
+      "reading": "かい"
+    },
+    {
+      "text": "、"
+    },
+    {
+      "text": "日本人",
+      "reading": "にっぽんじん"
+    },
+    {
+      "text": "とチャットやテレビ"
+    },
+    {
+      "text": "電話",
+      "reading": "でんわ"
+    },
+    {
+      "text": "で"
+    },
+    {
+      "text": "話",
+      "reading": "はな"
+    },
+    {
+      "text": "したそうです。"
+    }
+  ],
+  "毎日、地下鉄を利用しています。": [
+    {
+      "text": "毎日",
+      "reading": "まいにち"
+    },
+    {
+      "text": "、"
+    },
+    {
+      "text": "地下鉄",
+      "reading": "ちかてつ"
+    },
+    {
+      "text": "を"
+    },
+    {
+      "text": "利用",
+      "reading": "りよう"
+    },
+    {
+      "text": "しています。"
+    }
+  ],
+  "気分": [
+    {
+      "text": "気分",
+      "reading": "きぶん"
+    }
+  ],
   "気温が上がります。": [
     {
       "text": "気温",
@@ -3962,6 +12158,45 @@
     },
     {
       "text": "がります。"
+    }
+  ],
+  "池": [
+    {
+      "text": "池",
+      "reading": "いけ"
+    }
+  ],
+  "治": [
+    {
+      "text": "治",
+      "reading": "じ"
+    }
+  ],
+  "治します": [
+    {
+      "text": "治",
+      "reading": "なお"
+    },
+    {
+      "text": "します"
+    }
+  ],
+  "治ります": [
+    {
+      "text": "治",
+      "reading": "なお"
+    },
+    {
+      "text": "ります"
+    }
+  ],
+  "注文（する）": [
+    {
+      "text": "注文",
+      "reading": "ちゅうもん"
+    },
+    {
+      "text": "（する）"
     }
   ],
   "洗濯物": [
@@ -4010,6 +12245,68 @@
       "text": "きました。"
     }
   ],
+  "海もきれいし、食べ物もおいしいです。": [
+    {
+      "text": "海",
+      "reading": "うみ"
+    },
+    {
+      "text": "もきれいし、"
+    },
+    {
+      "text": "食",
+      "reading": "た"
+    },
+    {
+      "text": "べ"
+    },
+    {
+      "text": "物",
+      "reading": "もの"
+    },
+    {
+      "text": "もおいしいです。"
+    }
+  ],
+  "海もきれいだし、いい所です。": [
+    {
+      "text": "海",
+      "reading": "うみ"
+    },
+    {
+      "text": "もきれいだし、いい"
+    },
+    {
+      "text": "所",
+      "reading": "ところ"
+    },
+    {
+      "text": "です。"
+    }
+  ],
+  "海もきれいだし、食べ物もおいしいです。": [
+    {
+      "text": "海",
+      "reading": "うみ"
+    },
+    {
+      "text": "もきれいだし、"
+    },
+    {
+      "text": "食",
+      "reading": "た"
+    },
+    {
+      "text": "べ"
+    },
+    {
+      "text": "物",
+      "reading": "もの"
+    },
+    {
+      "text": "もおいしいです。"
+    }
+  ],
   "混む": [
     {
       "text": "混",
@@ -4023,6 +12320,28 @@
     {
       "text": "漢字",
       "reading": "かんじ"
+    }
+  ],
+  "火事": [
+    {
+      "text": "火事",
+      "reading": "かじ"
+    }
+  ],
+  "無理をしないで、お大事にしてください。": [
+    {
+      "text": "無理",
+      "reading": "むり"
+    },
+    {
+      "text": "をしないで、お"
+    },
+    {
+      "text": "大事",
+      "reading": "だいじ"
+    },
+    {
+      "text": "にしてください。"
     }
   ],
   "熱が下がりました。": [
@@ -4039,6 +12358,93 @@
     },
     {
       "text": "がりました。"
+    }
+  ],
+  "父はたばこをやめました。": [
+    {
+      "text": "父",
+      "reading": "ちち"
+    },
+    {
+      "text": "はたばこをやめました。"
+    }
+  ],
+  "父は貿易の仕事をしています。": [
+    {
+      "text": "父",
+      "reading": "ちち"
+    },
+    {
+      "text": "は"
+    },
+    {
+      "text": "貿易",
+      "reading": "ぼうえき"
+    },
+    {
+      "text": "の"
+    },
+    {
+      "text": "仕事",
+      "reading": "しごと"
+    },
+    {
+      "text": "をしています。"
+    }
+  ],
+  "甘いものが好きだと言っていましたよ。ケーキはどうですか。": [
+    {
+      "text": "甘",
+      "reading": "あま"
+    },
+    {
+      "text": "いものが"
+    },
+    {
+      "text": "好",
+      "reading": "す"
+    },
+    {
+      "text": "きだと"
+    },
+    {
+      "text": "言",
+      "reading": "い"
+    },
+    {
+      "text": "っていましたよ。ケーキはどうですか。"
+    }
+  ],
+  "生まれる": [
+    {
+      "text": "生",
+      "reading": "う"
+    },
+    {
+      "text": "まれる"
+    }
+  ],
+  "田中さん、この前ハワイに行ったそうですよ。": [
+    {
+      "text": "田中",
+      "reading": "たなか"
+    },
+    {
+      "text": "さん、この"
+    },
+    {
+      "text": "前",
+      "reading": "まえ"
+    },
+    {
+      "text": "ハワイに"
+    },
+    {
+      "text": "行",
+      "reading": "い"
+    },
+    {
+      "text": "ったそうですよ。"
     }
   ],
   "田中さんから「今、食堂で昼ご飯を食べています」とメッセージが来ました。田中さんは食堂にいる＿＿です。": [
@@ -4106,6 +12512,75 @@
       "text": "にいる＿＿です。"
     }
   ],
+  "田中さんの妹さんは、大学生だそうですよ。": [
+    {
+      "text": "田中",
+      "reading": "たなか"
+    },
+    {
+      "text": "さんの"
+    },
+    {
+      "text": "妹",
+      "reading": "いもうと"
+    },
+    {
+      "text": "さんは、"
+    },
+    {
+      "text": "大学生",
+      "reading": "だいがくせい"
+    },
+    {
+      "text": "だそうですよ。"
+    }
+  ],
+  "田中さんの妹さんは大学生そうです。": [
+    {
+      "text": "田中",
+      "reading": "たなか"
+    },
+    {
+      "text": "さんの"
+    },
+    {
+      "text": "妹",
+      "reading": "いもうと"
+    },
+    {
+      "text": "さんは"
+    },
+    {
+      "text": "大学生",
+      "reading": "だいがくせい"
+    },
+    {
+      "text": "そうです。"
+    }
+  ],
+  "田中さんの妹さんは大学生だそうです。": [
+    {
+      "text": "田中",
+      "reading": "たなか"
+    },
+    {
+      "text": "さんの"
+    },
+    {
+      "text": "妹",
+      "reading": "いもうと"
+    },
+    {
+      "text": "さんは"
+    },
+    {
+      "text": "大学生",
+      "reading": "だいがくせい"
+    },
+    {
+      "text": "だそうです。"
+    }
+  ],
   "田中さんはもう着いているはずだ。": [
     {
       "text": "田中",
@@ -4120,6 +12595,22 @@
     },
     {
       "text": "いているはずだ。"
+    }
+  ],
+  "田中さんはハワイに行ったそうです。": [
+    {
+      "text": "田中",
+      "reading": "たなか"
+    },
+    {
+      "text": "さんはハワイに"
+    },
+    {
+      "text": "行",
+      "reading": "い"
+    },
+    {
+      "text": "ったそうです。"
     }
   ],
   "田中さんは大阪の人だから、関西弁が話せるでしょう？": [
@@ -4163,6 +12654,38 @@
       "text": "せるでしょう？"
     }
   ],
+  "田中さんは恋人がいないらしいですよ。": [
+    {
+      "text": "田中",
+      "reading": "たなか"
+    },
+    {
+      "text": "さんは"
+    },
+    {
+      "text": "恋人",
+      "reading": "こいびと"
+    },
+    {
+      "text": "がいないらしいですよ。"
+    }
+  ],
+  "田中さんは歌もうまいし、ピアノもできるし、うらやましいです。": [
+    {
+      "text": "田中",
+      "reading": "たなか"
+    },
+    {
+      "text": "さんは"
+    },
+    {
+      "text": "歌",
+      "reading": "うた"
+    },
+    {
+      "text": "もうまいし、ピアノもできるし、うらやましいです。"
+    }
+  ],
   "田中さんも行くでしょう？": [
     {
       "text": "田中",
@@ -4197,6 +12720,12 @@
     },
     {
       "text": "しいです。"
+    }
+  ],
+  "男性": [
+    {
+      "text": "男性",
+      "reading": "だんせい"
     }
   ],
   "留守": [
@@ -4235,6 +12764,68 @@
     },
     {
       "text": "（るす）＝ vắng nhà."
+    }
+  ],
+  "疲れたし、雨も降っているし、もう帰りましょう。": [
+    {
+      "text": "疲",
+      "reading": "つか"
+    },
+    {
+      "text": "れたし、"
+    },
+    {
+      "text": "雨",
+      "reading": "あめ"
+    },
+    {
+      "text": "も"
+    },
+    {
+      "text": "降",
+      "reading": "ふ"
+    },
+    {
+      "text": "っているし、もう"
+    },
+    {
+      "text": "帰",
+      "reading": "かえ"
+    },
+    {
+      "text": "りましょう。"
+    }
+  ],
+  "病院に行かなければならないんですが、早退してもよろしいでしょうか。": [
+    {
+      "text": "病院",
+      "reading": "びょういん"
+    },
+    {
+      "text": "に"
+    },
+    {
+      "text": "行",
+      "reading": "い"
+    },
+    {
+      "text": "かなければならないんですが、"
+    },
+    {
+      "text": "早退",
+      "reading": "そうたい"
+    },
+    {
+      "text": "してもよろしいでしょうか。"
+    }
+  ],
+  "痛い": [
+    {
+      "text": "痛",
+      "reading": "いた"
+    },
+    {
+      "text": "い"
     }
   ],
   "皿": [
@@ -4279,6 +12870,12 @@
     },
     {
       "text": "（まっくら）＝ tối om."
+    }
+  ],
+  "着物": [
+    {
+      "text": "着物",
+      "reading": "きもの"
     }
   ],
   "知": [
@@ -4374,10 +12971,257 @@
       "text": "がなくなりました。"
     }
   ],
+  "確か": [
+    {
+      "text": "確",
+      "reading": "たし"
+    },
+    {
+      "text": "か"
+    }
+  ],
+  "確か、会議は３時からです。": [
+    {
+      "text": "確",
+      "reading": "たし"
+    },
+    {
+      "text": "か、"
+    },
+    {
+      "text": "会議",
+      "reading": "かいぎ"
+    },
+    {
+      "text": "は３"
+    },
+    {
+      "text": "時",
+      "reading": "じ"
+    },
+    {
+      "text": "からです。"
+    }
+  ],
+  "祖父は去年亡くなりました。": [
+    {
+      "text": "祖父",
+      "reading": "そふ"
+    },
+    {
+      "text": "は"
+    },
+    {
+      "text": "去年",
+      "reading": "きょねん"
+    },
+    {
+      "text": "亡",
+      "reading": "な"
+    },
+    {
+      "text": "くなりました。"
+    }
+  ],
   "私": [
     {
       "text": "私",
       "reading": "わたし"
+    }
+  ],
+  "私たちのチームが優勝しました。": [
+    {
+      "text": "私",
+      "reading": "わたし"
+    },
+    {
+      "text": "たちのチームが"
+    },
+    {
+      "text": "優勝",
+      "reading": "ゆうしょう"
+    },
+    {
+      "text": "しました。"
+    }
+  ],
+  "私にベトナム語を教えてください。": [
+    {
+      "text": "私",
+      "reading": "わたし"
+    },
+    {
+      "text": "にベトナム"
+    },
+    {
+      "text": "語",
+      "reading": "ご"
+    },
+    {
+      "text": "を"
+    },
+    {
+      "text": "教",
+      "reading": "おし"
+    },
+    {
+      "text": "えてください。"
+    }
+  ],
+  "私は、外国語は楽器みたいだと思います。ピアノやギターが上手な人は、毎日練習していますよね。言葉も同じです。毎日使えば、日本語の発音や文法に慣れるはずです。皆さんも、頑張って日本語を練習しましょう。": [
+    {
+      "text": "私",
+      "reading": "わたし"
+    },
+    {
+      "text": "は、"
+    },
+    {
+      "text": "外国",
+      "reading": "がいこく"
+    },
+    {
+      "text": "語",
+      "reading": "ご"
+    },
+    {
+      "text": "は"
+    },
+    {
+      "text": "楽器",
+      "reading": "がっき"
+    },
+    {
+      "text": "みたいだと"
+    },
+    {
+      "text": "思",
+      "reading": "おも"
+    },
+    {
+      "text": "います。ピアノやギターが"
+    },
+    {
+      "text": "上手",
+      "reading": "じょうず"
+    },
+    {
+      "text": "な"
+    },
+    {
+      "text": "人",
+      "reading": "ひと"
+    },
+    {
+      "text": "は、"
+    },
+    {
+      "text": "毎日",
+      "reading": "まいにち"
+    },
+    {
+      "text": "練習",
+      "reading": "れんしゅう"
+    },
+    {
+      "text": "していますよね。"
+    },
+    {
+      "text": "言葉",
+      "reading": "ことば"
+    },
+    {
+      "text": "も"
+    },
+    {
+      "text": "同",
+      "reading": "おな"
+    },
+    {
+      "text": "じです。"
+    },
+    {
+      "text": "毎日",
+      "reading": "まいにち"
+    },
+    {
+      "text": "使",
+      "reading": "つか"
+    },
+    {
+      "text": "えば、"
+    },
+    {
+      "text": "日本語",
+      "reading": "にほんご"
+    },
+    {
+      "text": "の"
+    },
+    {
+      "text": "発音",
+      "reading": "はつおん"
+    },
+    {
+      "text": "や"
+    },
+    {
+      "text": "文法",
+      "reading": "ぶんぽう"
+    },
+    {
+      "text": "に"
+    },
+    {
+      "text": "慣",
+      "reading": "な"
+    },
+    {
+      "text": "れるはずです。"
+    },
+    {
+      "text": "皆",
+      "reading": "みな"
+    },
+    {
+      "text": "さんも、"
+    },
+    {
+      "text": "頑張",
+      "reading": "がんば"
+    },
+    {
+      "text": "って"
+    },
+    {
+      "text": "日本語",
+      "reading": "にほんご"
+    },
+    {
+      "text": "を"
+    },
+    {
+      "text": "練習",
+      "reading": "れんしゅう"
+    },
+    {
+      "text": "しましょう。"
+    }
+  ],
+  "私はハノイで生まれました。": [
+    {
+      "text": "私",
+      "reading": "わたし"
+    },
+    {
+      "text": "はハノイで"
+    },
+    {
+      "text": "生",
+      "reading": "う"
+    },
+    {
+      "text": "まれました。"
     }
   ],
   "私は一人でラーメン屋に行きました。": [
@@ -4489,6 +13333,29 @@
       "text": "んでいました。"
     }
   ],
+  "私は毎日ピアノやギターを練習しています。": [
+    {
+      "text": "私",
+      "reading": "わたし"
+    },
+    {
+      "text": "は"
+    },
+    {
+      "text": "毎日",
+      "reading": "まいにち"
+    },
+    {
+      "text": "ピアノやギターを"
+    },
+    {
+      "text": "練習",
+      "reading": "れんしゅう"
+    },
+    {
+      "text": "しています。"
+    }
+  ],
   "私も同じです。": [
     {
       "text": "私",
@@ -4505,6 +13372,18 @@
       "text": "じです。"
     }
   ],
+  "空": [
+    {
+      "text": "空",
+      "reading": "そら"
+    }
+  ],
+  "空気": [
+    {
+      "text": "空気",
+      "reading": "くうき"
+    }
+  ],
   "空気が乾いています。": [
     {
       "text": "空気",
@@ -4519,6 +13398,12 @@
     },
     {
       "text": "いています。"
+    }
+  ],
+  "空港": [
+    {
+      "text": "空港",
+      "reading": "くうこう"
     }
   ],
   "米山：話も音楽も楽しめました。": [
@@ -4551,10 +13436,63 @@
       "text": "しめました。"
     }
   ],
+  "紹介（する）": [
+    {
+      "text": "紹介",
+      "reading": "しょうかい"
+    },
+    {
+      "text": "（する）"
+    }
+  ],
+  "羨ましい": [
+    {
+      "text": "羨",
+      "reading": "うらや"
+    },
+    {
+      "text": "ましい"
+    }
+  ],
+  "聞きたいんですが、今お時間よろしいですか。": [
+    {
+      "text": "聞",
+      "reading": "き"
+    },
+    {
+      "text": "きたいんですが、"
+    },
+    {
+      "text": "今",
+      "reading": "こん"
+    },
+    {
+      "text": "お"
+    },
+    {
+      "text": "時間",
+      "reading": "じかん"
+    },
+    {
+      "text": "よろしいですか。"
+    }
+  ],
+  "腕時計": [
+    {
+      "text": "腕時計",
+      "reading": "うでどけい"
+    }
+  ],
   "自動": [
     {
       "text": "自動",
       "reading": "じどう"
+    }
+  ],
+  "自転車": [
+    {
+      "text": "自転車",
+      "reading": "じてんしゃ"
     }
   ],
   "自転車とぶつかりました。": [
@@ -4564,6 +13502,71 @@
     },
     {
       "text": "とぶつかりました。"
+    }
+  ],
+  "興味": [
+    {
+      "text": "興味",
+      "reading": "きょうみ"
+    }
+  ],
+  "興味がある": [
+    {
+      "text": "興味",
+      "reading": "きょうみ"
+    },
+    {
+      "text": "がある"
+    }
+  ],
+  "苦い": [
+    {
+      "text": "苦",
+      "reading": "にが"
+    },
+    {
+      "text": "い"
+    }
+  ],
+  "苦手 là tính từ な, dùng なんですか ở dạng khẳng định hiện tại.": [
+    {
+      "text": "苦手",
+      "reading": "にがて"
+    },
+    {
+      "text": " là tính từ な, dùng なんですか ở dạng khẳng định hiện tại."
+    }
+  ],
+  "英語のほうが得意だんです。": [
+    {
+      "text": "英語",
+      "reading": "えいご"
+    },
+    {
+      "text": "のほうが"
+    },
+    {
+      "text": "得意",
+      "reading": "とくい"
+    },
+    {
+      "text": "だんです。"
+    }
+  ],
+  "英語のほうが得意なんです。": [
+    {
+      "text": "英語",
+      "reading": "えいご"
+    },
+    {
+      "text": "のほうが"
+    },
+    {
+      "text": "得意",
+      "reading": "とくい"
+    },
+    {
+      "text": "なんです。"
     }
   ],
   "荷物が届きました。": [
@@ -4626,6 +13629,15 @@
       "text": "かない"
     }
   ],
+  "行かないんです": [
+    {
+      "text": "行",
+      "reading": "い"
+    },
+    {
+      "text": "かないんです"
+    }
+  ],
   "行かなかった": [
     {
       "text": "行",
@@ -4633,6 +13645,15 @@
     },
     {
       "text": "かなかった"
+    }
+  ],
+  "行かなかったんです": [
+    {
+      "text": "行",
+      "reading": "い"
+    },
+    {
+      "text": "かなかったんです"
     }
   ],
   "行きました": [
@@ -4680,6 +13701,38 @@
       "text": "く"
     }
   ],
+  "行くんです": [
+    {
+      "text": "行",
+      "reading": "い"
+    },
+    {
+      "text": "くんです"
+    }
+  ],
+  "行くんです。行ったんです。行かないんです。": [
+    {
+      "text": "行",
+      "reading": "い"
+    },
+    {
+      "text": "くんです。"
+    },
+    {
+      "text": "行",
+      "reading": "い"
+    },
+    {
+      "text": "ったんです。"
+    },
+    {
+      "text": "行",
+      "reading": "い"
+    },
+    {
+      "text": "かないんです。"
+    }
+  ],
   "行った": [
     {
       "text": "行",
@@ -4687,6 +13740,27 @@
     },
     {
       "text": "った"
+    }
+  ],
+  "行ったんです": [
+    {
+      "text": "行",
+      "reading": "い"
+    },
+    {
+      "text": "ったんです"
+    }
+  ],
+  "計": [
+    {
+      "text": "計",
+      "reading": "けい"
+    }
+  ],
+  "計画": [
+    {
+      "text": "計画",
+      "reading": "けいかく"
     }
   ],
   "計画は成功しました。": [
@@ -4705,6 +13779,12 @@
       "text": "しました。"
     }
   ],
+  "計算": [
+    {
+      "text": "計算",
+      "reading": "けいさん"
+    }
+  ],
   "訓読み": [
     {
       "text": "訓読",
@@ -4712,6 +13792,49 @@
     },
     {
       "text": "み"
+    }
+  ],
+  "試": [
+    {
+      "text": "試",
+      "reading": "し"
+    }
+  ],
+  "試合": [
+    {
+      "text": "試合",
+      "reading": "しあい"
+    }
+  ],
+  "試合に勝ちました。": [
+    {
+      "text": "試合",
+      "reading": "しあい"
+    },
+    {
+      "text": "に"
+    },
+    {
+      "text": "勝",
+      "reading": "か"
+    },
+    {
+      "text": "ちました。"
+    }
+  ],
+  "試着します": [
+    {
+      "text": "試着",
+      "reading": "しちゃく"
+    },
+    {
+      "text": "します"
+    }
+  ],
+  "試験": [
+    {
+      "text": "試験",
+      "reading": "しけん"
     }
   ],
   "試験に成功して、嬉しいです。": [
@@ -4746,10 +13869,62 @@
       "text": "がつまらなかった"
     }
   ],
+  "誘う": [
+    {
+      "text": "誘",
+      "reading": "さそ"
+    },
+    {
+      "text": "う"
+    }
+  ],
   "語彙": [
     {
       "text": "語彙",
       "reading": "ごい"
+    }
+  ],
+  "説": [
+    {
+      "text": "説",
+      "reading": "せつ"
+    }
+  ],
+  "説明する": [
+    {
+      "text": "説明",
+      "reading": "せつめい"
+    },
+    {
+      "text": "する"
+    }
+  ],
+  "説明会": [
+    {
+      "text": "説明会",
+      "reading": "せつめいかい"
+    }
+  ],
+  "説明書": [
+    {
+      "text": "説明書",
+      "reading": "せつめいしょ"
+    }
+  ],
+  "誰が仕事をやめますか。": [
+    {
+      "text": "誰",
+      "reading": "だれ"
+    },
+    {
+      "text": "が"
+    },
+    {
+      "text": "仕事",
+      "reading": "しごと"
+    },
+    {
+      "text": "をやめますか。"
     }
   ],
   "誰も住んでいないようだ。": [
@@ -4794,6 +13969,21 @@
       "text": "いました。"
     }
   ],
+  "調子": [
+    {
+      "text": "調子",
+      "reading": "ちょうし"
+    }
+  ],
+  "負ける": [
+    {
+      "text": "負",
+      "reading": "ま"
+    },
+    {
+      "text": "ける"
+    }
+  ],
   "財布がなくなりました。": [
     {
       "text": "財布",
@@ -4801,6 +13991,189 @@
     },
     {
       "text": "がなくなりました。"
+    }
+  ],
+  "財布に5,000円しかある。": [
+    {
+      "text": "財布",
+      "reading": "さいふ"
+    },
+    {
+      "text": "に5,000"
+    },
+    {
+      "text": "円",
+      "reading": "えん"
+    },
+    {
+      "text": "しかある。"
+    }
+  ],
+  "財布に5,000円しかない。": [
+    {
+      "text": "財布",
+      "reading": "さいふ"
+    },
+    {
+      "text": "に5,000"
+    },
+    {
+      "text": "円",
+      "reading": "えん"
+    },
+    {
+      "text": "しかない。"
+    }
+  ],
+  "財布に３万円もあります。": [
+    {
+      "text": "財布",
+      "reading": "さいふ"
+    },
+    {
+      "text": "に３"
+    },
+    {
+      "text": "万",
+      "reading": "まん"
+    },
+    {
+      "text": "円",
+      "reading": "えん"
+    },
+    {
+      "text": "もあります。"
+    }
+  ],
+  "財布の中に、３万円もある。": [
+    {
+      "text": "財布",
+      "reading": "さいふ"
+    },
+    {
+      "text": "の"
+    },
+    {
+      "text": "中",
+      "reading": "なか"
+    },
+    {
+      "text": "に、３"
+    },
+    {
+      "text": "万",
+      "reading": "まん"
+    },
+    {
+      "text": "円",
+      "reading": "えん"
+    },
+    {
+      "text": "もある。"
+    }
+  ],
+  "買い物 → 映画 → ベトナム料理": [
+    {
+      "text": "買",
+      "reading": "か"
+    },
+    {
+      "text": "い"
+    },
+    {
+      "text": "物",
+      "reading": "もの"
+    },
+    {
+      "text": " → "
+    },
+    {
+      "text": "映画",
+      "reading": "えいが"
+    },
+    {
+      "text": " → ベトナム"
+    },
+    {
+      "text": "料理",
+      "reading": "りょうり"
+    }
+  ],
+  "貿易": [
+    {
+      "text": "貿易",
+      "reading": "ぼうえき"
+    }
+  ],
+  "質問がありますんですが、今お時間よろしいですか。": [
+    {
+      "text": "質問",
+      "reading": "しつもん"
+    },
+    {
+      "text": "がありますんですが、"
+    },
+    {
+      "text": "今",
+      "reading": "こん"
+    },
+    {
+      "text": "お"
+    },
+    {
+      "text": "時間",
+      "reading": "じかん"
+    },
+    {
+      "text": "よろしいですか。"
+    }
+  ],
+  "質問があるんですが、今お時間よろしいですか。": [
+    {
+      "text": "質問",
+      "reading": "しつもん"
+    },
+    {
+      "text": "があるんですが、"
+    },
+    {
+      "text": "今",
+      "reading": "こん"
+    },
+    {
+      "text": "お"
+    },
+    {
+      "text": "時間",
+      "reading": "じかん"
+    },
+    {
+      "text": "よろしいですか。"
+    }
+  ],
+  "赤ちゃん": [
+    {
+      "text": "赤",
+      "reading": "あか"
+    },
+    {
+      "text": "ちゃん"
+    }
+  ],
+  "赤ちゃんが寝ています。": [
+    {
+      "text": "赤",
+      "reading": "あか"
+    },
+    {
+      "text": "ちゃんが"
+    },
+    {
+      "text": "寝",
+      "reading": "ね"
+    },
+    {
+      "text": "ています。"
     }
   ],
   "足に怪我をしました。": [
@@ -4835,6 +14208,58 @@
       "text": "にぶつかりました。"
     }
   ],
+  "車はお金もかかるし、場所も必要だから、オートバイのほうがいいと思います。": [
+    {
+      "text": "車",
+      "reading": "くるま"
+    },
+    {
+      "text": "はお"
+    },
+    {
+      "text": "金",
+      "reading": "かね"
+    },
+    {
+      "text": "もかかるし、"
+    },
+    {
+      "text": "場所",
+      "reading": "ばしょ"
+    },
+    {
+      "text": "も"
+    },
+    {
+      "text": "必要",
+      "reading": "ひつよう"
+    },
+    {
+      "text": "だから、オートバイのほうがいいと"
+    },
+    {
+      "text": "思",
+      "reading": "おも"
+    },
+    {
+      "text": "います。"
+    }
+  ],
+  "転": [
+    {
+      "text": "転",
+      "reading": "てん"
+    }
+  ],
+  "転びます": [
+    {
+      "text": "転",
+      "reading": "ころ"
+    },
+    {
+      "text": "びます"
+    }
+  ],
   "転んで、怪我をしました。": [
     {
       "text": "転",
@@ -4849,6 +14274,22 @@
     },
     {
       "text": "をしました。"
+    }
+  ],
+  "近くで火事があったそうです。": [
+    {
+      "text": "近",
+      "reading": "ちか"
+    },
+    {
+      "text": "くで"
+    },
+    {
+      "text": "火事",
+      "reading": "かじ"
+    },
+    {
+      "text": "があったそうです。"
     }
   ],
   "返す": [
@@ -4867,6 +14308,15 @@
     },
     {
       "text": "す（かえす）＝ trả lại."
+    }
+  ],
+  "速い": [
+    {
+      "text": "速",
+      "reading": "はや"
+    },
+    {
+      "text": "い"
     }
   ],
   "週末にハイキングに行きます。": [
@@ -4904,6 +14354,42 @@
     },
     {
       "text": "（うんどう）＝ vận động, thể dục."
+    }
+  ],
+  "運転します": [
+    {
+      "text": "運転",
+      "reading": "うんてん"
+    },
+    {
+      "text": "します"
+    }
+  ],
+  "運転手": [
+    {
+      "text": "運転手",
+      "reading": "うんてんしゅ"
+    }
+  ],
+  "遠": [
+    {
+      "text": "遠",
+      "reading": "えん"
+    }
+  ],
+  "遠い": [
+    {
+      "text": "遠",
+      "reading": "とお"
+    },
+    {
+      "text": "い"
+    }
+  ],
+  "選手": [
+    {
+      "text": "選手",
+      "reading": "せんしゅ"
     }
   ],
   "部屋の中は真っ暗だ。誰もいないようだ。": [
@@ -4971,6 +14457,18 @@
     },
     {
       "text": "です。"
+    }
+  ],
+  "部長": [
+    {
+      "text": "部長",
+      "reading": "ぶちょう"
+    }
+  ],
+  "開始": [
+    {
+      "text": "開始",
+      "reading": "かいし"
     }
   ],
   "集まる": [
@@ -5067,6 +14565,22 @@
       "text": "るでしょう。"
     }
   ],
+  "雨が降るみたいだ。": [
+    {
+      "text": "雨",
+      "reading": "あめ"
+    },
+    {
+      "text": "が"
+    },
+    {
+      "text": "降",
+      "reading": "ふ"
+    },
+    {
+      "text": "るみたいだ。"
+    }
+  ],
   "雨で試合が中止になりました。": [
     {
       "text": "雨",
@@ -5142,6 +14656,12 @@
     },
     {
       "text": "っています。"
+    }
+  ],
+  "電池": [
+    {
+      "text": "電池",
+      "reading": "でんち"
     }
   ],
   "電車が混んでいます。": [
@@ -5423,6 +14943,29 @@
       "text": "（かぜ）＝ cảm lạnh, cảm cúm."
     }
   ],
+  "駅で友達と別れました。": [
+    {
+      "text": "駅",
+      "reading": "えき"
+    },
+    {
+      "text": "で"
+    },
+    {
+      "text": "友達",
+      "reading": "ともだち"
+    },
+    {
+      "text": "と"
+    },
+    {
+      "text": "別",
+      "reading": "わか"
+    },
+    {
+      "text": "れました。"
+    }
+  ],
   "駅で待っているはずだよ。さっきメールがあったから。": [
     {
       "text": "駅",
@@ -5519,6 +15062,36 @@
       "text": "まっています。"
     }
   ],
+  "駅の前に大きな店があります。": [
+    {
+      "text": "駅",
+      "reading": "えき"
+    },
+    {
+      "text": "の"
+    },
+    {
+      "text": "前",
+      "reading": "まえ"
+    },
+    {
+      "text": "に"
+    },
+    {
+      "text": "大",
+      "reading": "おお"
+    },
+    {
+      "text": "きな"
+    },
+    {
+      "text": "店",
+      "reading": "みせ"
+    },
+    {
+      "text": "があります。"
+    }
+  ],
   "高い": [
     {
       "text": "高",
@@ -5591,6 +15164,46 @@
       "text": "くなかったです"
     }
   ],
+  "高木さん": [
+    {
+      "text": "高木",
+      "reading": "たかぎ"
+    },
+    {
+      "text": "さん"
+    }
+  ],
+  "高村": [
+    {
+      "text": "高村",
+      "reading": "たかむら"
+    }
+  ],
+  "高村さん": [
+    {
+      "text": "高村",
+      "reading": "たかむら"
+    },
+    {
+      "text": "さん"
+    }
+  ],
+  "髪を短くカットしてください。": [
+    {
+      "text": "髪",
+      "reading": "かみ"
+    },
+    {
+      "text": "を"
+    },
+    {
+      "text": "短",
+      "reading": "みじか"
+    },
+    {
+      "text": "くカットしてください。"
+    }
+  ],
   "（Văn viết / báo cáo）バスの時間は1日に5本しかなかった。この町はだいぶ不便な＿＿。": [
     {
       "text": "（Văn viết / báo cáo）バスの"
@@ -5631,6 +15244,81 @@
       "text": "な＿＿。"
     }
   ],
+  "（お）花見": [
+    {
+      "text": "（お）"
+    },
+    {
+      "text": "花見",
+      "reading": "はなみ"
+    }
+  ],
+  "２人が最後に決めた予定の順番はどれですか。": [
+    {
+      "text": "２"
+    },
+    {
+      "text": "人",
+      "reading": "にん"
+    },
+    {
+      "text": "が"
+    },
+    {
+      "text": "最後",
+      "reading": "さいご"
+    },
+    {
+      "text": "に"
+    },
+    {
+      "text": "決",
+      "reading": "き"
+    },
+    {
+      "text": "めた"
+    },
+    {
+      "text": "予定",
+      "reading": "よてい"
+    },
+    {
+      "text": "の"
+    },
+    {
+      "text": "順番",
+      "reading": "じゅんばん"
+    },
+    {
+      "text": "はどれですか。"
+    }
+  ],
+  "２週間の入院が必要だそうです。": [
+    {
+      "text": "２"
+    },
+    {
+      "text": "週間",
+      "reading": "しゅうかん"
+    },
+    {
+      "text": "の"
+    },
+    {
+      "text": "入院",
+      "reading": "にゅういん"
+    },
+    {
+      "text": "が"
+    },
+    {
+      "text": "必要",
+      "reading": "ひつよう"
+    },
+    {
+      "text": "だそうです。"
+    }
+  ],
   "４人のコメントで、みんながよかったと言っているものは何ですか。": [
     {
       "text": "４人",
@@ -5652,6 +15340,125 @@
     },
     {
       "text": "ですか。"
+    }
+  ],
+  "４月１日はエイプリル・フールです。": [
+    {
+      "text": "４月１日",
+      "reading": "しがつついたち"
+    },
+    {
+      "text": "はエイプリル・フールです。"
+    }
+  ],
+  "７月の終わりに、さよならパーティーをしませんか。みなさん忙しいと思いますから、仕事の後、会社の近くの店でやりたいです。": [
+    {
+      "text": "７月",
+      "reading": "しちがつ"
+    },
+    {
+      "text": "の"
+    },
+    {
+      "text": "終",
+      "reading": "お"
+    },
+    {
+      "text": "わりに、さよならパーティーをしませんか。みなさん"
+    },
+    {
+      "text": "忙",
+      "reading": "いそが"
+    },
+    {
+      "text": "しいと"
+    },
+    {
+      "text": "思",
+      "reading": "おも"
+    },
+    {
+      "text": "いますから、"
+    },
+    {
+      "text": "仕事",
+      "reading": "しごと"
+    },
+    {
+      "text": "の"
+    },
+    {
+      "text": "後",
+      "reading": "のち"
+    },
+    {
+      "text": "、"
+    },
+    {
+      "text": "会社",
+      "reading": "かいしゃ"
+    },
+    {
+      "text": "の"
+    },
+    {
+      "text": "近",
+      "reading": "ちか"
+    },
+    {
+      "text": "くの"
+    },
+    {
+      "text": "店",
+      "reading": "みせ"
+    },
+    {
+      "text": "でやりたいです。"
+    }
+  ],
+  "～と思う": [
+    {
+      "text": "～と"
+    },
+    {
+      "text": "思",
+      "reading": "おも"
+    },
+    {
+      "text": "う"
+    }
+  ],
+  "～と言っていました": [
+    {
+      "text": "～と"
+    },
+    {
+      "text": "言",
+      "reading": "い"
+    },
+    {
+      "text": "っていました"
+    }
+  ],
+  "～円する": [
+    {
+      "text": "～"
+    },
+    {
+      "text": "円",
+      "reading": "えん"
+    },
+    {
+      "text": "する"
+    }
+  ],
+  "～市": [
+    {
+      "text": "～"
+    },
+    {
+      "text": "市",
+      "reading": "し"
     }
   ]
 }

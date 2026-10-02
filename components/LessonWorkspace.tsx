@@ -141,9 +141,9 @@ export default function LessonWorkspace({
                 </Link>
                 <Link
                   className="btn btn-secondary"
-                  href={`/quiz?lesson=${lesson.id}`}
+                  href={`/review?lesson=${lesson.id}&deck=vocabulary`}
                 >
-                  Luyện tập bài này
+                  Ôn từ vựng bằng thẻ
                 </Link>
               </div>
             </section>
@@ -195,8 +195,7 @@ export default function LessonWorkspace({
       ) : tab === "reading" ? (
         <>
           <p className="muted small" style={{ marginBottom: 20 }}>
-            Đọc trước khi xem bản dịch. Khi luyện tập, đoạn đọc luôn đi cùng câu
-            hỏi.
+            Đọc và thử hiểu từng đoạn trước khi xem bản dịch.
           </p>
           {lesson.passages.map((passage) => (
             <ReadingCard passage={passage} key={passage.id} />
@@ -205,15 +204,6 @@ export default function LessonWorkspace({
             <div className="empty-state">
               <h2>Chưa có đoạn đọc trong bài này</h2>
             </div>
-          )}
-          {!!lesson.questions.some((q) => q.category === "reading") && (
-            <Link
-              className="btn btn-primary"
-              href={`/quiz?lesson=${lesson.id}&category=reading`}
-            >
-              Luyện đọc hiểu
-              <Icon name="arrow" size={16} />
-            </Link>
           )}
         </>
       ) : (
@@ -265,7 +255,7 @@ export default function LessonWorkspace({
           )}
           {tab === "grammar" && !!lesson.referenceTables?.length && (
             <details className="reference-section">
-              <summary>Tra cứu nhanh · Bảng thể thường</summary>
+              <summary>Tra cứu nhanh · Bảng kết hợp</summary>
               <div className="reference-tables">
                 {lesson.referenceTables.map((table) => (
                   <div key={table.title}>
@@ -279,7 +269,11 @@ export default function LessonWorkspace({
                             <th>Thời</th>
                             <th>Dạng</th>
                             <th>Lịch sự</th>
-                            <th>Thể thường</th>
+                            <th>
+                              <Furigana
+                                text={table.resultLabel || "Thể thường"}
+                              />
+                            </th>
                           </tr>
                         </thead>
                         <tbody>
@@ -306,13 +300,6 @@ export default function LessonWorkspace({
           <div className="button-row" style={{ marginTop: 25 }}>
             <Link
               className="btn btn-primary"
-              href={`/quiz?lesson=${lesson.id}&category=${tab}`}
-            >
-              Luyện {labels[tab].toLowerCase()}
-              <Icon name="arrow" size={16} />
-            </Link>
-            <Link
-              className="btn btn-secondary"
               href={`/review?lesson=${lesson.id}&deck=${tab}`}
             >
               <Icon name="cards" size={17} />

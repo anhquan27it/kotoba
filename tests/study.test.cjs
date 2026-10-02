@@ -7,6 +7,8 @@ const { validateLessons } = load("lib/validate-content");
 const { shuffle, prepareQuestions, checkAnswer, requeueAgain } =
   load("lib/practice");
 const { defaultSrs, schedule, DAY_MS } = load("lib/srs");
+const { selectReviewCards, createReviewSession, advanceReviewSession } =
+  load("lib/review");
 const storage = load("lib/storage");
 const { hasKanji, splitReading, toHiragana } = load("lib/furigana");
 const readings = require("../data/readings.json");
@@ -132,6 +134,134 @@ test("SRS schedules forgotten cards immediately and known cards in the future", 
   assert.equal(failed.lapses, 1);
   assert.equal(schedule(defaultSrs(), "good", now).due, now + DAY_MS);
   assert.equal(schedule(defaultSrs(), "easy", now).due, now + 3 * DAY_MS);
+});
+
+test("flashcard sessions repeat unknown cards without growing the queue or reducing progress", () => {
+  const original = ["a", "b", "c", "d", "e"];
+  const initial = createReviewSession(original);
+  let session = advanceReviewSession(initial, "again");
+  assert.deepEqual(session.queue, ["b", "c", "d", "a", "e"]);
+  assert.deepEqual(initial.queue, original);
+  assert.equal(session.known, 0);
+  assert.equal(session.total, 5);
+  session = advanceReviewSession(session, "good");
+  const known = session.known;
+  session = advanceReviewSession(session, "again");
+  assert.equal(session.known, known);
+  assert.equal(session.queue.length, session.total - session.known);
+  while (session.queue.length) session = advanceReviewSession(session, "good");
+  assert.equal(session.known, 5);
+  assert.equal(session.answers, 7);
+  assert.equal(session.againCount, 2);
+  assert.equal(advanceReviewSession(session, "again"), session);
+});
+
+test("the last unknown flashcard stays available until it is marked known", () => {
+  let session = createReviewSession(["last"]);
+  for (let index = 0; index < 10; index++) {
+    session = advanceReviewSession(session, "again");
+    assert.deepEqual(session.queue, ["last"]);
+    assert.equal(session.known, 0);
+  }
+  session = advanceReviewSession(session, "good");
+  assert.deepEqual(session.queue, []);
+  assert.equal(session.known, 1);
+  assert.equal(session.againCount, 10);
+});
+
+test("scheduled flashcards prioritize overdue cards and enrolled new cards within the new-card limit", () => {
+  const cards = ["fresh", "later", "due", "enrolled", "oldest"].map((id) => ({
+    id,
+  }));
+  const progress = {
+    due: { ...defaultSrs(), due: 90 },
+    oldest: { ...defaultSrs(), due: 10 },
+    later: { ...defaultSrs(), reps: 2, due: 500 },
+  };
+  const selected = selectReviewCards(
+    cards,
+    progress,
+    ["enrolled"],
+    "scheduled",
+    1,
+    100,
+    false,
+  );
+  assert.deepEqual(
+    selected.map((card) => card.id),
+    ["oldest", "due", "enrolled"],
+  );
+  assert.deepEqual(
+    selectReviewCards(cards, progress, [], "scheduled", 0, 100, false).map(
+      (card) => card.id,
+    ),
+    ["oldest", "due"],
+  );
+  assert.equal(cards.length, 5);
+});
+
+test("unknown and full flashcard decks include the correct cards regardless of the review date", () => {
+  const cards = ["fresh", "forgotten", "known"].map((id) => ({ id }));
+  const progress = {
+    forgotten: schedule(defaultSrs(), "again", 100),
+    known: schedule(defaultSrs(), "good", 100),
+  };
+  assert.deepEqual(
+    selectReviewCards(cards, progress, [], "unknown", 1, 200, false).map(
+      (card) => card.id,
+    ),
+    ["fresh", "forgotten"],
+  );
+  const all = selectReviewCards(cards, progress, [], "all", 1, 200, true);
+  assert.deepEqual(all.map((card) => card.id).sort(), [
+    "forgotten",
+    "fresh",
+    "known",
+  ]);
+  assert.deepEqual(
+    selectReviewCards([], {}, [], "scheduled", 10, 200, true),
+    [],
+  );
+});
+
+test("binary flashcard ratings preserve existing progress, legacy history and backup compatibility", () => {
+  const data = new Map();
+  global.window = {
+    localStorage: {
+      getItem: (key) => data.get(key) ?? null,
+      setItem: (key, value) => data.set(key, value),
+    },
+    dispatchEvent: () => {},
+  };
+  try {
+    const saved = storage.emptyStudy();
+    const [first, second] = catalog.cardIds;
+    saved.progress[first] = schedule(defaultSrs(), "easy", 100);
+    saved.progress[second] = schedule(defaultSrs(), "hard", 100);
+    saved.learned = [first];
+    saved.wrong = [catalog.questions[0].id];
+    saved.quizHistory = [
+      { lessonId: "n4-15", correct: 2, total: 3, date: 100 },
+    ];
+    storage.saveStudy(saved);
+    storage.rateCard(first, "again");
+    let next = storage.getStudy();
+    assert.equal(next.progress[first].reps, 0);
+    assert.equal(next.progress[first].lapses, 1);
+    assert.deepEqual(next.progress[second], saved.progress[second]);
+    assert.deepEqual(next.learned, saved.learned);
+    assert.deepEqual(next.wrong, saved.wrong);
+    assert.deepEqual(next.quizHistory, saved.quizHistory);
+    storage.rateCard(first, "good");
+    next = storage.getStudy();
+    assert.equal(next.progress[first].reps, 1);
+    assert.equal(next.progress[first].interval, 1);
+    assert.equal(next.enrolled.filter((id) => id === first).length, 1);
+    storage.importStudy(JSON.stringify(next));
+    assert.deepEqual(storage.getStudy(), next);
+  } finally {
+    delete global.window;
+  }
 });
 test("old browser progress migrates to scoped IDs and survives export/import", () => {
   const data = new Map();

@@ -1,12 +1,18 @@
 "use client";
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
-import { cardIds, labels, lessons, lessonHref } from "@/lib/catalog";
+import { labels, lessons, lessonHref } from "@/lib/catalog";
 import { useStudy } from "@/lib/use-study";
-import { getSrsState, rateCard } from "@/lib/storage";
+import { rateCard } from "@/lib/storage";
 import type { DeckType } from "@/lib/types";
-import type { Rating } from "@/lib/srs";
-import { requeueAgain, shuffle } from "@/lib/practice";
+import {
+  advanceReviewSession,
+  createReviewSession,
+  selectReviewCards,
+  type ReviewDirection,
+  type ReviewMode,
+  type ReviewRating,
+} from "@/lib/review";
 import Flashcard from "./Flashcard";
 import Icon from "./Icon";
 import Furigana from "./Furigana";
@@ -17,89 +23,129 @@ interface Card {
   item: StudyItem;
   lessonId: string;
 }
-function CardFront({ item }: { item: StudyItem }) {
+function japanese(item: StudyItem) {
+  return "word" in item ? item.word : "char" in item ? item.char : item.pattern;
+}
+function CardFront({
+  item,
+  direction,
+}: {
+  item: StudyItem;
+  direction: ReviewDirection;
+}) {
   return (
     <div>
       <h2
-        className={`jp flashcard-front ${"pattern" in item ? "flashcard-grammar" : ""}`}
-        lang="ja"
+        className={`flashcard-front ${direction === "vi-ja" ? "flashcard-meaning" : `jp ${"char" in item ? "flashcard-kanji" : "pattern" in item ? "flashcard-grammar" : ""}`}`}
+        lang={direction === "ja-vi" ? "ja" : "vi"}
       >
-        <Furigana
-          text={
-            "word" in item
-              ? item.word
-              : "char" in item
-                ? item.char
-                : item.pattern
-          }
-          reading={"word" in item ? item.reading : undefined}
-        />
+        {direction === "ja-vi" ? (
+          <Furigana
+            text={japanese(item)}
+            reading={"word" in item ? item.reading : undefined}
+          />
+        ) : (
+          item.meaning
+        )}
       </h2>
-      <p className="muted small" style={{ marginTop: 12 }}>
-        {"word" in item
-          ? "Cách đọc & ý nghĩa"
+      <p className="flashcard-prompt">
+        {direction === "vi-ja"
+          ? "Nhớ cách viết và cách đọc tiếng Nhật"
           : "char" in item
-            ? "Ý nghĩa & cách đọc qua từ ghép"
-            : "Ý nghĩa & cách dùng trong ngữ cảnh"}
+            ? "Nhớ nghĩa, âm Hán Việt và cách đọc"
+            : "Nhớ cách đọc và ý nghĩa"}
       </p>
     </div>
   );
 }
-function CardBack({ item }: { item: StudyItem }) {
-  const first = item.examples[0];
+function CardBack({
+  item,
+  direction,
+}: {
+  item: StudyItem;
+  direction: ReviewDirection;
+}) {
+  const examples = item.examples.slice(0, "char" in item ? 3 : 1);
   return (
     <div className="flashcard-back">
-      <h2 className="jp" lang="ja">
-        <Furigana
-          text={
-            "word" in item
-              ? item.word
-              : "char" in item
-                ? item.char
-                : item.pattern
-          }
-          reading={"word" in item ? item.reading : undefined}
-        />
+      <h2
+        className={
+          direction === "vi-ja"
+            ? "jp flashcard-answer-jp"
+            : "flashcard-answer-meaning"
+        }
+        lang={direction === "vi-ja" ? "ja" : "vi"}
+      >
+        {direction === "vi-ja" ? (
+          <Furigana
+            text={japanese(item)}
+            reading={"word" in item ? item.reading : undefined}
+          />
+        ) : (
+          item.meaning
+        )}
       </h2>
+      {direction === "ja-vi" && (
+        <p className="flashcard-answer-word jp" lang="ja">
+          <Furigana
+            text={japanese(item)}
+            reading={"word" in item ? item.reading : undefined}
+          />
+        </p>
+      )}
       {"reading" in item && (
         <p className="reading jp" lang="ja">
           {item.reading}
         </p>
       )}
-      <p>
-        {"hanViet" in item ? `${item.hanViet} · ` : ""}
-        {item.meaning}
-      </p>
-      {"char" in item && (
-        <p className="small muted jp">
-          Kun: {item.kunyomi.join("、") || "—"} · On:{" "}
-          {item.onyomi.join("、") || "—"}
+      {direction === "vi-ja" && (
+        <p className="flashcard-answer-translation">{item.meaning}</p>
+      )}
+      {"hanViet" in item && (
+        <p className="flashcard-hanviet">
+          Hán Việt · <strong>{item.hanViet}</strong>
         </p>
       )}
+      {"char" in item && (
+        <dl className="flashcard-readings">
+          <div>
+            <dt>Âm Kun</dt>
+            <dd lang="ja">{item.kunyomi.join("、") || "—"}</dd>
+          </div>
+          <div>
+            <dt>Âm On</dt>
+            <dd lang="ja">{item.onyomi.join("、") || "—"}</dd>
+          </div>
+        </dl>
+      )}
       {"pattern" in item && (
-        <p className="small muted" style={{ fontSize: 15, lineHeight: 1.9 }}>
+        <p className="flashcard-explanation">
           <Furigana text={item.explanation} />
         </p>
       )}
-      {first && (
+      {!!examples.length && (
         <div
-          className="example"
-          style={{
-            background: "#f5f8ef",
-            borderRadius: 12,
-            padding: 16,
-            marginTop: 20,
-          }}
+          className={`flashcard-examples ${"char" in item ? "is-kanji" : ""}`}
         >
-          <p className="jp" lang="ja">
-            <Furigana text={first.jp} reading={first.reading} />
-          </p>
-          <p className="translation">{first.vi}</p>
+          {examples.map((example, index) => (
+            <div className="example" key={index}>
+              <p className="jp" lang="ja">
+                <Furigana text={example.jp} reading={example.reading} />
+              </p>
+              {example.reading && "char" in item && (
+                <p className="flashcard-compound-reading jp" lang="ja">
+                  {example.reading}
+                </p>
+              )}
+              <p className="translation">{example.vi}</p>
+            </div>
+          ))}
         </div>
       )}
     </div>
   );
 }
+
 export default function ReviewSetup({
   initialLesson,
   initialDeck,
@@ -119,72 +165,64 @@ export default function ReviewSetup({
       ? (initialDeck as DeckType)
       : "vocabulary",
   );
+  const [mode, setMode] = useState<ReviewMode>("scheduled");
+  const [direction, setDirection] = useState<ReviewDirection>("ja-vi");
+  const [randomize, setRandomize] = useState(true);
   const [newLimit, setNewLimit] = useState(10);
-  const [queue, setQueue] = useState<Card[]>([]);
-  const [index, setIndex] = useState(0);
+  const [session, setSession] = useState(() => createReviewSession<Card>([]));
   const [started, setStarted] = useState(false);
   const [finished, setFinished] = useState(false);
-  const [answers, setAnswers] = useState(0);
-  const [againCount, setAgainCount] = useState(0);
-  const [passed, setPassed] = useState<string[]>([]);
   const advancing = useRef(false);
   useEffect(() => {
     advancing.current = false;
-  }, [index, started]);
+    if (started) window.scrollTo({ top: 0, behavior: "instant" });
+  }, [session.answers, started]);
   const { state, ready, now } = useStudy();
-  const cards = lessons
-    .filter((lesson) => lessonId === "all" || lesson.id === lessonId)
-    .flatMap((lesson) =>
-      lesson[deck].map((item) => ({ id: item.id, item, lessonId: lesson.id })),
-    );
-  const due = cards
-    .filter(
-      (card) => state.progress[card.id] && state.progress[card.id].due <= now,
-    )
-    .sort((a, b) => state.progress[a.id].due - state.progress[b.id].due);
-  const fresh = cards
-    .filter((card) => !state.progress[card.id])
-    .sort(
-      (a, b) =>
-        Number(state.enrolled.includes(b.id) || state.learned.includes(b.id)) -
-        Number(state.enrolled.includes(a.id) || state.learned.includes(a.id)),
-    );
+  const selectedLessons = lessons.filter(
+    (lesson) => lessonId === "all" || lesson.id === lessonId,
+  );
+  const cards = selectedLessons.flatMap((lesson) =>
+    lesson[deck].map((item) => ({ id: item.id, item, lessonId: lesson.id })),
+  );
+  const due = cards.filter(
+    (card) => state.progress[card.id]?.due <= now,
+  ).length;
+  const fresh = cards.filter((card) => !state.progress[card.id]).length;
+  const unknown = cards.filter((card) => !state.progress[card.id]?.reps).length;
   const specific = cards.find((card) => card.id === initialCard);
-  function start(mode: "scheduled" | "all" | "card") {
+  const selectedCount =
+    mode === "all"
+      ? cards.length
+      : mode === "unknown"
+        ? unknown
+        : due + Math.min(newLimit, fresh);
+  function start(single = false) {
     const selected =
-      mode === "card" && specific
+      single && specific
         ? [specific]
-        : mode === "all"
-          ? shuffle(cards)
-          : [...due, ...fresh.slice(0, newLimit)];
-    if (!selected.length) return;
-    setQueue(selected);
-    setIndex(0);
-    setAnswers(0);
-    setAgainCount(0);
-    setPassed([]);
+        : selectReviewCards(
+            cards,
+            state.progress,
+            [...state.enrolled, ...state.learned],
+            mode,
+            newLimit,
+            Date.now(),
+            randomize,
+          );
+    if (!ready || !selected.length) return;
+    setSession(createReviewSession(selected));
     setStarted(true);
     setFinished(false);
   }
-  function handleRate(rating: Rating) {
-    if (advancing.current) return;
+  function handleRate(rating: ReviewRating) {
+    if (advancing.current || !session.queue.length) return;
     advancing.current = true;
-    const card = queue[index];
-    rateCard(card.id, rating);
-    setAnswers((value) => value + 1);
-    if (rating === "again") {
-      setQueue((current) => requeueAgain(current, index));
-      setAgainCount((value) => value + 1);
-      setPassed((current) => current.filter((id) => id !== card.id));
-      setIndex((value) => value + 1);
-    } else {
-      setPassed((current) =>
-        current.includes(card.id) ? current : [...current, card.id],
-      );
-      if (index + 1 >= queue.length) {
-        setStarted(false);
-        setFinished(true);
-      } else setIndex((value) => value + 1);
+    rateCard(session.queue[0].id, rating);
+    const next = advanceReviewSession(session, rating);
+    setSession(next);
+    if (!next.queue.length) {
+      setStarted(false);
+      setFinished(true);
     }
   }
   if (finished)
@@ -194,25 +232,25 @@ export default function ReviewSetup({
           <div className="result-symbol">
             <Icon name="check" size={32} />
           </div>
-          <span className="eyebrow">ĐÃ XONG PHIÊN ÔN TẬP</span>
-          <h2 style={{ marginTop: 18 }}>
-            Thêm một chút kiến thức được giữ lại.
+          <span className="eyebrow">ĐÃ XONG PHIÊN ÔN THẺ</span>
+          <h2>
+            Bạn đã thuộc {session.known}/{session.total} thẻ trong phiên này
           </h2>
           <p>
-            {answers} lượt ôn · {passed.length} thẻ đã nhớ · {againCount} lượt
-            cần lặp lại.
+            {session.answers} lượt ôn · {session.againCount} lượt chọn “Chưa
+            thuộc”.
           </p>
-          <p style={{ marginTop: 12 }}>
-            Lịch ôn đã được cập nhật theo đánh giá của bạn. Quay lại khi các thẻ
-            đến hạn nhé.
+          <p className="review-summary-note">
+            Lịch ôn đã được lưu sau từng thẻ. Tiếp tục ôn vào những ngày tới để
+            nhớ lâu hơn.
           </p>
         </div>
-        <div className="button-row" style={{ justifyContent: "center" }}>
+        <div className="button-row">
           <button
             className="btn btn-primary"
             onClick={() => setFinished(false)}
           >
-            Chọn phiên tiếp theo
+            Chọn bộ thẻ tiếp theo
           </button>
           <Link
             className="btn btn-secondary"
@@ -224,47 +262,71 @@ export default function ReviewSetup({
       </div>
     );
   if (started) {
-    const card = queue[index];
+    const card = session.queue[0];
+    const lesson = lessons.find((entry) => entry.id === card.lessonId)!;
+    const progress = Math.round((session.known / session.total) * 100);
     return (
-      <div className="practice-container" style={{ maxWidth: 690 }}>
-        <div className="session-header">
-          <span>
-            {answers} lượt đã ôn · {queue.length - index} thẻ còn lại
-          </span>
+      <section
+        className="review-session"
+        aria-label={`Ôn thẻ ${labels[deck].toLowerCase()}`}
+      >
+        <div className="review-session-heading">
+          <div>
+            <span className="eyebrow">ÔN TẬP THẺ</span>
+            <h1>{labels[deck]}</h1>
+          </div>
           <button
-            className="text-button"
+            className="btn btn-secondary btn-small"
             onClick={() => {
               setStarted(false);
               setFinished(false);
             }}
           >
-            Kết thúc phiên
+            Đổi bộ thẻ
           </button>
         </div>
-        <div className="progress-track session-progress">
-          <span style={{ width: `${(index / queue.length) * 100}%` }} />
+        <div className="session-header" aria-live="polite">
+          <span>
+            {lesson.level} · Bài {lesson.number} · Phần {card.item.chapter}
+          </span>
+          <strong>
+            {session.known}/{session.total} thẻ thuộc
+          </strong>
+        </div>
+        <div
+          className="progress-track session-progress"
+          role="progressbar"
+          aria-label="Thẻ đã thuộc trong phiên"
+          aria-valuenow={progress}
+          aria-valuemin={0}
+          aria-valuemax={100}
+        >
+          <span style={{ width: `${progress}%` }} />
         </div>
         <Flashcard
-          key={`${card.id}:${index}`}
-          front={<CardFront item={card.item} />}
-          back={<CardBack item={card.item} />}
-          srs={getSrsState(card.id)}
+          key={`${card.id}:${session.answers}`}
+          front={<CardFront item={card.item} direction={direction} />}
+          back={<CardBack item={card.item} direction={direction} />}
+          frontLabel={direction === "ja-vi" ? "TIẾNG NHẬT" : "NGHĨA TIẾNG VIỆT"}
           onRate={handleRate}
         />
-      </div>
+        <p className="review-remaining">
+          {session.queue.length} thẻ còn lại · {session.answers} lượt đã ôn
+        </p>
+      </section>
     );
   }
   return (
     <>
       <div className="page-heading">
-        <span className="eyebrow">NHỚ LẠI, RỒI NHỚ LÂU HƠN</span>
-        <h1>Ôn tập một chút hôm nay</h1>
+        <span className="eyebrow">LẬT THẺ. NHỚ TỪ. HỌC ĐỀU.</span>
+        <h1>Ôn tập thẻ</h1>
         <p>
-          Ưu tiên thẻ đến hạn, thêm một ít thẻ mới và tự đánh giá sau khi xem
-          đáp án.
+          Chọn bộ từ vựng hoặc kanji, thử nhớ rồi lật thẻ. Chỉ cần chọn “Thuộc”
+          hoặc “Chưa thuộc”.
         </p>
       </div>
-      <div className="setup-grid">
+      <div className="setup-grid review-setup">
         <section className="panel">
           <label className="field">
             <span>Phạm vi bài học</span>
@@ -282,93 +344,162 @@ export default function ReviewSetup({
             </select>
           </label>
           <div className="setup-section">
-            <h2>Bộ thẻ</h2>
-            <div className="chips">
+            <h2>Chọn bộ thẻ</h2>
+            <div className="review-decks">
               {(["vocabulary", "kanji", "grammar"] as DeckType[]).map(
                 (type) => (
                   <button
                     key={type}
-                    className={`chip ${deck === type ? "active" : ""}`}
+                    className={`review-deck ${deck === type ? "active" : ""}`}
                     aria-pressed={deck === type}
                     onClick={() => setDeck(type)}
                   >
-                    {labels[type]}
+                    <Icon
+                      name={
+                        type === "grammar"
+                          ? "spark"
+                          : type === "kanji"
+                            ? "cards"
+                            : "book"
+                      }
+                      size={24}
+                    />
+                    <strong>{labels[type]}</strong>
+                    <span>
+                      {selectedLessons.reduce(
+                        (count, lesson) => count + lesson[type].length,
+                        0,
+                      )}{" "}
+                      thẻ
+                    </span>
                   </button>
                 ),
               )}
             </div>
           </div>
           <div className="setup-section">
-            <h2>Tối đa thẻ mới trong phiên</h2>
+            <h2>Bạn muốn ôn thẻ nào?</h2>
             <div className="chips">
-              {[5, 10, 20].map((n) => (
+              {(
+                [
+                  { key: "scheduled", label: "Đến hạn & thẻ mới" },
+                  { key: "unknown", label: "Chưa thuộc" },
+                  { key: "all", label: "Tất cả thẻ" },
+                ] as const
+              ).map((option) => (
                 <button
-                  key={n}
-                  className={`chip ${newLimit === n ? "active" : ""}`}
-                  aria-pressed={newLimit === n}
-                  onClick={() => setNewLimit(n)}
+                  key={option.key}
+                  className={`chip ${mode === option.key ? "active" : ""}`}
+                  aria-pressed={mode === option.key}
+                  onClick={() => setMode(option.key)}
                 >
-                  {n} thẻ
+                  {option.label}
                 </button>
               ))}
             </div>
           </div>
-          <div className="setup-count">
-            {ready
-              ? `${due.length} thẻ đến hạn · ${fresh.length} thẻ mới · ${cards.length} thẻ trong bộ`
-              : "Đang tải tiến độ…"}
-          </div>
-          {specific && (
-            <div className="button-row" style={{ marginBottom: 12 }}>
-              <button
-                className="btn btn-soft"
-                onClick={() => start("card")}
-                disabled={!ready}
-              >
-                Ôn thẻ vừa chọn
-                <Icon name="cards" size={17} />
-              </button>
+          {mode === "scheduled" && (
+            <div className="setup-section">
+              <h2>Số thẻ mới mỗi phiên</h2>
+              <div className="chips">
+                {[5, 10, 20].map((limit) => (
+                  <button
+                    key={limit}
+                    className={`chip ${newLimit === limit ? "active" : ""}`}
+                    aria-pressed={newLimit === limit}
+                    onClick={() => setNewLimit(limit)}
+                  >
+                    {limit} thẻ
+                  </button>
+                ))}
+              </div>
             </div>
           )}
+          <div className="setup-section">
+            <h2>Mặt trước của thẻ</h2>
+            <div className="chips">
+              {(
+                [
+                  { key: "ja-vi", label: "Tiếng Nhật → Nghĩa" },
+                  { key: "vi-ja", label: "Nghĩa → Tiếng Nhật" },
+                ] as const
+              ).map((option) => (
+                <button
+                  key={option.key}
+                  className={`chip ${direction === option.key ? "active" : ""}`}
+                  aria-pressed={direction === option.key}
+                  onClick={() => setDirection(option.key)}
+                >
+                  {option.label}
+                </button>
+              ))}
+            </div>
+          </div>
+          <label className="review-shuffle">
+            <input
+              type="checkbox"
+              checked={randomize}
+              onChange={(e) => setRandomize(e.target.checked)}
+            />
+            Xáo trộn thẻ trong phiên
+          </label>
+          <div className="setup-count" role="status">
+            {ready
+              ? `${cards.length} thẻ trong bộ · ${due} đến hạn · ${fresh} thẻ mới`
+              : "Đang tải tiến độ…"}
+          </div>
           <div className="button-row">
             <button
               className="btn btn-primary"
-              disabled={!ready || (!due.length && !fresh.length)}
-              onClick={() => start("scheduled")}
+              disabled={!ready || !selectedCount}
+              onClick={() => start()}
             >
-              Bắt đầu ({due.length + Math.min(newLimit, fresh.length)} thẻ)
-              <Icon name="arrow" size={17} />
+              Bắt đầu ôn {ready ? `(${selectedCount} thẻ)` : ""}
+              <Icon name="arrow" size={18} />
             </button>
-            <button
-              className="btn btn-secondary"
-              disabled={!ready || !cards.length}
-              onClick={() => start("all")}
-            >
-              Ôn cả bộ
-            </button>
+            {specific && (
+              <button
+                className="btn btn-secondary"
+                disabled={!ready}
+                onClick={() => start(true)}
+              >
+                Ôn thẻ vừa chọn
+              </button>
+            )}
           </div>
-          {ready && !due.length && !fresh.length && (
-            <p className="muted small" style={{ marginTop: 15 }}>
-              Bạn đã ôn xong các thẻ đến hạn. Lịch ôn tiếp theo đã được lưu.
+          {ready && !selectedCount && (
+            <p className="review-empty">
+              {cards.length
+                ? "Bạn đã ôn xong nhóm này. Chọn “Tất cả thẻ” để ôn thêm bất cứ lúc nào."
+                : "Bài học này chưa có thẻ trong bộ đã chọn."}
             </p>
           )}
         </section>
-        <aside className="setup-description">
-          <Icon name="cards" size={30} />
-          <h2>
-            Thử nhớ trước.
-            <br />
-            Mở đáp án sau.
-          </h2>
+        <aside className="setup-description review-guide">
+          <Icon name="cards" size={32} />
+          <h2>Mỗi thẻ, một điều nhớ thêm.</h2>
           <p>
-            Đánh giá theo khả năng nhớ thật của bạn. Thẻ “Chưa nhớ” sẽ quay lại
-            sau vài thẻ khác trong chính phiên này.
+            Thẻ lớn, chữ rõ. Tập trung vào cách đọc và ý nghĩa trước khi xem đáp
+            án.
           </p>
-          <ul>
-            <li>Thẻ đã thêm vào ôn tập được ưu tiên trong nhóm thẻ mới.</li>
-            <li>“Khó”, “Nhớ” và “Rất dễ” có lịch ôn khác nhau.</li>
-            <li>Tiến độ được lưu sau mỗi lượt đánh giá.</li>
-          </ul>
+          <ol>
+            <li>
+              <strong>Nhìn mặt trước.</strong> Tự nhớ từ hoặc kanji. Dùng nút
+              Ẩn/Hiện cách đọc ở đầu trang để bật hoặc tắt hiragana trên thẻ.
+            </li>
+            <li>
+              <strong>Chạm để lật.</strong> Xem cách đọc, nghĩa và ví dụ. Thẻ
+              kanji có âm Kun, âm On và từ ghép.
+            </li>
+            <li>
+              <strong>Chọn Thuộc / Chưa thuộc.</strong> Thẻ chưa thuộc sẽ quay
+              lại sau vài thẻ khác.
+            </li>
+          </ol>
+          <p>
+            Nhóm “Chưa thuộc” gồm thẻ mới và thẻ bạn chưa nhớ ở lần ôn gần nhất.
+            Tiến độ được lưu sau mỗi lượt; bạn có thể đổi bộ thẻ bất cứ lúc nào.
+          </p>
         </aside>
       </div>
     </>

@@ -79,7 +79,12 @@ export default function LessonLibrary() {
                 <div className="lesson-metadata">
                   <span>{lesson.vocabulary.length} từ vựng</span>
                   <span>{lesson.kanji.length} kanji</span>
-                  <span>{lesson.questions.length} câu luyện tập</span>
+                  <span>
+                    {lesson.vocabulary.length +
+                      lesson.kanji.length +
+                      lesson.grammar.length}{" "}
+                    thẻ ôn tập
+                  </span>
                 </div>
                 <div className="progress-track">
                   <span style={{ width: `${percent}%` }} />

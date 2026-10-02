@@ -1,40 +1,57 @@
 "use client";
-import { useEffect, useState } from "react";
-import { schedule, type Rating, type SrsState } from "@/lib/srs";
+import { useEffect, useId, useState } from "react";
+import type { ReviewRating } from "@/lib/review";
 import Icon from "./Icon";
-const ratings: { key: Rating; label: string }[] = [
-  { key: "again", label: "Chưa nhớ" },
-  { key: "hard", label: "Khó" },
-  { key: "good", label: "Nhớ" },
-  { key: "easy", label: "Rất dễ" },
-];
+
 export default function Flashcard({
   front,
   back,
-  srs,
+  frontLabel,
   onRate,
 }: {
   front: React.ReactNode;
   back: React.ReactNode;
-  srs: SrsState;
-  onRate: (rating: Rating) => void;
+  frontLabel: string;
+  onRate: (rating: ReviewRating) => void;
 }) {
   const [flipped, setFlipped] = useState(false);
+  const contentId = useId();
   useEffect(() => {
     const handle = (event: KeyboardEvent) => {
       if (
-        event.target instanceof HTMLElement &&
-        (event.target.closest("input,textarea,select,button,a") ||
-          event.target.isContentEditable)
+        event.repeat ||
+        event.altKey ||
+        event.ctrlKey ||
+        event.metaKey ||
+        (event.target instanceof HTMLElement &&
+          (event.target.closest("input,textarea,select,a") ||
+            event.target.isContentEditable))
       )
         return;
       if (event.code === "Space") {
+        // Focused buttons already support Space through their native click.
+        if (
+          event.target instanceof HTMLElement &&
+          event.target.closest("button")
+        )
+          return;
         event.preventDefault();
         setFlipped((current) => !current);
       }
-      if (flipped && /^[1-4]$/.test(event.key) && !event.repeat) {
+      if (
+        flipped &&
+        ["1", "2", "ArrowLeft", "ArrowRight"].includes(event.key)
+      ) {
+        if (
+          event.target instanceof HTMLElement &&
+          event.target.closest("button") &&
+          !event.target.closest(".flashcard-flip,.rating-button")
+        )
+          return;
         event.preventDefault();
-        onRate(ratings[Number(event.key) - 1].key);
+        onRate(
+          event.key === "1" || event.key === "ArrowLeft" ? "again" : "good",
+        );
       }
     };
     window.addEventListener("keydown", handle);
@@ -42,49 +59,61 @@ export default function Flashcard({
   }, [flipped, onRate]);
   return (
     <>
-      <div className="flashcard">
+      <div className={`flashcard ${flipped ? "is-flipped" : ""}`}>
         <span className="flashcard-label">
-          {flipped ? "ĐÁP ÁN & NGỮ CẢNH" : "THỬ NHỚ TRƯỚC KHI XEM"}
+          {flipped ? "ĐÁP ÁN" : frontLabel}
         </span>
-        <div className="flashcard-content" key={String(flipped)}>
+        <div
+          id={contentId}
+          className="flashcard-content"
+          key={String(flipped)}
+          aria-live="polite"
+        >
           {flipped ? back : front}
         </div>
+        <span className="flashcard-flip-hint" aria-hidden="true">
+          <Icon name="reset" size={18} />
+          {flipped ? "Chạm để xem lại mặt trước" : "Chạm vào thẻ để lật"}
+        </span>
         <button
-          className={`btn ${flipped ? "btn-ghost btn-small" : "btn-primary"}`}
+          className="flashcard-flip"
+          aria-label={
+            flipped ? "Lật thẻ về mặt trước" : "Lật thẻ để xem đáp án"
+          }
+          aria-describedby={contentId}
+          aria-keyshortcuts="Space"
           onClick={() => setFlipped((current) => !current)}
+        />
+      </div>
+      <div className="ratings" aria-label="Tự đánh giá sau khi xem đáp án">
+        <button
+          className="rating-button rating-again"
+          disabled={!flipped}
+          onClick={() => onRate("again")}
+          aria-keyshortcuts="ArrowLeft 1"
         >
-          {flipped ? "Xem lại mặt trước" : "Xem đáp án"}
-          <Icon name={flipped ? "reset" : "arrow"} size={16} />
+          <Icon name="close" size={24} />
+          <strong>Chưa thuộc</strong>
+          <kbd>←</kbd>
+        </button>
+        <button
+          className="rating-button rating-good"
+          disabled={!flipped}
+          onClick={() => onRate("good")}
+          aria-keyshortcuts="ArrowRight 2"
+        >
+          <Icon name="check" size={24} />
+          <strong>Thuộc</strong>
+          <kbd>→</kbd>
         </button>
       </div>
-      {flipped ? (
-        <div className="ratings">
-          {ratings.map((rating, i) => {
-            const next = schedule(srs, rating.key);
-            return (
-              <button
-                key={rating.key}
-                className={`rating-button rating-${rating.key}`}
-                onClick={() => onRate(rating.key)}
-              >
-                <strong>{rating.label}</strong>
-                <span>
-                  {rating.key === "again"
-                    ? "Lặp lại trong phiên"
-                    : `${next.interval} ngày nữa`}{" "}
-                  · {i + 1}
-                </span>
-              </button>
-            );
-          })}
-        </div>
-      ) : (
-        <p className="flashcard-help">
-          Tự nhớ cách đọc và ý nghĩa, rồi mới mở đáp án.
-        </p>
-      )}
       <p className="flashcard-help">
-        Phím Space để lật thẻ · 1–4 để đánh giá sau khi xem đáp án
+        {flipped
+          ? "Chưa thuộc: thẻ sẽ quay lại sau vài thẻ khác."
+          : "Lật thẻ trước khi chọn Thuộc hoặc Chưa thuộc."}
+      </p>
+      <p className="flashcard-shortcuts">
+        <kbd>Space</kbd> Lật thẻ · <kbd>←</kbd> Chưa thuộc · <kbd>→</kbd> Thuộc
       </p>
     </>
   );

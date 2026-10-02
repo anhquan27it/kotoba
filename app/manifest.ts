@@ -6,8 +6,7 @@ export default function manifest(): MetadataRoute.Manifest {
   return {
     name: "Kotoba · Góc học tiếng Nhật",
     short_name: "Kotoba",
-    description:
-      "Học tiếng Nhật theo bài, luyện tập và ôn tập theo tiến độ riêng.",
+    description: "Học tiếng Nhật theo bài và ôn từ vựng, kanji bằng flashcard.",
     lang: "vi",
     start_url: `${basePath}/`,
     scope: `${basePath}/`,

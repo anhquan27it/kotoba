@@ -10,7 +10,7 @@ Khi có bài tiếp theo, gửi PDF, ảnh rõ hoặc nội dung bài. Cấu tr�
 4. Import bài và thêm vào `lessonSources` trong `data/lessons/index.ts`.
 5. Chạy kiểm tra dữ liệu, TypeScript và các kiểm tra logic. Mở bài để kiểm tra cách trình bày.
 
-Thư viện, bộ lọc, số lượng nội dung, trang bài học, tra cứu, bài tập và flashcard tự đọc danh sách này. Đổi `level` thành N5, N3, N2 hoặc N1 khi có nội dung tương ứng. Không thêm các bài chưa có tài liệu vào danh sách bài đang học.
+Thư viện, bộ lọc, số lượng nội dung, trang bài học, tra cứu và flashcard tự đọc danh sách này. Đổi `level` thành N5, N3, N2 hoặc N1 khi có nội dung tương ứng. Không thêm các bài chưa có tài liệu vào danh sách bài đang học.
 
 ## Thông tin mỗi bài
 

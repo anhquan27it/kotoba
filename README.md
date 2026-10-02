@@ -1,6 +1,6 @@
 # Kotoba · Góc học tiếng Nhật
 
-Ứng dụng tự học cá nhân xây bằng Next.js 15, React 19 và TypeScript. Học theo cấp độ và từng bài: từ vựng, kanji, ngữ pháp, đọc hiểu, bài tập và flashcard. Hiện có bài N4 số 15; phần nghe được để sau.
+Ứng dụng tự học cá nhân xây bằng Next.js 15, React 19 và TypeScript. Học theo cấp độ và từng bài: từ vựng, kanji, ngữ pháp, đọc hiểu và flashcard. Hiện có các bài N4 số 15, 16 và 17; phần nghe được để sau.
 
 ## Chạy web
 
@@ -40,31 +40,35 @@ Tiến độ lưu riêng theo thiết bị và địa chỉ web. Để chuyển 
 
 - Giao diện thích ứng với máy tính và điện thoại, tông kem/xanh dịu, hỗ trợ bàn phím và giảm chuyển động.
 - Phông Noto Sans cho tiếng Việt và Noto Sans JP cho tiếng Nhật lưu ngay trong dự án. Phông Nhật chia theo vùng Unicode để trình duyệt chỉ tải phần cần dùng. Giấy phép OFL ở `public/fonts/`.
-- Cỡ chữ học lớn, hiragana phía trên kanji trong mọi phần. Nút **Ẩn/Hiện cách đọc** ở đầu trang áp dụng toàn web và nhớ lựa chọn trên thiết bị.
+- Cỡ chữ học lớn, hiragana phía trên kanji khi học nội dung và xem ví dụ. Nút **Ẩn/Hiện cách đọc** ở đầu trang áp dụng cả hai mặt flashcard và nhớ lựa chọn trên thiết bị.
 - Thư viện theo cấp độ, tìm bài và tra cứu kiến thức.
-- Mỗi bài có mục tiêu, từ vựng, kanji, ngữ pháp, đoạn đọc và bài tập. Ngữ pháp có bảng kết hợp, cách phân biệt và lỗi thường gặp.
+- Mỗi bài có mục tiêu, từ vựng, kanji, ngữ pháp và đoạn đọc. Ngữ pháp có bảng kết hợp, cách phân biệt và lỗi thường gặp.
 - Đánh dấu nội dung đã học; thêm riêng thẻ vào ôn tập; bản dịch có thể ẩn/hiện.
-- Flashcard ưu tiên thẻ đến hạn, giới hạn thẻ mới và lặp lại thẻ chưa nhớ trong phiên. Space để lật thẻ, 1–4 để đánh giá sau khi mở đáp án.
-- Bài tập xáo trộn câu và lựa chọn mỗi phiên. Chọn đáp án rồi kiểm tra, xem giải thích, luyện lại câu sai và lưu kết quả phiên.
-- Đoạn đọc hiển thị đầy đủ với từng câu hỏi, kể cả khi câu hỏi được chọn riêng.
+- Flashcard lớn với hai lựa chọn **Thuộc / Chưa thuộc**. Ôn theo lịch, riêng thẻ mới/chưa thuộc hoặc cả bộ; đổi chiều Nhật → Việt / Việt → Nhật và bật/tắt xáo trộn. Thẻ chưa thuộc quay lại sau tối đa ba thẻ khác; tiến độ tính theo số thẻ đã thuộc trong phiên.
+- **Space** hoặc chạm để lật thẻ; **← / 1** chọn Chưa thuộc, **→ / 2** chọn Thuộc sau khi xem đáp án. Thẻ kanji có âm Hán Việt, âm Kun/On và tối đa ba từ ghép từ bài học.
+- Đã bỏ giao diện luyện tập trắc nghiệm. Đường dẫn `/quiz` cũ chuyển sang ôn thẻ, giữ bài học và bộ thẻ nếu có. Kết quả cũ vẫn được giữ trong dữ liệu tiến độ và bản sao JSON.
+- Đoạn đọc hiển thị đầy đủ, có thể mở bản dịch sau khi tự đọc.
 - Tiến độ, chuỗi ngày học, lịch sử và xuất/nhập bản sao JSON. Tiến độ cũ từ phiên bản N4 trước được đọc và chuyển sang ID mới; dữ liệu gốc cũ được giữ lại.
 
 ## Thêm bài tiếp theo
 
 Xem `docs/ADDING_LESSONS.md` và `templates/lesson.template.ts`. Mỗi bài có một tệp nội dung, đăng ký tại `data/lessons/index.ts`. Giao diện và các bộ lọc tự cập nhật từ danh sách này.
 
-Khi có PDF hoặc nội dung bài 16, 17…, chỉ cần nhập nội dung theo mẫu; không cần tạo thêm trang hay viết lại logic học.
+Bài 16 có 39 mục từ vựng, 10 kanji, 6 mẫu ngữ pháp và 3 đoạn đọc. Bài 17 có 34 mục từ vựng, 11 kanji, 7 mẫu ngữ pháp, bảng kết hợp với んです và 3 đoạn đọc. Nội dung lấy từ hai PDF chương 16–17 do người học cung cấp; nguồn từng bài ghi rõ các phần biên soạn bổ sung.
+
+Khi có PDF hoặc nội dung bài tiếp theo, chỉ cần nhập nội dung theo mẫu; không cần tạo thêm trang hay viết lại logic học.
 
 ## Cấu trúc
 
 ```text
 app/                   Các tuyến trang, layout và giao diện nền
-components/            Thành phần bài học, bài tập, ôn tập, tiến độ
+components/            Thành phần bài học, flashcard, ôn tập, tiến độ
 lib/types.ts           Kiểu nội dung bài học
 lib/catalog.ts         Danh mục và ID có phạm vi theo bài
 lib/storage.ts         Tiến độ, chuyển dữ liệu cũ, sao lưu
 lib/srs.ts             Lịch ôn
-lib/practice.ts        Xáo trộn, chấm đáp án, lặp lại thẻ
+lib/review.ts          Chọn bộ thẻ và lặp lại thẻ chưa thuộc trong phiên
+lib/practice.ts        Xáo trộn, chuẩn hóa tìm kiếm, tiện ích câu hỏi cũ
 lib/validate-content.ts Kiểm tra chất lượng cấu trúc dữ liệu
  data/lessons/           Mỗi tệp là một bài học
  data/vocabulary.ts     Dữ liệu gốc của bài 15, giữ tương thích
@@ -93,4 +97,4 @@ npm run build
 
 ## Lưu tiến độ
 
-Tiến độ lưu ở trình duyệt, không tự đồng bộ giữa các thiết bị. Vào **Tiến độ của tôi → Xuất bản sao tiến độ**, rồi nhập tệp JSON trên thiết bị khác. Chỉ số “đã học” là số mục người học chủ động đánh dấu; kết quả trắc nghiệm là kết quả của phiên vừa làm.
+Tiến độ lưu ở trình duyệt, không tự đồng bộ giữa các thiết bị. Vào **Tiến độ của tôi → Xuất bản sao tiến độ**, rồi nhập tệp JSON trên thiết bị khác. Chỉ số “đã học” là số mục người học chủ động đánh dấu; số thẻ “thuộc” phản ánh đánh giá ở lần ôn gần nhất.

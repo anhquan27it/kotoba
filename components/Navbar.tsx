@@ -8,7 +8,6 @@ const links = [
   { href: "/", label: "Góc học tập", icon: "home" },
   { href: "/lessons", label: "Bài học", icon: "book" },
   { href: "/review", label: "Ôn tập thẻ", icon: "cards" },
-  { href: "/quiz", label: "Luyện tập", icon: "quiz" },
   { href: "/progress", label: "Tiến độ của tôi", icon: "chart" },
 ];
 export default function Navbar() {

@@ -3,7 +3,7 @@ import Link from "next/link";
 import { useRef, useState } from "react";
 import { useStudy } from "@/lib/use-study";
 import { getStreak, getStudy, importStudy, resetProgress } from "@/lib/storage";
-import { cardIds, lessons, lessonHref, questions } from "@/lib/catalog";
+import { cardIds, labels, lessons, lessonHref } from "@/lib/catalog";
 import Icon from "./Icon";
 export default function ProgressDashboard() {
   const { state, ready, now } = useStudy();
@@ -12,7 +12,7 @@ export default function ProgressDashboard() {
   const input = useRef<HTMLInputElement>(null);
   const learned = cardIds.filter((id) => state.learned.includes(id)).length;
   const due = cardIds.filter((id) => state.progress[id]?.due <= now).length;
-  const wrong = questions.filter((q) => state.wrong.includes(q.id)).length;
+  const known = cardIds.filter((id) => state.progress[id]?.reps > 0).length;
   function exportProgress() {
     const blob = new Blob([JSON.stringify(getStudy(), null, 2)], {
       type: "application/json",
@@ -65,8 +65,8 @@ export default function ProgressDashboard() {
         <span className="eyebrow">TỪNG BƯỚC TIẾN CỦA BẠN</span>
         <h1>Một hành trình đang lớn lên</h1>
         <p>
-          Theo dõi những gì đã học, xem lại kết quả và giữ một bản sao tiến độ
-          của mình.
+          Theo dõi những gì đã học, xem tiến độ ôn thẻ và giữ một bản sao tiến
+          độ của mình.
         </p>
       </div>
       <div className="stats-grid">
@@ -78,7 +78,7 @@ export default function ProgressDashboard() {
             value: getStreak(state),
             label: "Ngày học liên tiếp",
           },
-          { icon: "reset", value: wrong, label: "Câu cần luyện lại" },
+          { icon: "check", value: known, label: "Thẻ thuộc ở lần ôn gần nhất" },
         ].map((stat) => (
           <div className="stat-card" key={stat.label}>
             <span className="stat-icon">
@@ -135,8 +135,7 @@ export default function ProgressDashboard() {
           <div className="divider" />
           <h3 style={{ fontSize: 14 }}>Hoạt động 7 ngày gần đây</h3>
           <p className="small muted" style={{ marginTop: 6 }}>
-            Mỗi lần học một mục mới, trả lời câu hỏi hoặc đánh giá thẻ là một
-            lượt hoạt động.
+            Mỗi lần học một mục mới hoặc đánh giá thẻ là một lượt hoạt động.
           </p>
           <div className="activity-strip">
             {days.map((day, i) => (
@@ -151,39 +150,45 @@ export default function ProgressDashboard() {
           </div>
         </section>
         <section className="panel">
-          <h2 className="section-title">Phiên luyện tập gần đây</h2>
-          {state.quizHistory.length ? (
-            <div className="history-list">
-              {state.quizHistory
-                .slice(-5)
-                .reverse()
-                .map((entry, i) => (
-                  <div className="history-item" key={`${entry.date}:${i}`}>
-                    <div>
-                      <strong>
-                        {entry.lessonId === "all"
-                          ? "Luyện tập tổng hợp"
-                          : `${lessons.find((l) => l.id === entry.lessonId)?.level ?? ""} · Bài ${lessons.find((l) => l.id === entry.lessonId)?.number ?? "đã lưu"}`}
-                      </strong>
-                      <p>{new Date(entry.date).toLocaleDateString("vi-VN")}</p>
-                    </div>
-                    <span>
-                      {entry.correct}/{entry.total}
-                    </span>
+          <h2 className="section-title">Bộ thẻ của bạn</h2>
+          <p className="muted small">
+            Số thẻ bạn chọn “Thuộc” ở lần ôn gần nhất. Hãy ôn lại khi đến hạn để
+            nhớ lâu hơn.
+          </p>
+          <div className="history-list">
+            {(["vocabulary", "kanji", "grammar"] as const).map((type) => {
+              const ids = lessons.flatMap((lesson) =>
+                lesson[type].map((item) => item.id),
+              );
+              const count = ids.filter(
+                (id) => state.progress[id]?.reps > 0,
+              ).length;
+              const dueCount = ids.filter(
+                (id) => state.progress[id]?.due <= now,
+              ).length;
+              return (
+                <div className="history-item" key={type}>
+                  <div>
+                    <Link href={`/review?deck=${type}`}>
+                      <strong>{labels[type]}</strong>
+                    </Link>
+                    <p>
+                      {ready
+                        ? `${dueCount} thẻ đến hạn · ${ids.length - count} thẻ mới / chưa thuộc`
+                        : "Đang tải…"}
+                    </p>
                   </div>
-                ))}
-            </div>
-          ) : (
-            <p className="muted small">
-              Hoàn thành một phiên luyện tập để xem kết quả tại đây.
-            </p>
-          )}
+                  <span>{ready ? `${count}/${ids.length}` : "—"}</span>
+                </div>
+              );
+            })}
+          </div>
           <Link
             className="btn btn-soft btn-small"
             style={{ marginTop: 22 }}
-            href="/quiz"
+            href="/review"
           >
-            Luyện tập ngay
+            Ôn tập thẻ ngay
             <Icon name="arrow" size={16} />
           </Link>
         </section>

@@ -2,7 +2,7 @@
 import Link from "next/link";
 import Icon from "./Icon";
 import Furigana from "./Furigana";
-import { cardIds, lessons, lessonHref, questions } from "@/lib/catalog";
+import { cardIds, lessons, lessonHref } from "@/lib/catalog";
 import { useStudy } from "@/lib/use-study";
 import { getStreak } from "@/lib/storage";
 
@@ -12,7 +12,7 @@ export default function HomeDashboard() {
     lessons.find((lesson) => lesson.id === state.lastLesson) ?? lessons[0];
   const due = cardIds.filter((id) => state.progress[id]?.due <= now).length;
   const learned = cardIds.filter((id) => state.learned.includes(id)).length;
-  const wrong = questions.filter((q) => state.wrong.includes(q.id)).length;
+  const known = cardIds.filter((id) => state.progress[id]?.reps > 0).length;
   const currentIds = current
     ? [...current.vocabulary, ...current.kanji, ...current.grammar].map(
         (item) => item.id,
@@ -44,10 +44,10 @@ export default function HomeDashboard() {
       href: "/progress",
     },
     {
-      value: wrong,
-      label: "Câu cần luyện lại",
-      icon: "reset",
-      href: "/quiz?mode=wrong",
+      value: known,
+      label: "Thẻ thuộc ở lần ôn gần nhất",
+      icon: "check",
+      href: "/review",
     },
   ];
   return (
@@ -75,8 +75,8 @@ export default function HomeDashboard() {
             Tiếng Nhật gần hơn.
           </h2>
           <p>
-            Học có lộ trình, luyện trong ngữ cảnh và ôn lại đúng lúc. Một không
-            gian yên tĩnh cho hành trình của bạn.
+            Học từ vựng, nhớ kanji và ôn lại bằng thẻ mỗi ngày. Một không gian
+            yên tĩnh cho hành trình của bạn.
           </p>
           <div className="button-row">
             <Link
@@ -199,8 +199,8 @@ export default function HomeDashboard() {
               desc: "Đọc ví dụ và tự thử hiểu trước khi xem bản dịch.",
             },
             {
-              title: "Luyện để hiểu sâu hơn",
-              desc: "Làm bài tập, xem giải thích và quay lại điểm còn vướng.",
+              title: "Nhớ từ vựng và kanji",
+              desc: "Lật thẻ, chọn Thuộc hoặc Chưa thuộc rồi ôn lại thẻ còn vướng.",
             },
           ].map((step, i) => (
             <div className="session-step" key={step.title}>
@@ -231,10 +231,10 @@ export default function HomeDashboard() {
             desc: "Cách dùng & các mẫu dễ nhầm",
           },
           {
-            href: "/quiz?mode=wrong",
-            icon: "reset",
-            title: "Học từ những câu sai",
-            desc: "Thử lại những điều còn vướng",
+            href: "/review?deck=kanji",
+            icon: "cards",
+            title: "Nhớ kanji bằng thẻ",
+            desc: "Ôn mặt chữ, cách đọc và từ ghép",
           },
         ].map((item) => (
           <Link className="quick-link" href={item.href} key={item.href}>

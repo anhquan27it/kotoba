@@ -1670,20 +1670,10 @@ summary:focus-visible {
   color: #b5846b;
   border-color: #efd8cd;
 }
-.rating-hard {
-  background: #fcf7e9;
-  color: #b39a59;
-  border-color: #eee3bf;
-}
 .rating-good {
   background: #edf4e8;
   color: #64864e;
   border-color: #d5e4c9;
-}
-.rating-easy {
-  background: #edf3f6;
-  color: #628792;
-  border-color: #d6e3e8;
 }
 .flashcard-help {
   font-size: 11px;
@@ -2664,6 +2654,7 @@ rt {
 }
 .reading-body .jp {
   font-size: 22px;
+  white-space: pre-line;
 }
 .reading-passage.compact .jp {
   font-size: 21px;
@@ -2723,5 +2714,355 @@ rt {
 @media (max-width: 900px) {
   .app-topbar > span:first-child {
     font-size: 10px;
+  }
+}
+
+/* Flashcard: spacious cards and two clear recall choices. */
+.main-content:has(.review-session) {
+  padding-top: 24px;
+}
+.review-session {
+  max-width: 960px;
+  margin: 0 auto;
+}
+.review-session-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+.review-session-heading h1 {
+  font-size: 32px;
+  margin-top: 6px;
+}
+.review-session .session-header {
+  font-size: 15px;
+  flex-wrap: wrap;
+}
+.review-session .session-header strong {
+  color: var(--green);
+}
+.review-session .session-progress {
+  margin-bottom: 16px;
+}
+.review-session .flashcard {
+  min-height: clamp(360px, 50vh, 460px);
+  padding: 64px 44px 56px;
+  border-radius: 26px;
+  box-shadow: 0 12px 40px #3048290b;
+  transition:
+    border-color 0.2s,
+    box-shadow 0.2s;
+}
+.review-session .flashcard:hover {
+  border-color: #b2c3a5;
+  box-shadow: 0 14px 42px #30482912;
+}
+.flashcard-label {
+  font-size: 12px;
+  top: 24px;
+  left: 28px;
+}
+.flashcard-flip {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  border-radius: inherit;
+  background: transparent;
+  cursor: pointer;
+  color: inherit;
+}
+.flashcard-flip:focus-visible {
+  outline: 3px solid var(--green);
+  outline-offset: 5px;
+}
+.flashcard-flip-hint {
+  position: absolute;
+  bottom: 24px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  color: var(--muted);
+}
+.review-session .flashcard-front {
+  font-size: clamp(52px, 6vw, 84px);
+  line-height: 1.5;
+  overflow-wrap: anywhere;
+}
+.review-session .flashcard-kanji {
+  font-size: clamp(104px, 10vw, 144px);
+}
+.review-session .flashcard-front .ruby-text,
+.review-session .flashcard-answer-jp .ruby-text,
+.review-session .flashcard-answer-word .ruby-text {
+  line-height: 1.6;
+}
+.review-session .flashcard-grammar,
+.review-session .flashcard-meaning {
+  font-size: clamp(30px, 3.5vw, 48px);
+  line-height: 1.6;
+}
+.flashcard-prompt {
+  font-size: 16px;
+  color: var(--muted);
+  margin-top: 22px;
+}
+.review-session .flashcard-back h2 {
+  font-size: clamp(30px, 3.2vw, 42px);
+  line-height: 1.5;
+  overflow-wrap: anywhere;
+}
+.review-session .flashcard-back .flashcard-answer-jp {
+  font-size: clamp(44px, 5vw, 68px);
+}
+.review-session .flashcard-back .flashcard-answer-word {
+  font-size: 36px;
+  line-height: 1.5;
+  margin-top: 16px;
+}
+.review-session .flashcard-back .reading {
+  font-size: 28px;
+  color: var(--green);
+  margin-top: 6px;
+}
+.review-session .flashcard-back .flashcard-answer-translation {
+  font-size: 26px;
+}
+.review-session .flashcard-back .flashcard-hanviet {
+  font-size: 18px;
+  color: var(--muted);
+}
+.flashcard-readings {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+.flashcard-readings dt {
+  font-size: 13px;
+  font-weight: 650;
+  color: var(--muted);
+  margin-bottom: 6px;
+}
+.flashcard-readings dd {
+  font-size: 24px;
+  overflow-wrap: anywhere;
+}
+.review-session .flashcard-back .flashcard-explanation {
+  font-size: 18px;
+  line-height: 1.9;
+}
+.flashcard-examples {
+  display: grid;
+  gap: 14px;
+  margin-top: 24px;
+}
+.flashcard-examples.is-kanji {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+.flashcard-examples .example {
+  margin: 0;
+  padding: 16px 20px;
+  border-radius: 14px;
+  background: #f5f8ef;
+  overflow-wrap: anywhere;
+}
+.review-session .flashcard-examples .example .jp {
+  font-size: 24px;
+  line-height: 2;
+}
+.review-session .flashcard-examples .example .flashcard-compound-reading {
+  font-size: 17px;
+  color: var(--green);
+  line-height: 1.7;
+}
+.flashcard-examples .translation {
+  font-size: 16px;
+  line-height: 1.8;
+}
+.review-session .ratings {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+  margin-top: 24px;
+}
+.review-session .rating-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  min-height: 76px;
+  padding: 18px 22px;
+}
+.review-session .rating-button strong {
+  font-size: 21px;
+}
+.review-session .rating-again {
+  color: #9c543c;
+}
+.review-session .rating-good {
+  color: #396953;
+}
+.review-session .rating-button:disabled {
+  opacity: 0.45;
+  cursor: default;
+  transform: none;
+}
+.review-session .rating-button:not(:disabled):hover {
+  border-color: currentColor;
+}
+.rating-button kbd {
+  margin-left: auto;
+  opacity: 0.65;
+}
+.flashcard-shortcuts,
+.review-remaining {
+  font-size: 13px;
+  color: var(--muted);
+  text-align: center;
+  margin-top: 12px;
+}
+.flashcard-shortcuts kbd,
+.rating-button kbd {
+  font-family: inherit;
+  font-size: 12px;
+  padding: 2px 6px;
+  border: 1px solid currentColor;
+  border-radius: 5px;
+}
+.review-decks {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+}
+.review-deck {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 9px;
+  text-align: left;
+  padding: 20px 16px;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: white;
+  color: var(--muted);
+}
+.review-deck strong {
+  color: var(--ink);
+  font-size: 17px;
+}
+.review-deck span {
+  font-size: 13px;
+}
+.review-deck.active,
+.review-deck:hover {
+  background: #f1f7e9;
+  border-color: #8cae78;
+  color: var(--green);
+}
+.review-shuffle {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
+.review-shuffle input {
+  accent-color: var(--green);
+  width: 18px;
+  height: 18px;
+}
+.review-guide h2 {
+  font-size: 24px;
+  line-height: 1.5;
+}
+.review-guide ol {
+  padding-left: 22px;
+  font-size: 15px;
+  line-height: 1.9;
+  margin: 22px 0;
+}
+.review-guide li {
+  margin-bottom: 18px;
+}
+.review-empty {
+  font-size: 14px;
+  line-height: 1.9;
+  color: var(--muted);
+  margin-top: 16px;
+}
+.review-summary .button-row {
+  justify-content: center;
+}
+.review-summary-note {
+  margin-top: 16px !important;
+}
+@media (max-width: 600px) {
+  .review-session-heading h1 {
+    font-size: 27px;
+  }
+  .review-session .session-header {
+    font-size: 13px;
+  }
+  .review-session .flashcard {
+    min-height: 380px;
+    padding: 56px 20px;
+    border-radius: 20px;
+  }
+  .flashcard-label {
+    left: 20px;
+    top: 20px;
+    font-size: 11px;
+  }
+  .flashcard-prompt {
+    font-size: 14px;
+  }
+  .review-session .flashcard-back .flashcard-answer-word {
+    font-size: 30px;
+  }
+  .review-session .flashcard-back .reading {
+    font-size: 24px;
+  }
+  .flashcard-readings {
+    gap: 18px;
+  }
+  .flashcard-readings dd {
+    font-size: 21px;
+  }
+  .flashcard-examples.is-kanji {
+    grid-template-columns: 1fr;
+  }
+  .flashcard-examples .example {
+    padding: 14px 16px;
+  }
+  .review-session .flashcard-examples .example .jp {
+    font-size: 22px;
+  }
+  .review-session .ratings {
+    gap: 12px;
+  }
+  .review-session .rating-button {
+    min-height: 66px;
+    padding: 16px 10px;
+    gap: 8px;
+  }
+  .review-session .rating-button strong {
+    font-size: 18px;
+  }
+  .rating-button kbd {
+    display: none;
+  }
+  .review-decks {
+    gap: 8px;
+  }
+  .review-deck {
+    padding: 16px 10px;
+  }
+  .review-deck strong {
+    font-size: 15px;
   }
 }

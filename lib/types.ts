@@ -92,6 +92,7 @@ export interface ReadingPassage {
 
 export interface ReferenceTable {
   title: string;
+  resultLabel?: string;
   rows: { tense: string; type: string; polite: string; plain: string }[];
 }
 
