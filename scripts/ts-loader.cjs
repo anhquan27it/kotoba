@@ -9,6 +9,7 @@ function load(relativePath) {
     filename = fs.existsSync(filename + ".ts")
       ? filename + ".ts"
       : path.join(filename, "index.ts");
+  if (path.extname(filename) === ".json") return require(filename);
   if (cache.has(filename)) return cache.get(filename).exports;
   const module = { exports: {} };
   cache.set(filename, module);
@@ -16,6 +17,7 @@ function load(relativePath) {
     compilerOptions: {
       module: ts.ModuleKind.CommonJS,
       target: ts.ScriptTarget.ES2020,
+      esModuleInterop: true,
     },
   });
   const localRequire = (request) =>

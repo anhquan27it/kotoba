@@ -13,6 +13,7 @@
     "check:content": "node scripts/check-content.cjs",
     "test": "node --test tests/study.test.cjs",
     "generate:readings": "node scripts/generate-readings.cjs",
+    "generate:audio": "node scripts/generate-audio.cjs",
     "predev": "npm run generate:readings",
     "prebuild": "npm run generate:readings",
     "format": "prettier --write app components lib data/lessons templates scripts tests docs README.md AGENTS.md",

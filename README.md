@@ -1,6 +1,6 @@
 # Kotoba · Góc học tiếng Nhật
 
-Ứng dụng tự học cá nhân xây bằng Next.js 15, React 19 và TypeScript. Học theo cấp độ và từng bài: từ vựng, kanji, ngữ pháp, đọc hiểu và flashcard. Hiện có các bài N4 số 15, 16 và 17; phần nghe được để sau.
+Ứng dụng tự học cá nhân xây bằng Next.js 15, React 19 và TypeScript. Học theo cấp độ và từng bài: từ vựng, kanji, ngữ pháp, đọc hiểu và flashcard. Hiện có các bài N4 số 15, 16 và 17, kèm phát âm từ vựng và từ mẫu kanji; bài tập nghe hiểu được để sau.
 
 ## Chạy web
 
@@ -41,6 +41,7 @@ Tiến độ lưu riêng theo thiết bị và địa chỉ web. Để chuyển 
 - Giao diện thích ứng với máy tính và điện thoại, tông kem/xanh dịu, hỗ trợ bàn phím và giảm chuyển động.
 - Phông Noto Sans cho tiếng Việt và Noto Sans JP cho tiếng Nhật lưu ngay trong dự án. Phông Nhật chia theo vùng Unicode để trình duyệt chỉ tải phần cần dùng. Giấy phép OFL ở `public/fonts/`.
 - Cỡ chữ học lớn, hiragana phía trên kanji khi học nội dung và xem ví dụ. Nút **Ẩn/Hiện cách đọc** ở đầu trang áp dụng cả hai mặt flashcard và nhớ lựa chọn trên thiết bị.
+- Nút **Nghe** cạnh từng từ vựng và từ mẫu kanji, cả trong flashcard. Các file MP3 tiếng Nhật lưu cùng web, người học không cần cài giọng đọc hay ứng dụng. File chỉ tải khi nhấn nghe, nên cần mạng nếu trình duyệt chưa lưu file vào bộ nhớ đệm. Nhấn **Dừng** để ngừng, hoặc nhấn nghe từ khác để chuyển. Âm thanh là giọng tổng hợp Nanami, tạo từ cách đọc kana đã đối chiếu; đây không phải bản thu âm của giáo trình.
 - Thư viện theo cấp độ, tìm bài và tra cứu kiến thức.
 - Mỗi bài có mục tiêu, từ vựng, kanji, ngữ pháp và đoạn đọc. Ngữ pháp có bảng kết hợp, cách phân biệt và lỗi thường gặp.
 - Đánh dấu nội dung đã học; thêm riêng thẻ vào ôn tập; bản dịch có thể ẩn/hiện.
@@ -54,7 +55,7 @@ Tiến độ lưu riêng theo thiết bị và địa chỉ web. Để chuyển 
 
 Xem `docs/ADDING_LESSONS.md` và `templates/lesson.template.ts`. Mỗi bài có một tệp nội dung, đăng ký tại `data/lessons/index.ts`. Giao diện và các bộ lọc tự cập nhật từ danh sách này.
 
-Bài 16 có 39 mục từ vựng, 10 kanji, 6 mẫu ngữ pháp và 3 đoạn đọc. Bài 17 có 34 mục từ vựng, 11 kanji, 7 mẫu ngữ pháp, bảng kết hợp với んです và 3 đoạn đọc. Nội dung lấy từ hai PDF chương 16–17 do người học cung cấp; nguồn từng bài ghi rõ các phần biên soạn bổ sung.
+Bài 15 có 46 mục từ vựng, 8 kanji, 6 mẫu ngữ pháp và 3 đoạn đọc đầy đủ. Bài 16 có 39 mục từ vựng, 10 kanji, 6 mẫu ngữ pháp và 3 đoạn đọc. Bài 17 có 34 mục từ vựng, 11 kanji, 7 mẫu ngữ pháp, bảng kết hợp với んです và 3 đoạn đọc. Cả ba bài đã được rà soát với PDF người học cung cấp ngày 05/10/2026; nguồn từng bài ghi rõ các phần biên soạn bổ sung và hiệu chỉnh. Xem [biên bản rà soát](docs/CONTENT_AUDIT_15_16_17.md) để biết các sửa đổi và giới hạn kiểm chứng.
 
 Khi có PDF hoặc nội dung bài tiếp theo, chỉ cần nhập nội dung theo mẫu; không cần tạo thêm trang hay viết lại logic học.
 
@@ -71,7 +72,7 @@ lib/review.ts          Chọn bộ thẻ và lặp lại thẻ chưa thuộc tro
 lib/practice.ts        Xáo trộn, chuẩn hóa tìm kiếm, tiện ích câu hỏi cũ
 lib/validate-content.ts Kiểm tra chất lượng cấu trúc dữ liệu
  data/lessons/           Mỗi tệp là một bài học
- data/vocabulary.ts     Dữ liệu gốc của bài 15, giữ tương thích
+ data/vocabulary.ts     Export tương thích, đọc lại bài 15 từ data/lessons/
  data/kanji.ts
  data/grammar.ts
  data/questions.ts

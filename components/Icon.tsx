@@ -65,6 +65,13 @@ const paths: Record<string, React.ReactNode> = {
   ),
   close: <path d="m6 6 12 12M18 6 6 18" />,
   menu: <path d="M4 6h16M4 12h16M4 18h16" />,
+  speaker: (
+    <>
+      <path d="m11 4-6 5H2v6h3l6 5Z" />
+      <path d="M15 8a6 6 0 0 1 0 8M18 5a10 10 0 0 1 0 14" />
+    </>
+  ),
+  stop: <rect x="6" y="6" width="12" height="12" rx="2" />,
 };
 export default function Icon({
   name,

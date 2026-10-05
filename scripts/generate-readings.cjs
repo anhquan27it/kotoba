@@ -66,12 +66,18 @@ kuromoji
     const unknown = new Set();
     const map = {};
     // Match explicit words before tokenization, including counters and proper names.
-    const customWords = Object.keys(overrides)
+    const customWords = [...explicit.keys()]
       .filter((word) => hasKanji(word) && word.length > 1)
       .sort((a, b) => b.length - a.length);
     const pattern = new RegExp(
       customWords
-        .map((word) => word.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"))
+        .map((word) => {
+          const escaped = word.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+          // A verified 1日 must not match the tail of 11日, for example.
+          return /^[0-9０-９]/u.test(word)
+            ? `(?<![0-9０-９])${escaped}`
+            : escaped;
+        })
         .join("|"),
       "gu",
     );
@@ -81,7 +87,11 @@ kuromoji
       for (const token of tokenizer.tokenize(text)) {
         const start = text.indexOf(token.surface_form, offset);
         if (start > offset) result.push({ text: text.slice(offset, start) });
-        const reading = explicit.get(token.surface_form) || token.reading;
+        // Single-kanji headings give one reference reading (日: にち).
+        // They must not override that character's contextual reading in prose.
+        const reading =
+          (token.surface_form.length > 1 && explicit.get(token.surface_form)) ||
+          token.reading;
         if (hasKanji(token.surface_form) && !reading)
           unknown.add(token.surface_form);
         result.push(

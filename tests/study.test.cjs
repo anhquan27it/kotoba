@@ -12,6 +12,160 @@ const { selectReviewCards, createReviewSession, advanceReviewSession } =
 const storage = load("lib/storage");
 const { hasKanji, splitReading, toHiragana } = load("lib/furigana");
 const readings = require("../data/readings.json");
+const { pronunciationText, pronunciationKey, createPronunciationPlayer } =
+  load("lib/pronunciation");
+const { pronunciationAudioUrl } = load("lib/pronunciation-audio");
+const audioManifest = require("../data/pronunciation-audio.json");
+const { checkAudio } = require("../scripts/check-audio.cjs");
+
+test("pronunciation uses verified kana for every vocabulary word and kanji example", () => {
+  assert.equal(pronunciationText("（お）はなみ"), "おはなみ");
+  assert.equal(pronunciationText("ゆうしょう（する）"), "ゆうしょうする");
+  assert.equal(pronunciationText("～し"), "し");
+  assert.equal(pronunciationText("～えんする"), "えんする");
+  assert.equal(pronunciationText("エイプリル・フール"), "えいぷりるふーる");
+  assert.equal(pronunciationText("ｶﾞｿﾘﾝ"), "がそりん");
+  for (const lesson of lessonSources) {
+    const entries = [
+      ...lesson.vocabulary,
+      ...lesson.kanji.flatMap((kanji) => kanji.examples),
+    ];
+    for (const entry of entries) {
+      assert.ok(
+        entry.reading,
+        `Missing pronunciation: ${entry.word || entry.jp}`,
+      );
+      assert.match(pronunciationText(entry.reading), /^[ぁ-ゖー]+$/u);
+    }
+  }
+});
+
+test("all vocabulary and kanji examples have intact static MP3 files", () => {
+  assert.deepEqual(checkAudio(lessonSources, audioManifest), []);
+  assert.ok(checkAudio(lessonSources, { clips: {} }).length);
+  const [key, clip] = Object.entries(audioManifest.clips)[0];
+  const corrupt = {
+    ...audioManifest,
+    clips: { ...audioManifest.clips, [key]: { ...clip, sha256: "invalid" } },
+  };
+  assert.ok(
+    checkAudio(lessonSources, corrupt).some((error) => /Corrupt/.test(error)),
+  );
+});
+
+test("audio URLs work at the domain root and under a GitHub Pages base path", () => {
+  const [key, clip] = Object.entries(audioManifest.clips)[0];
+  assert.equal(pronunciationKey(clip.text, clip.reading), key);
+  assert.equal(
+    pronunciationAudioUrl(clip.text, clip.reading, ""),
+    `/audio/pronunciation/${clip.file}`,
+  );
+  assert.equal(
+    pronunciationAudioUrl(clip.text, clip.reading, "/kotoba"),
+    `/kotoba/audio/pronunciation/${clip.file}`,
+  );
+  assert.equal(pronunciationAudioUrl("未登録", "みとうろく"), undefined);
+  assert.notEqual(
+    pronunciationKey("橋", "はし"),
+    pronunciationKey("箸", "はし"),
+  );
+});
+
+function mockAudio() {
+  const clips = [];
+  const player = createPronunciationPlayer((src) => {
+    let resolve, reject;
+    const ready = new Promise((yes, no) => {
+      resolve = yes;
+      reject = no;
+    });
+    const clip = {
+      src,
+      pauses: 0,
+      resolve: () => resolve(),
+      reject: (error) => reject(error),
+      play: () => ready,
+      pause() {
+        this.pauses++;
+        this.onpause?.();
+      },
+    };
+    clips.push(clip);
+    return clip;
+  });
+  return { player, clips };
+}
+
+test("MP3 playback replaces previous clips and ignores late events and old cleanup", async () => {
+  const audio = mockAudio();
+  const first = [],
+    second = [];
+  const stopFirst = audio.player.play("/first.mp3", (state) =>
+    first.push(state),
+  );
+  assert.equal(audio.clips[0].src, "/first.mp3");
+  assert.equal(audio.clips[0].preload, "none");
+  assert.equal(first.at(-1).status, "loading");
+  audio.clips[0].resolve();
+  await Promise.resolve();
+  assert.equal(first.at(-1).status, "playing");
+  const lateError = audio.clips[0].onerror;
+  const lateEnd = audio.clips[0].onended;
+  const stopSecond = audio.player.play("/second.mp3", (state) =>
+    second.push(state),
+  );
+  assert.equal(audio.clips[0].pauses, 1);
+  assert.deepEqual(
+    first.map((state) => state.status),
+    ["loading", "playing", "idle"],
+  );
+  lateError();
+  lateEnd();
+  stopFirst();
+  assert.equal(audio.clips[1].pauses, 0);
+  assert.deepEqual(
+    second.map((state) => state.status),
+    ["loading"],
+  );
+  stopSecond();
+  audio.clips[1].reject({ name: "AbortError" });
+  await Promise.resolve();
+  assert.deepEqual(
+    second.map((state) => state.status),
+    ["loading", "idle"],
+  );
+});
+
+test("MP3 playback reports completion, rejected play and network failure", async () => {
+  const audio = mockAudio();
+  const finished = [];
+  audio.player.play("/first.mp3", (state) => finished.push(state));
+  audio.clips[0].onplaying();
+  audio.clips[0].resolve();
+  await Promise.resolve();
+  audio.clips[0].onended();
+  assert.deepEqual(
+    finished.map((state) => state.status),
+    ["loading", "playing", "idle"],
+  );
+  const blocked = [];
+  audio.player.play("/second.mp3", (state) => blocked.push(state));
+  audio.clips[1].reject({ name: "NotAllowedError" });
+  await Promise.resolve();
+  assert.equal(blocked.at(-1).status, "error");
+  assert.match(blocked.at(-1).message, /chặn âm thanh/);
+  assert.equal(audio.clips[1].pauses, 1);
+  const failed = [];
+  audio.player.play("/third.mp3", (state) => failed.push(state));
+  audio.clips[2].onerror();
+  audio.clips[2].reject({ name: "NotSupportedError" });
+  await Promise.resolve();
+  assert.deepEqual(
+    failed.map((state) => state.status),
+    ["loading", "error"],
+  );
+  assert.equal(audio.clips[2].pauses, 1);
+});
 
 test("exported detail URLs work as Windows paths without changing progress IDs", () => {
   const ids = [...catalog.cardIds, "bài:日本語:50%~x.*"];
@@ -75,6 +229,62 @@ test("lesson content has valid answers, complete reading passages and resolvable
     for (const target of q.targetIds || [])
       assert.ok(catalog.findContent(target));
   }
+});
+test("verified compound and contextual furigana survive sentence tokenization", () => {
+  const kana = (text) => {
+    assert.ok(readings[text], `Missing reading: ${text}`);
+    return readings[text].map((part) => part.reading || part.text).join("");
+  };
+  const cases = [
+    ["洗濯物が乾きました。", "せんたくものがかわきました。"],
+    ["留守の間に電話がありました。", "るすのあいだにでんわがありました。"],
+    [
+      "昼ご飯の後で、少し昼寝をしました。",
+      "ひるごはんのあとで、すこしひるねをしました。",
+    ],
+    [
+      "先生、今お時間よろしいですか。",
+      "せんせい、いまおじかんよろしいですか。",
+    ],
+    ["カットだけで１万円もします。", "カットだけでいちまんえんもします。"],
+  ];
+  for (const [text, expected] of cases) assert.equal(kana(text), expected);
+  const lesson16 = lessonSources.find((lesson) => lesson.id === "n4-16");
+  const email = lesson16.passages.find((p) => p.id === "farewell-email");
+  assert.match(kana(email.paragraphs[3]), /ひまなひ/);
+  assert.match(kana(email.paragraphs[3]), /さんかできるひ/);
+  assert.equal(kana("日"), "にち"); // A reference reading stays valid on the heading.
+  const lesson15 = lessonSources.find((lesson) => lesson.id === "n4-15");
+  const bus = lesson15.grammar.find((g) => g.id === "g-15-05");
+  assert.match(kana(bus.examples[3].jp), /いちにちにごほん/);
+  const ramen = lesson15.passages.find((p) => p.id === "ramen");
+  assert.match(kana(ramen.paragraphs[1]), /ほかのラーメン/);
+  const movieQuestion = lessonSources
+    .find((lesson) => lesson.id === "n4-17")
+    .questions.find((q) => q.id === "q-r-17-01");
+  assert.match(kana(movieQuestion.prompt), /^ふたりが/);
+});
+
+test("chapter 15 compatibility exports cannot drift from its canonical lesson", () => {
+  const lesson15 = lessonSources.find((lesson) => lesson.id === "n4-15");
+  assert.strictEqual(load("data/vocabulary").vocabulary, lesson15.vocabulary);
+  assert.strictEqual(load("data/kanji").kanji, lesson15.kanji);
+  assert.strictEqual(load("data/grammar").grammar, lesson15.grammar);
+  assert.strictEqual(
+    load("data/grammar").plainFormTables,
+    lesson15.referenceTables,
+  );
+  assert.strictEqual(load("data/questions").questions, lesson15.questions);
+});
+
+test("validator rejects missing or blank paragraph translations when provided", () => {
+  const lesson = structuredClone(lessonSources[0]);
+  lesson.passages[0].translation = [];
+  assert.ok(validateLessons([lesson]).some((e) => e.includes("bản dịch")));
+  lesson.passages[0].translation = [" "];
+  assert.ok(validateLessons([lesson]).some((e) => e.includes("bản dịch")));
+  delete lesson.passages[0].translation;
+  assert.deepEqual(validateLessons([lesson]), []);
 });
 test("future lessons scope IDs independently even when local item IDs overlap", () => {
   assert.notEqual(

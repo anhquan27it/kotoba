@@ -16,6 +16,7 @@ import {
 import Flashcard from "./Flashcard";
 import Icon from "./Icon";
 import Furigana from "./Furigana";
+import PronunciationButton from "./PronunciationButton";
 import type { StudyItem } from "./ContentCard";
 
 interface Card {
@@ -48,6 +49,9 @@ function CardFront({
           item.meaning
         )}
       </h2>
+      {direction === "ja-vi" && "word" in item && (
+        <PronunciationButton text={item.word} reading={item.reading} />
+      )}
       <p className="flashcard-prompt">
         {direction === "vi-ja"
           ? "Nhớ cách viết và cách đọc tiếng Nhật"
@@ -98,6 +102,9 @@ function CardBack({
           {item.reading}
         </p>
       )}
+      {"word" in item && (
+        <PronunciationButton text={item.word} reading={item.reading} />
+      )}
       {direction === "vi-ja" && (
         <p className="flashcard-answer-translation">{item.meaning}</p>
       )}
@@ -133,9 +140,15 @@ function CardBack({
                 <Furigana text={example.jp} reading={example.reading} />
               </p>
               {example.reading && "char" in item && (
-                <p className="flashcard-compound-reading jp" lang="ja">
-                  {example.reading}
-                </p>
+                <>
+                  <p className="flashcard-compound-reading jp" lang="ja">
+                    {example.reading}
+                  </p>
+                  <PronunciationButton
+                    text={example.jp}
+                    reading={example.reading}
+                  />
+                </>
               )}
               <p className="translation">{example.vi}</p>
             </div>

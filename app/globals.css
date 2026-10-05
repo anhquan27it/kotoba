@@ -1136,6 +1136,60 @@ summary:focus-visible {
   color: #84907b;
   margin-top: 4px;
 }
+.pronunciation-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px 14px;
+}
+.pronunciation-row > .jp {
+  min-width: 0;
+}
+.pronunciation-control {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  max-width: 100%;
+  vertical-align: middle;
+}
+.pronunciation-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  min-height: 44px;
+  padding: 8px 12px;
+  border: 1px solid #cddbbf;
+  border-radius: 10px;
+  background: #f3f7ed;
+  color: var(--green);
+  font-family: inherit;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.4;
+  cursor: pointer;
+}
+.pronunciation-button:hover,
+.pronunciation-button.is-playing {
+  background: #e5efda;
+  border-color: #a4bc90;
+}
+.pronunciation-button:focus-visible {
+  outline: 3px solid var(--green);
+  outline-offset: 3px;
+}
+.pronunciation-message {
+  flex-basis: 100%;
+  max-width: 360px;
+  color: #9b3f30;
+  font-size: 13px;
+  line-height: 1.65;
+  text-align: left;
+  text-transform: none;
+  letter-spacing: normal;
+  overflow-wrap: anywhere;
+}
 .word-meaning {
   font-size: 12px;
   color: #687869;
@@ -2778,6 +2832,14 @@ rt {
 .flashcard-flip:focus-visible {
   outline: 3px solid var(--green);
   outline-offset: 5px;
+}
+.flashcard-content {
+  position: relative;
+  z-index: 1;
+  pointer-events: none;
+}
+.flashcard-content .pronunciation-button {
+  pointer-events: auto;
 }
 .flashcard-flip-hint {
   position: absolute;

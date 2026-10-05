@@ -1,0 +1,1538 @@
+{
+  "version": 1,
+  "source": "Microsoft Edge online text-to-speech; synthesized audio, not textbook recordings",
+  "voice": "ja-JP-NanamiNeural",
+  "rate": "-10%",
+  "format": "audio-24khz-48kbitrate-mono-mp3",
+  "generator": "edge-tts 7.2.8",
+  "clips": {
+    "[\"(お)花見\",\"おはなみ\"]": {
+      "text": "（お）花見",
+      "reading": "おはなみ",
+      "file": "8f43c2d76d2820a3308336d2.mp3",
+      "durationMs": 1872,
+      "bytes": 11232,
+      "sha256": "b3130dedc4a7d87912cdb0ed4cc177e323c455ce84c7145ed71f5b29e81146ad"
+    },
+    "[\"~円する\",\"えんする\"]": {
+      "text": "～円する",
+      "reading": "えんする",
+      "file": "c9d881ecd5f97456bacbe6db.mp3",
+      "durationMs": 1824,
+      "bytes": 10944,
+      "sha256": "cb5f469492b5d0709f036f532cf121ead06f59c59991d2a3d4143564e8534170"
+    },
+    "[\"~市\",\"し\"]": {
+      "text": "～市",
+      "reading": "し",
+      "file": "7e94ca87f4bc5c2e877f98d9.mp3",
+      "durationMs": 1872,
+      "bytes": 11232,
+      "sha256": "03a3012efdb57fe73c6a81451117575fb12bfacdf964fa0c20e59b5020b05dc2"
+    },
+    "[\"おかえり(なさい)\",\"おかえりなさい\"]": {
+      "text": "おかえり（なさい）",
+      "reading": "おかえりなさい",
+      "file": "7e821b259180607a7481c0e0.mp3",
+      "durationMs": 2184,
+      "bytes": 13104,
+      "sha256": "947b65ccc8e01e0c5a06994a5ec73adb3fc13c77f5e6a9f88152b25a37b41712"
+    },
+    "[\"お大事に\",\"おだいじに\"]": {
+      "text": "お大事に",
+      "reading": "おだいじに",
+      "file": "73e9a83036df9e68ca958c51.mp3",
+      "durationMs": 1920,
+      "bytes": 11520,
+      "sha256": "1a5f51bb9b8bc5858584fe38b70a11a7060dc9210f731e8d922215c6298b593b"
+    },
+    "[\"お正月\",\"おしょうがつ\"]": {
+      "text": "お正月",
+      "reading": "おしょうがつ",
+      "file": "c2250a86762edfcff75902d5.mp3",
+      "durationMs": 2040,
+      "bytes": 12240,
+      "sha256": "3491d74276d60bf9944f82ae2ffc124597ea7b48dcef0309ee068a47924c04f2"
+    },
+    "[\"お皿\",\"おさら\"]": {
+      "text": "お皿",
+      "reading": "おさら",
+      "file": "831958d4655b5106685bfd95.mp3",
+      "durationMs": 1872,
+      "bytes": 11232,
+      "sha256": "5bea7eaf169f33ffdf4debc050819c026295f1bf2ba73b408c3ee2e1d45122a7"
+    },
+    "[\"お知らせ\",\"おしらせ\"]": {
+      "text": "お知らせ",
+      "reading": "おしらせ",
+      "file": "e553c28081c4ce9bd81cad31.mp3",
+      "durationMs": 1896,
+      "bytes": 11376,
+      "sha256": "2d3700c281574ca8bf191720c5a44f0d0e0615e0be0ae6f8ca89e9726f7e17c8"
+    },
+    "[\"お礼\",\"おれい\"]": {
+      "text": "お礼",
+      "reading": "おれい",
+      "file": "311eebf7b852bac2a95abaee.mp3",
+      "durationMs": 1872,
+      "bytes": 11232,
+      "sha256": "b7b28909c449157669dc9c562f8d186b25f14867d97152ca44c48ad8ad41a779"
+    },
+    "[\"きっと\",\"きっと\"]": {
+      "text": "きっと",
+      "reading": "きっと",
+      "file": "7991763aa16d0b769d60da7d.mp3",
+      "durationMs": 1872,
+      "bytes": 11232,
+      "sha256": "f56e86af46639a4948e747186776318baa24939948315ce58c6f3bbaa5066c7e"
+    },
+    "[\"こうやって\",\"こうやって\"]": {
+      "text": "こうやって",
+      "reading": "こうやって",
+      "file": "19123a51630a16a95bb5221a.mp3",
+      "durationMs": 1944,
+      "bytes": 11664,
+      "sha256": "3fea943e8855e12e62f3d723545ceaf4199c2e1a4f533baae9e496167dafa783"
+    },
+    "[\"しかも\",\"しかも\"]": {
+      "text": "しかも",
+      "reading": "しかも",
+      "file": "64a722ab82adae0afbc6bed5.mp3",
+      "durationMs": 1872,
+      "bytes": 11232,
+      "sha256": "1dbd9a21b18237b22cc39ddfdb32736d8cbfab3e72bfe896c422321cbf09efa8"
+    },
+    "[\"すぐに\",\"すぐに\"]": {
+      "text": "すぐに",
+      "reading": "すぐに",
+      "file": "b1f911cafba561816cc0ebca.mp3",
+      "durationMs": 1872,
+      "bytes": 11232,
+      "sha256": "f69fb27c6da3aecc3d5795124b1e425494e190e3c8c4969c5b99b221f7d9d997"
+    },
+    "[\"ただいま\",\"ただいま\"]": {
+      "text": "ただいま",
+      "reading": "ただいま",
+      "file": "3ebe3ce704cee10af564260d.mp3",
+      "durationMs": 1872,
+      "bytes": 11232,
+      "sha256": "4306413f70a46d5e1baadf524ddb7971ddd50a6a48028b3acd94b397271eb971"
+    },
+    "[\"だいぶ\",\"だいぶ\"]": {
+      "text": "だいぶ",
+      "reading": "だいぶ",
+      "file": "eb3ce0fe46932e8871193aeb.mp3",
+      "durationMs": 1872,
+      "bytes": 11232,
+      "sha256": "a749fa618057bb39e820463aafecdf6ca77cce97bcaa66a76788c7b339aba70f"
+    },
+    "[\"だから\",\"だから\"]": {
+      "text": "だから",
+      "reading": "だから",
+      "file": "ea2861831595221d571ba579.mp3",
+      "durationMs": 1872,
+      "bytes": 11232,
+      "sha256": "8f986fa306c81e1963e3c1df91cef8e370176973603613b36f5bb72cac5b1a0e"
+    },
+    "[\"できる\",\"できる\"]": {
+      "text": "できる",
+      "reading": "できる",
+      "file": "0ba9ad0ac4147582eeb22c01.mp3",
+      "durationMs": 1872,
+      "bytes": 11232,
+      "sha256": "bc03f52c7a9d41ef0c93a5e514677dd7a9b668f88a2f6284d1d2f1440efede15"
+    },
+    "[\"どうやって\",\"どうやって\"]": {
+      "text": "どうやって",
+      "reading": "どうやって",
+      "file": "925982f88cc049a4a3fb23c5.mp3",
+      "durationMs": 1968,
+      "bytes": 11808,
+      "sha256": "cd8e4ccf11fb54a65b93d9cd25496a7d2bd55682fdffc595e52adb8faaa4e71d"
+    },
+    "[\"なくなる\",\"なくなる\"]": {
+      "text": "なくなる",
+      "reading": "なくなる",
+      "file": "858b0e7337068f572639d849.mp3",
+      "durationMs": 1872,
+      "bytes": 11232,
+      "sha256": "6ee2e97a3a57880fdb9e4a88d85af7a637c779dcc85a23cad2833b0668c439bc"
+    },
+    "[\"なんで\",\"なんで\"]": {
+      "text": "なんで",
+      "reading": "なんで",
+      "file": "95d21fe054c27a2a7d899c66.mp3",
+      "durationMs": 1872,
+      "bytes": 11232,
+      "sha256": "01626ff8eb3f2c4b31514ea8113e8a7099f95decf11e20c035dd16e2b7e9dc99"
+    },
+    "[\"びっくり(する)\",\"びっくりする\"]": {
+      "text": "びっくり（する）",
+      "reading": "びっくりする",
+      "file": "76b96c6617f85de946c771c1.mp3",
+      "durationMs": 2136,
+      "bytes": 12816,
+      "sha256": "8dd53207052b17aae15484bd5f65ebb14dfe6a24d34c679b4d479f3eb17fc030"
+    },
+    "[\"ぶつかる\",\"ぶつかる\"]": {
+      "text": "ぶつかる",
+      "reading": "ぶつかる",
+      "file": "1b1630d335741ed245816c68.mp3",
+      "durationMs": 1872,
+      "bytes": 11232,
+      "sha256": "26764bca60bd924aa8cc05578e457c4fe92af6739037fda86d2b33a869d97043"
+    },
+    "[\"まじで\",\"まじで\"]": {
+      "text": "まじで",
+      "reading": "まじで",
+      "file": "25dbd4107297132fdae70606.mp3",
+      "durationMs": 1872,
+      "bytes": 11232,
+      "sha256": "65637b7202eb4d37548c4b4cc98cf4313fe3fc4ff484567ad5fb331dd6d8a059"
+    },
+    "[\"もしかしたら\",\"もしかしたら\"]": {
+      "text": "もしかしたら",
+      "reading": "もしかしたら",
+      "file": "6336b05521d96706ac77299a.mp3",
+      "durationMs": 2088,
+      "bytes": 12528,
+      "sha256": "e502795a817e196f62d7020adc13f702afe0f83067d17312aacc5195654a9c04"
+    },
+    "[\"やばい\",\"やばい\"]": {
+      "text": "やばい",
+      "reading": "やばい",
+      "file": "18b458d092d7118888ce538d.mp3",
+      "durationMs": 1872,
+      "bytes": 11232,
+      "sha256": "84e613f16fdf5bff296f44b61b0c99ea66a6476c1f164562a2696f1a065610e0"
+    },
+    "[\"やめる\",\"やめる\"]": {
+      "text": "やめる",
+      "reading": "やめる",
+      "file": "26acd6a548bd47a3e9fdfe66.mp3",
+      "durationMs": 1872,
+      "bytes": 11232,
+      "sha256": "282b5055d09d498f72f769dc4f40555789536acfdf28dfcbe22ccb7735f16fe2"
+    },
+    "[\"よろしい\",\"よろしい\"]": {
+      "text": "よろしい",
+      "reading": "よろしい",
+      "file": "4dbd9f4254089532ec261398.mp3",
+      "durationMs": 1944,
+      "bytes": 11664,
+      "sha256": "74d2470ec7279df1af2f9d6c25863412c0635554c01bf1f638129a53e3d1ecf3"
+    },
+    "[\"イギリス\",\"いぎりす\"]": {
+      "text": "イギリス",
+      "reading": "いぎりす",
+      "file": "ced44e2867cd1373e19409ba.mp3",
+      "durationMs": 1896,
+      "bytes": 11376,
+      "sha256": "28045f90def9ee0c342dce297eeed74a9fecc499411b2a37a85ec3728428ef0b"
+    },
+    "[\"エイプリル・フール\",\"えいぷりるふーる\"]": {
+      "text": "エイプリル・フール",
+      "reading": "えいぷりるふーる",
+      "file": "c19f8f91dee72c15a38a48e3.mp3",
+      "durationMs": 2232,
+      "bytes": 13392,
+      "sha256": "0aed5c314034a67a99a11d1150c31a030fcad1e9298dacd5895080f0b2b1c9eb"
+    },
+    "[\"オリンピック\",\"おりんぴっく\"]": {
+      "text": "オリンピック",
+      "reading": "おりんぴっく",
+      "file": "96dc6e3b4e614b1a467dddae.mp3",
+      "durationMs": 2112,
+      "bytes": 12672,
+      "sha256": "0f19019b11049db2bb615a41e387c933fc28ab6d82829c7c03bd219ed3d06708"
+    },
+    "[\"カット(する)\",\"かっとする\"]": {
+      "text": "カット（する）",
+      "reading": "かっとする",
+      "file": "b6fc8d6a205c2d3451a425de.mp3",
+      "durationMs": 2016,
+      "bytes": 12096,
+      "sha256": "98da59f9288542a422c55bc9751db73fea3d19500659450e38ba1f6e2f61096c"
+    },
+    "[\"ガソリン\",\"がそりん\"]": {
+      "text": "ガソリン",
+      "reading": "がそりん",
+      "file": "aff7e284712b2c126a111c6f.mp3",
+      "durationMs": 1872,
+      "bytes": 11232,
+      "sha256": "d9e8eff09aa25a1cb31f9a7a4250daa1baa9f76edc4945ced8bb02e5de2e1b30"
+    },
+    "[\"チャット\",\"ちゃっと\"]": {
+      "text": "チャット",
+      "reading": "ちゃっと",
+      "file": "62958ca9c58c3976065df94a.mp3",
+      "durationMs": 1872,
+      "bytes": 11232,
+      "sha256": "1d981f1efb4baa9e009ba2a4e8ba7ac7c9736c1eca41cc4020c11c26e2d9c45a"
+    },
+    "[\"デート\",\"でーと\"]": {
+      "text": "デート",
+      "reading": "でーと",
+      "file": "b131f8935bd948e50969e0cd.mp3",
+      "durationMs": 1872,
+      "bytes": 11232,
+      "sha256": "9d84a3a125348249a8953ad4c337a3f3d710dbb6b0b29473b864daa2bba8eac0"
+    },
+    "[\"ハイキング\",\"はいきんぐ\"]": {
+      "text": "ハイキング",
+      "reading": "はいきんぐ",
+      "file": "94579f287cbf98ae7998915b.mp3",
+      "durationMs": 1920,
+      "bytes": 11520,
+      "sha256": "c8e61a5d5a5a3efd1f51be28e3dba342f25007a13b0f7a42a6d21b92dd3f62f7"
+    },
+    "[\"ボーナス\",\"ぼーなす\"]": {
+      "text": "ボーナス",
+      "reading": "ぼーなす",
+      "file": "0ba9fe54fa0f719b719a3128.mp3",
+      "durationMs": 1944,
+      "bytes": 11664,
+      "sha256": "fa7de93dfe212af21b0631ad4e353d2a1c23bfd06379c72ebde447ba34a45870"
+    },
+    "[\"ミュージカル\",\"みゅーじかる\"]": {
+      "text": "ミュージカル",
+      "reading": "みゅーじかる",
+      "file": "ba6f17914dad4e7c1a64486b.mp3",
+      "durationMs": 1968,
+      "bytes": 11808,
+      "sha256": "ee237b49d43935e631341e69bcaad730577f656b880ff2b98827cf88425d2ce7"
+    },
+    "[\"上がる\",\"あがる\"]": {
+      "text": "上がる",
+      "reading": "あがる",
+      "file": "a00242f387c3dfbd65d0bb98.mp3",
+      "durationMs": 1872,
+      "bytes": 11232,
+      "sha256": "d5163a811e0cbe85223e5f581ae98300bd0f157c29f52ce773e0bdad7d8bb7d8"
+    },
+    "[\"下がる\",\"さがる\"]": {
+      "text": "下がる",
+      "reading": "さがる",
+      "file": "466a5c5f6f624ed51c691aa0.mp3",
+      "durationMs": 1872,
+      "bytes": 11232,
+      "sha256": "b0fa3f3c937ccb2a88da65d91547a1c7b57ee2b239d4ecb9674b29c00e797f36"
+    },
+    "[\"不動産\",\"ふどうさん\"]": {
+      "text": "不動産",
+      "reading": "ふどうさん",
+      "file": "beb77ad61a74e53f8e92c6b4.mp3",
+      "durationMs": 1896,
+      "bytes": 11376,
+      "sha256": "b5b0299304791b5a19ac1a4fe476007f9d9aed265428a1cecb0d10f7659b23f2"
+    },
+    "[\"不思議\",\"ふしぎ\"]": {
+      "text": "不思議",
+      "reading": "ふしぎ",
+      "file": "e18bcaf1d2a7c484222be296.mp3",
+      "durationMs": 1872,
+      "bytes": 11232,
+      "sha256": "425053362cd92b0e76ca6688d3d8747fa2cb4a8b2ccdf0fdb367900b9e71af2e"
+    },
+    "[\"中止する\",\"ちゅうしする\"]": {
+      "text": "中止する",
+      "reading": "ちゅうしする",
+      "file": "445b66927074fc9db2d14440.mp3",
+      "durationMs": 2040,
+      "bytes": 12240,
+      "sha256": "c03b3e2f78e4d018bf7910d25bdcd67b9077562fcc33ef627b27f679a7787bcf"
+    },
+    "[\"主人公\",\"しゅじんこう\"]": {
+      "text": "主人公",
+      "reading": "しゅじんこう",
+      "file": "88002955204786608ed89204.mp3",
+      "durationMs": 2112,
+      "bytes": 12672,
+      "sha256": "91e57bedab8bcf0f6abf2b1f378448defedb508ec4aa92fef000beba58aff754"
+    },
+    "[\"乾く\",\"かわく\"]": {
+      "text": "乾く",
+      "reading": "かわく",
+      "file": "ab4a0d388b66e45147bfbfa6.mp3",
+      "durationMs": 1872,
+      "bytes": 11232,
+      "sha256": "f1ac5132a9557b717355611e83484e8081ca544a4e5ca7e7edf0eb75a11e58e2"
+    },
+    "[\"事故\",\"じこ\"]": {
+      "text": "事故",
+      "reading": "じこ",
+      "file": "63e86d844e19dd39f52b1136.mp3",
+      "durationMs": 1872,
+      "bytes": 11232,
+      "sha256": "71399ce7c70e82b869c209ec13aec7a6e72d8bb3069c641a133660f1387c72b3"
+    },
+    "[\"亡くなる\",\"なくなる\"]": {
+      "text": "亡くなる",
+      "reading": "なくなる",
+      "file": "eee36af1e17257dca862e11f.mp3",
+      "durationMs": 1872,
+      "bytes": 11232,
+      "sha256": "f12b1a03bcfa2f549648fdb69d309e7f1707c8a1a0e436019b47057dae10a245"
+    },
+    "[\"交通\",\"こうつう\"]": {
+      "text": "交通",
+      "reading": "こうつう",
+      "file": "742f94bb5f26c2acbe07c2da.mp3",
+      "durationMs": 1872,
+      "bytes": 11232,
+      "sha256": "8edf1d9dafe2e83828d3c51a0b4f4ad2af41cef62f5fbaf91138f0a75f3d21c2"
+    },
+    "[\"今週末\",\"こんしゅうまつ\"]": {
+      "text": "今週末",
+      "reading": "こんしゅうまつ",
+      "file": "b84128683d524d9b989022ec.mp3",
+      "durationMs": 2184,
+      "bytes": 13104,
+      "sha256": "72f734014357752d2b81aace7383170a677b3dc146a4f297e79cc6744e73a435"
+    },
+    "[\"似合う\",\"にあう\"]": {
+      "text": "似合う",
+      "reading": "にあう",
+      "file": "c7220b01575a4a5d79cabe4c.mp3",
+      "durationMs": 1872,
+      "bytes": 11232,
+      "sha256": "5b8fa2e84ef2047001bf92ced3c5d7a806b8b380989ab6cf2c5db4bc375adfd2"
+    },
+    "[\"保育園\",\"ほいくえん\"]": {
+      "text": "保育園",
+      "reading": "ほいくえん",
+      "file": "62979eed047512894e594dec.mp3",
+      "durationMs": 1944,
+      "bytes": 11664,
+      "sha256": "33415015d5f967d0c89392bb9fa2312b5273ee78d119f0092985fd0200e215b9"
+    },
+    "[\"働き\",\"はたらき\"]": {
+      "text": "働き",
+      "reading": "はたらき",
+      "file": "edc8695a3b9d3025360b8993.mp3",
+      "durationMs": 1896,
+      "bytes": 11376,
+      "sha256": "73829e8416f90ca74f631ad04c6826e5e7942e18c9f03d822640444906ce2f27"
+    },
+    "[\"働く\",\"はたらく\"]": {
+      "text": "働く",
+      "reading": "はたらく",
+      "file": "41e564f8a1d5a6f4e96e5217.mp3",
+      "durationMs": 1896,
+      "bytes": 11376,
+      "sha256": "e162369cac005ab7d1c2e4072f661bccee08eb2d76567c3518266f4da3eeeeb7"
+    },
+    "[\"優勝(する)\",\"ゆうしょうする\"]": {
+      "text": "優勝（する）",
+      "reading": "ゆうしょうする",
+      "file": "8977dd2779a148cbcc9d9f28.mp3",
+      "durationMs": 2112,
+      "bytes": 12672,
+      "sha256": "dec61380ee8192c869ee78481193af78c6d49474698ae94392cca581f6b11104"
+    },
+    "[\"入り口\",\"いりぐち\"]": {
+      "text": "入り口",
+      "reading": "いりぐち",
+      "file": "240752d1c675d4b06bd5f4c9.mp3",
+      "durationMs": 1896,
+      "bytes": 11376,
+      "sha256": "4d55a6fa2e2c0fdc2ac55c5f84f9710314ac45ac603c028c12c186cf1f854d6a"
+    },
+    "[\"全力\",\"ぜんりょく\"]": {
+      "text": "全力",
+      "reading": "ぜんりょく",
+      "file": "329f7e3c9c11f74fa943606d.mp3",
+      "durationMs": 1896,
+      "bytes": 11376,
+      "sha256": "d20d426847c9f0ad7b2578bb2a29d0e62b0d072bca0eda028b970109a39845d5"
+    },
+    "[\"公園\",\"こうえん\"]": {
+      "text": "公園",
+      "reading": "こうえん",
+      "file": "5a45879eede64e7502efd4d6.mp3",
+      "durationMs": 1872,
+      "bytes": 11232,
+      "sha256": "76276a351c58cc0ee95f540a5a503954e2ad8c37cbfca94a47c06e117b526fa1"
+    },
+    "[\"具合\",\"ぐあい\"]": {
+      "text": "具合",
+      "reading": "ぐあい",
+      "file": "49728ae9b628ac06a35d7062.mp3",
+      "durationMs": 1872,
+      "bytes": 11232,
+      "sha256": "c58023e47d48cf6d8ff55f51061271505c9357283773c1393b31aaba33b3df0e"
+    },
+    "[\"別れる\",\"わかれる\"]": {
+      "text": "別れる",
+      "reading": "わかれる",
+      "file": "c07a86f7fb3f5294b001599c.mp3",
+      "durationMs": 1872,
+      "bytes": 11232,
+      "sha256": "93919b37326b44af66a4dff4fc3677ba088044c73713e555814fdc51d554cfb4"
+    },
+    "[\"利用(する)\",\"りようする\"]": {
+      "text": "利用（する）",
+      "reading": "りようする",
+      "file": "461967c2a126d88f17d62cfe.mp3",
+      "durationMs": 1992,
+      "bytes": 11952,
+      "sha256": "e14bdec3fb338c64f905765af293219e32c850c390f4880952cbd1eab58a753c"
+    },
+    "[\"力\",\"ちから\"]": {
+      "text": "力",
+      "reading": "ちから",
+      "file": "a72e523509476846ececb943.mp3",
+      "durationMs": 1872,
+      "bytes": 11232,
+      "sha256": "197a7e5e298ed75212948ac45d43030a7edb58b3cff61bb27b8621f2912a68d3"
+    },
+    "[\"動く\",\"うごく\"]": {
+      "text": "動く",
+      "reading": "うごく",
+      "file": "1b9e202c344d64e3ec2e5b56.mp3",
+      "durationMs": 1704,
+      "bytes": 10224,
+      "sha256": "c0db660a1bd041f920159b6010f6715aaf64b3ab879659696e7ec5aa105bced3"
+    },
+    "[\"動物\",\"どうぶつ\"]": {
+      "text": "動物",
+      "reading": "どうぶつ",
+      "file": "11386e5e601b1706b5b12bda.mp3",
+      "durationMs": 1944,
+      "bytes": 11664,
+      "sha256": "b1bafd1727d8da03b2c79512be66e8c7f21069b9c24f1e5377e5e1516c3e261b"
+    },
+    "[\"動物園\",\"どうぶつえん\"]": {
+      "text": "動物園",
+      "reading": "どうぶつえん",
+      "file": "832b4d29f9c229cfa1102807.mp3",
+      "durationMs": 2064,
+      "bytes": 12384,
+      "sha256": "2abe78cfa84a098f9a10f369d1ee9d1f63cfdcfda715a3b5440725914eaecf2b"
+    },
+    "[\"動画\",\"どうが\"]": {
+      "text": "動画",
+      "reading": "どうが",
+      "file": "bd3ce3618f56a9f637669dbd.mp3",
+      "durationMs": 1872,
+      "bytes": 11232,
+      "sha256": "6cd07e658444a1626f2e1774657a8396daf290d2995eabf4e5e8ad9d82d37f70"
+    },
+    "[\"勝つ\",\"かつ\"]": {
+      "text": "勝つ",
+      "reading": "かつ",
+      "file": "b9ebece2df2c552d0ea0e3c3.mp3",
+      "durationMs": 1872,
+      "bytes": 11232,
+      "sha256": "7ac62a4a665aaa1f3e2bf46ed846b7730f7a4199a9ff7d7a63e6341711fa7734"
+    },
+    "[\"医学\",\"いがく\"]": {
+      "text": "医学",
+      "reading": "いがく",
+      "file": "c067c58ca551d17f367148e2.mp3",
+      "durationMs": 1872,
+      "bytes": 11232,
+      "sha256": "858a3129bab7ba69605e002868a153dee6f401bdc325c29049ebb54d4046fc77"
+    },
+    "[\"医者\",\"いしゃ\"]": {
+      "text": "医者",
+      "reading": "いしゃ",
+      "file": "2654566408b329a0cc28abe7.mp3",
+      "durationMs": 1872,
+      "bytes": 11232,
+      "sha256": "3825c281a5db1adddfdc78dafbfbfd126a4236117878f6ae98ffb12f38ca6f87"
+    },
+    "[\"協力\",\"きょうりょく\"]": {
+      "text": "協力",
+      "reading": "きょうりょく",
+      "file": "24ac7613d0b321ae2baff97c.mp3",
+      "durationMs": 1896,
+      "bytes": 11376,
+      "sha256": "a84c2c1c722556b6d64dec74f5d510b1582e2a9fc2222d69e1c11278ebb6f5ee"
+    },
+    "[\"危ない\",\"あぶない\"]": {
+      "text": "危ない",
+      "reading": "あぶない",
+      "file": "cc282820d6d6b8afbebea6a0.mp3",
+      "durationMs": 1872,
+      "bytes": 11232,
+      "sha256": "a50dbcda066d317c76324677f74d94278c9330b163ab9cbbff28632ff8cf7012"
+    },
+    "[\"厳しい\",\"きびしい\"]": {
+      "text": "厳しい",
+      "reading": "きびしい",
+      "file": "09c41d4177c6408c5fd019ca.mp3",
+      "durationMs": 1872,
+      "bytes": 11232,
+      "sha256": "a99061a5ff938a0163e3d7c2cc653071d8040a707dcf949d80b29aff82f5ca81"
+    },
+    "[\"去年\",\"きょねん\"]": {
+      "text": "去年",
+      "reading": "きょねん",
+      "file": "9e9cadd3b696433eeb9129ed.mp3",
+      "durationMs": 1872,
+      "bytes": 11232,
+      "sha256": "004d562995200038dec34ae4dcbf428dd69a31b6f2cc1665aa0384367ec6c880"
+    },
+    "[\"台所\",\"だいどころ\"]": {
+      "text": "台所",
+      "reading": "だいどころ",
+      "file": "6e3ff148535a2a0276b58646.mp3",
+      "durationMs": 1920,
+      "bytes": 11520,
+      "sha256": "451717abb85f46c5df7923533f400fbb78f4d340975ece69066038bfe1e59c92"
+    },
+    "[\"台風\",\"たいふう\"]": {
+      "text": "台風",
+      "reading": "たいふう",
+      "file": "84f2f30cb5069a06050d85c7.mp3",
+      "durationMs": 1872,
+      "bytes": 11232,
+      "sha256": "780f2c1ae16f2f2f2287b99514f0479c6c677a8f79eeb173b9161f4d940ba59a"
+    },
+    "[\"叶う\",\"かなう\"]": {
+      "text": "叶う",
+      "reading": "かなう",
+      "file": "bf1d64d9e89af37631f1e993.mp3",
+      "durationMs": 1872,
+      "bytes": 11232,
+      "sha256": "6de757f8e412635beb3fb9fd2210c137664d69fe872ea6ed5a745fadee8138b4"
+    },
+    "[\"同じ\",\"おなじ\"]": {
+      "text": "同じ",
+      "reading": "おなじ",
+      "file": "7988af50d3fade171d988157.mp3",
+      "durationMs": 1872,
+      "bytes": 11232,
+      "sha256": "af373740136bb0fedb57eac39225954fd621ec52f276aca2096d070bb19c674c"
+    },
+    "[\"同僚\",\"どうりょう\"]": {
+      "text": "同僚",
+      "reading": "どうりょう",
+      "file": "2e07aa323c5a87d67d901f3e.mp3",
+      "durationMs": 1872,
+      "bytes": 11232,
+      "sha256": "ba6e39ee8f3d26c7ac9b55454e857079231e327d79aebd37f4ae7abdc579ed9f"
+    },
+    "[\"嘘\",\"うそ\"]": {
+      "text": "嘘",
+      "reading": "うそ",
+      "file": "a5b35591cd330af7411ce772.mp3",
+      "durationMs": 1872,
+      "bytes": 11232,
+      "sha256": "886029e691216d75053904d24d99d8083150a69dd6c75d32b1381b3d082d7ec3"
+    },
+    "[\"地下鉄\",\"ちかてつ\"]": {
+      "text": "地下鉄",
+      "reading": "ちかてつ",
+      "file": "b1060fedccc7ad93f753da12.mp3",
+      "durationMs": 1944,
+      "bytes": 11664,
+      "sha256": "e46accd5e718099f3a63b30af4182111d1b39f6ad89d1c7689ae4478e918fc7b"
+    },
+    "[\"地図\",\"ちず\"]": {
+      "text": "地図",
+      "reading": "ちず",
+      "file": "1a3fb333d47528699d792e3a.mp3",
+      "durationMs": 1872,
+      "bytes": 11232,
+      "sha256": "e35ecdf62af03ce6f5195514b9ff394e0046add9c5f58bab43984b5f7f6ec38f"
+    },
+    "[\"地震\",\"じしん\"]": {
+      "text": "地震",
+      "reading": "じしん",
+      "file": "dedabeb0023f71db64c043be.mp3",
+      "durationMs": 1872,
+      "bytes": 11232,
+      "sha256": "e539ac6adba387e9d9e5a7d140a4257ff1734038ab6062722a8da139776fba7d"
+    },
+    "[\"地面\",\"じめん\"]": {
+      "text": "地面",
+      "reading": "じめん",
+      "file": "9bc088af03b385a50122a2f1.mp3",
+      "durationMs": 1872,
+      "bytes": 11232,
+      "sha256": "e7ab668ca153c89cb0d3ec747f8a882e39994fd9678da747dcc89309aa5f11ca"
+    },
+    "[\"場所\",\"ばしょ\"]": {
+      "text": "場所",
+      "reading": "ばしょ",
+      "file": "4fdfa13e4bc5ec08b6240136.mp3",
+      "durationMs": 1872,
+      "bytes": 11232,
+      "sha256": "3f6a559d6049e930f51f2f39b6fa8a66d5db649e8ec1748bb5136d03661e8b56"
+    },
+    "[\"売れる\",\"うれる\"]": {
+      "text": "売れる",
+      "reading": "うれる",
+      "file": "a994ac83a152438cf5660508.mp3",
+      "durationMs": 1872,
+      "bytes": 11232,
+      "sha256": "71be6932c8ce55a2526c259f33f3cb6ef720d37e21a6ad8f9dcb2dbc61edecd1"
+    },
+    "[\"大きな\",\"おおきな\"]": {
+      "text": "大きな",
+      "reading": "おおきな",
+      "file": "3fb1d31870ae1e4b8598e21f.mp3",
+      "durationMs": 1872,
+      "bytes": 11232,
+      "sha256": "db9d271f22ae96ed351fd5ed6f8235aebdd60e99775e1c08c915b59ad6a373c2"
+    },
+    "[\"天気予報\",\"てんきよほう\"]": {
+      "text": "天気予報",
+      "reading": "てんきよほう",
+      "file": "44e8b671483b7985e9a4037f.mp3",
+      "durationMs": 2136,
+      "bytes": 12816,
+      "sha256": "fd444dcd3efb10d308d4db866d677d6422729e292967855eb70216c1811fed2f"
+    },
+    "[\"失敗する\",\"しっぱいする\"]": {
+      "text": "失敗する",
+      "reading": "しっぱいする",
+      "file": "0ed4aac1b7c3a4025dd79a45.mp3",
+      "durationMs": 2184,
+      "bytes": 13104,
+      "sha256": "62b041d385669ad0ec48768447f7a36e50491935ef1dcb84a66a51e8b00c5aa2"
+    },
+    "[\"女性\",\"じょせい\"]": {
+      "text": "女性",
+      "reading": "じょせい",
+      "file": "dff1ddb12700af38087c00ce.mp3",
+      "durationMs": 1872,
+      "bytes": 11232,
+      "sha256": "371fde0059351a68fdc53c3b7dd6e194f97e50f922bccdcf6e2396624d49eb21"
+    },
+    "[\"始まります\",\"はじまります\"]": {
+      "text": "始まります",
+      "reading": "はじまります",
+      "file": "f16f3b490c330ab56bc58a57.mp3",
+      "durationMs": 2088,
+      "bytes": 12528,
+      "sha256": "c6ea7980ca7cda726a2207efaf8fcf4263b93f7e2d88ca3cba2897bd41fdd3ef"
+    },
+    "[\"始めます\",\"はじめます\"]": {
+      "text": "始めます",
+      "reading": "はじめます",
+      "file": "6fd5835acb2b3295042e27c9.mp3",
+      "durationMs": 1968,
+      "bytes": 11808,
+      "sha256": "bf9b50428fb25cb71aa2064c22c0992d6bbd606d63f6f6fac7d5ab99642b0e34"
+    },
+    "[\"始める\",\"はじめる\"]": {
+      "text": "始める",
+      "reading": "はじめる",
+      "file": "ea5f04aa2e7c99f9facac88f.mp3",
+      "durationMs": 1872,
+      "bytes": 11232,
+      "sha256": "0c51c83dc0396916445692819197dcda1aa3dc87ae26dcb335924ea64d569aaa"
+    },
+    "[\"安心します\",\"あんしんします\"]": {
+      "text": "安心します",
+      "reading": "あんしんします",
+      "file": "df2a8ce457d7891cf729ee29.mp3",
+      "durationMs": 2208,
+      "bytes": 13248,
+      "sha256": "cedc6b707fa80d53708d394316fa0e0a3a0e038a8615b1e4834e7a249427a791"
+    },
+    "[\"実は\",\"じつは\"]": {
+      "text": "実は",
+      "reading": "じつは",
+      "file": "0ae6feba828809d603b1d3b9.mp3",
+      "durationMs": 1872,
+      "bytes": 11232,
+      "sha256": "db145deb1d202f618b1d1c48f1833e5521666b2514ae85a75c7f8dd6b2d78223"
+    },
+    "[\"将来\",\"しょうらい\"]": {
+      "text": "将来",
+      "reading": "しょうらい",
+      "file": "f27d892b3d60f53ca0e440b8.mp3",
+      "durationMs": 1872,
+      "bytes": 11232,
+      "sha256": "ee8516041955729676805bca361199291cd19f52f8333d6c7460645e4b0be702"
+    },
+    "[\"小説\",\"しょうせつ\"]": {
+      "text": "小説",
+      "reading": "しょうせつ",
+      "file": "51f6dc33e25df0170e27da08.mp3",
+      "durationMs": 1968,
+      "bytes": 11808,
+      "sha256": "1b016b0cf86e2b59b6ef9f7ae83d60d39e14ad70ec23415cc543190b82106102"
+    },
+    "[\"届く\",\"とどく\"]": {
+      "text": "届く",
+      "reading": "とどく",
+      "file": "526a4c45fdf5ea8d242bf0ce.mp3",
+      "durationMs": 1872,
+      "bytes": 11232,
+      "sha256": "21a01a9e31a9bf8f74ec25bb57145a65d714fbe3f27b89b7852c114dbcda8e54"
+    },
+    "[\"工事\",\"こうじ\"]": {
+      "text": "工事",
+      "reading": "こうじ",
+      "file": "cad7dcda173f00d123777127.mp3",
+      "durationMs": 1872,
+      "bytes": 11232,
+      "sha256": "b5ad2aee28f56191b68eec23e448c9c7839cc37adf55eb20865e9a5c7b80c7e8"
+    },
+    "[\"工場\",\"こうじょう\"]": {
+      "text": "工場",
+      "reading": "こうじょう",
+      "file": "f7343d81a91f07a168a3629d.mp3",
+      "durationMs": 1872,
+      "bytes": 11232,
+      "sha256": "534176c0eb70fc75f5ee172541dfbcd23ff58abb1a7f21f443987faff9022ab4"
+    },
+    "[\"差す\",\"さす\"]": {
+      "text": "差す",
+      "reading": "さす",
+      "file": "325fa416ca22fea42367731f.mp3",
+      "durationMs": 1872,
+      "bytes": 11232,
+      "sha256": "83c97d2f9ed54895d97271e5d629747a49f5a4e977dd1870c7cd3a05dca3acda"
+    },
+    "[\"平日\",\"へいじつ\"]": {
+      "text": "平日",
+      "reading": "へいじつ",
+      "file": "89cb0e013824ad48f72a1c0b.mp3",
+      "durationMs": 1944,
+      "bytes": 11664,
+      "sha256": "a7dcdec0e7325d5c52cb29da7c4ed467ce0cb38dd862698d4c0fa765d75f8eaf"
+    },
+    "[\"広い\",\"ひろい\"]": {
+      "text": "広い",
+      "reading": "ひろい",
+      "file": "5f194b0f6f948e52dd418154.mp3",
+      "durationMs": 1872,
+      "bytes": 11232,
+      "sha256": "a192886f5729699434d189385a7e63763fa59945e4ff31e16b002ab671621d8c"
+    },
+    "[\"広告\",\"こうこく\"]": {
+      "text": "広告",
+      "reading": "こうこく",
+      "file": "79f98fff76b780a068caacc9.mp3",
+      "durationMs": 1872,
+      "bytes": 11232,
+      "sha256": "657abdc3dc2bd66593ddf436c26c606ca60178793f1c4bc669992524efc06ef4"
+    },
+    "[\"引く\",\"ひく\"]": {
+      "text": "引く",
+      "reading": "ひく",
+      "file": "40e581f053b0bb4e8df24518.mp3",
+      "durationMs": 1536,
+      "bytes": 9216,
+      "sha256": "04e15ef958e9fcdfada1fefe344e1c87a4fbb23a6b224a9f07b3cd8bb0475f96"
+    },
+    "[\"引っ越す\",\"ひっこす\"]": {
+      "text": "引っ越す",
+      "reading": "ひっこす",
+      "file": "3f506149730556adf7c2a88a.mp3",
+      "durationMs": 1944,
+      "bytes": 11664,
+      "sha256": "9adee618f8ba2f0a5a4a436788e40be1b6c29a5a01dc22a14fbd7c3bee1248bd"
+    },
+    "[\"引越し(する)\",\"ひっこしする\"]": {
+      "text": "引越し（する）",
+      "reading": "ひっこしする",
+      "file": "559d94633d8f7d9644ff527c.mp3",
+      "durationMs": 2136,
+      "bytes": 12816,
+      "sha256": "555c5cc3869946cb29f3c455f54de81d1aef8987c4c714f9dffa53c89db2155b"
+    },
+    "[\"形\",\"かたち\"]": {
+      "text": "形",
+      "reading": "かたち",
+      "file": "42d633cd709b626749f6baec.mp3",
+      "durationMs": 1872,
+      "bytes": 11232,
+      "sha256": "39ee9386ba633367c411dd9e4bf33a4d98024f59cf0330f85ca06242a36b598f"
+    },
+    "[\"彼\",\"かれ\"]": {
+      "text": "彼",
+      "reading": "かれ",
+      "file": "10963dffc824290073f36c88.mp3",
+      "durationMs": 1872,
+      "bytes": 11232,
+      "sha256": "56fc15e5623320bfd4ca93529721cb4390c7e5415b5b80bb0ed2248349339a21"
+    },
+    "[\"心配します\",\"しんぱいします\"]": {
+      "text": "心配します",
+      "reading": "しんぱいします",
+      "file": "12d96c58ad8fc5e78afadf33.mp3",
+      "durationMs": 2280,
+      "bytes": 13680,
+      "sha256": "da7bdc3ddad5699b3ffee2096f103c60dbbc38e94a568558f7606ef824fa8197"
+    },
+    "[\"思います\",\"おもいます\"]": {
+      "text": "思います",
+      "reading": "おもいます",
+      "file": "6bd81be7947a22097b6778e9.mp3",
+      "durationMs": 1920,
+      "bytes": 11520,
+      "sha256": "5ba3a9336269e2b97caee2af12cdaa2655d6a997c718d7ee492a638602e8adb4"
+    },
+    "[\"思い出します\",\"おもいだします\"]": {
+      "text": "思い出します",
+      "reading": "おもいだします",
+      "file": "2354eb6755190de2f8cabb41.mp3",
+      "durationMs": 2160,
+      "bytes": 12960,
+      "sha256": "cdf729d7db5321054bade0d12bd52326cff5187c928502402262a7816be7901e"
+    },
+    "[\"性格\",\"せいかく\"]": {
+      "text": "性格",
+      "reading": "せいかく",
+      "file": "18e6dabac800a354e4a09d59.mp3",
+      "durationMs": 1968,
+      "bytes": 11808,
+      "sha256": "593655e384c2ec3ec4ed455b5134606e7eb4976e36d1a33ce3f95922afbcd244"
+    },
+    "[\"怪我する\",\"けがする\"]": {
+      "text": "怪我する",
+      "reading": "けがする",
+      "file": "b893aef7cf0aaecc760fa605.mp3",
+      "durationMs": 1848,
+      "bytes": 11088,
+      "sha256": "7fc56df7648d400c7bdccd4359cd9085ef6b3f38cbd6315911ca3f933b3f180d"
+    },
+    "[\"意味\",\"いみ\"]": {
+      "text": "意味",
+      "reading": "いみ",
+      "file": "205d264622693e37531e38b6.mp3",
+      "durationMs": 1872,
+      "bytes": 11232,
+      "sha256": "1e06f45cb5841af58c12d88b8ed82765ac2046a7246b2df6ed02d500c3293dc2"
+    },
+    "[\"感動\",\"かんどう\"]": {
+      "text": "感動",
+      "reading": "かんどう",
+      "file": "be1e48137e3e4c06c6527457.mp3",
+      "durationMs": 1872,
+      "bytes": 11232,
+      "sha256": "d8a305df9de293114b7ce4eb3ae653fd3e4c42fb72c0fe01a6e8f548b490284f"
+    },
+    "[\"成功する\",\"せいこうする\"]": {
+      "text": "成功する",
+      "reading": "せいこうする",
+      "file": "3e78fbbfa01a1127191df5b2.mp3",
+      "durationMs": 2136,
+      "bytes": 12816,
+      "sha256": "7e2fda4360f9502b88a761b0c1de89723829e594f65e87fa7ce5151515fdd475"
+    },
+    "[\"承知\",\"しょうち\"]": {
+      "text": "承知",
+      "reading": "しょうち",
+      "file": "4f7b17aecc95469dc1812779.mp3",
+      "durationMs": 1848,
+      "bytes": 11088,
+      "sha256": "7e3fbe1a7e3afb943b5df18fd5c203ad32ca4a27807b20eff0cb331579383193"
+    },
+    "[\"政治\",\"せいじ\"]": {
+      "text": "政治",
+      "reading": "せいじ",
+      "file": "76605ebc0bf418458bfe4514.mp3",
+      "durationMs": 1872,
+      "bytes": 11232,
+      "sha256": "35b2f4cf15aa255dfb5e0adda441197cbaf143193bdeb186f8e6c23260cf10fe"
+    },
+    "[\"救急車\",\"きゅうきゅうしゃ\"]": {
+      "text": "救急車",
+      "reading": "きゅうきゅうしゃ",
+      "file": "b2e1bb99de60231afd8e297c.mp3",
+      "durationMs": 2040,
+      "bytes": 12240,
+      "sha256": "436c405c04e838962e3ac3d003cd16f1353a2c7330417d790c4bfa6b470141f7"
+    },
+    "[\"教科書\",\"きょうかしょ\"]": {
+      "text": "教科書",
+      "reading": "きょうかしょ",
+      "file": "06fe64162cdd02e8bada93e3.mp3",
+      "durationMs": 1896,
+      "bytes": 11376,
+      "sha256": "1ce6afc85f319e1e7087730249712d6a51fb1440eb1c88486008136ed498e01e"
+    },
+    "[\"旅行客\",\"りょこうきゃく\"]": {
+      "text": "旅行客",
+      "reading": "りょこうきゃく",
+      "file": "c036edb22e794cd80a0bfefb.mp3",
+      "durationMs": 2112,
+      "bytes": 12672,
+      "sha256": "5ad5d254eda70daff39a2b9a1d6a3c47cf7f105be2be84e93aa3f2ade5676d43"
+    },
+    "[\"旅館\",\"りょかん\"]": {
+      "text": "旅館",
+      "reading": "りょかん",
+      "file": "baaa448cbb2c19ffb461c6e0.mp3",
+      "durationMs": 1872,
+      "bytes": 11232,
+      "sha256": "5540bf7df86624270993f06bc48855911058d5391da2ef2596f2f9b08c258b7b"
+    },
+    "[\"早い\",\"はやい\"]": {
+      "text": "早い",
+      "reading": "はやい",
+      "file": "eebdf1d348b54fde28122b12.mp3",
+      "durationMs": 1872,
+      "bytes": 11232,
+      "sha256": "df68e28f53333c01e5dfba6a79b9b279ad2f6e8a4b0953b2550eeb88dbfb6482"
+    },
+    "[\"昼寝\",\"ひるね\"]": {
+      "text": "昼寝",
+      "reading": "ひるね",
+      "file": "34e14fbf38d56aaef9d77213.mp3",
+      "durationMs": 1872,
+      "bytes": 11232,
+      "sha256": "e76aa59530e3dd9a1ad55e7ee0e8ebc221db7a8b113c029aab349863a1fa29f6"
+    },
+    "[\"時計\",\"とけい\"]": {
+      "text": "時計",
+      "reading": "とけい",
+      "file": "32431a9287dee0dc53b2ff12.mp3",
+      "durationMs": 1872,
+      "bytes": 11232,
+      "sha256": "318b061f7958f80fb6fb00ca75ef5ec395a2b609b67cd1fa285a9e12c778d0ed"
+    },
+    "[\"最初\",\"さいしょ\"]": {
+      "text": "最初",
+      "reading": "さいしょ",
+      "file": "ba2a6e9a65232cdc69a0c45a.mp3",
+      "durationMs": 1872,
+      "bytes": 11232,
+      "sha256": "03ca5f9e89e909cf7d6e70580a1062a92875cfd0f9aeea92397a68cb292fde6a"
+    },
+    "[\"有名人\",\"ゆうめいじん\"]": {
+      "text": "有名人",
+      "reading": "ゆうめいじん",
+      "file": "021254b2fd5cc66da81966cd.mp3",
+      "durationMs": 2040,
+      "bytes": 12240,
+      "sha256": "e9655b3cba57c8444a846f748e21651411bb3e80be3875ea191214f32e613125"
+    },
+    "[\"本物\",\"ほんもの\"]": {
+      "text": "本物",
+      "reading": "ほんもの",
+      "file": "2843b348896faf454af2a246.mp3",
+      "durationMs": 1872,
+      "bytes": 11232,
+      "sha256": "9ca27c820502d0e095203ba1e062b06c53dedd32d3f7dec95d3ce91a7786ae63"
+    },
+    "[\"楽しむ\",\"たのしむ\"]": {
+      "text": "楽しむ",
+      "reading": "たのしむ",
+      "file": "86a3b5a4b9b93ea77cd8371f.mp3",
+      "durationMs": 1872,
+      "bytes": 11232,
+      "sha256": "4f55b3061817c66f880c32d850ef443cb75130c0aa7411f1ad8f82fa293c84e4"
+    },
+    "[\"止む\",\"やむ\"]": {
+      "text": "止む",
+      "reading": "やむ",
+      "file": "1233f81b14fc9ecd2777ff21.mp3",
+      "durationMs": 1872,
+      "bytes": 11232,
+      "sha256": "8224c238ab8a81e5d70bb2f0e1d73e7e7be4b67961dbe186ee33023fc90df9f5"
+    },
+    "[\"正しい\",\"ただしい\"]": {
+      "text": "正しい",
+      "reading": "ただしい",
+      "file": "a373216d8ce34f447e92562f.mp3",
+      "durationMs": 1896,
+      "bytes": 11376,
+      "sha256": "782604db87ff80ef7afef342c6533998ea3dbb6d421b1c6f9fe022c3ea2b5218"
+    },
+    "[\"歯医者\",\"はいしゃ\"]": {
+      "text": "歯医者",
+      "reading": "はいしゃ",
+      "file": "04886fd15b78d750a7b1d55d.mp3",
+      "durationMs": 1872,
+      "bytes": 11232,
+      "sha256": "65dcc742cca0f1a6842fe9133422e53c98f63075223f3ae84bb719cbd32b7845"
+    },
+    "[\"気分\",\"きぶん\"]": {
+      "text": "気分",
+      "reading": "きぶん",
+      "file": "e6f0e3169a7b26bc21f0a25b.mp3",
+      "durationMs": 1872,
+      "bytes": 11232,
+      "sha256": "2636408904fa4ab155540dd7cd0ead96dab00b818b1a09c23f2516f8928dd7f4"
+    },
+    "[\"池\",\"いけ\"]": {
+      "text": "池",
+      "reading": "いけ",
+      "file": "4d2e1f4e288f728829e7b572.mp3",
+      "durationMs": 1872,
+      "bytes": 11232,
+      "sha256": "2344dfd9d5545e14e879c77ded08cd3f1c9e93782571c5e11616cd1d8d8e3716"
+    },
+    "[\"治します\",\"なおします\"]": {
+      "text": "治します",
+      "reading": "なおします",
+      "file": "81a82182a5e5e605110e1908.mp3",
+      "durationMs": 1992,
+      "bytes": 11952,
+      "sha256": "892509332c1a89520ea8fc1513b73214b2d38a4cabfb5391083b22a2bfb7f5e2"
+    },
+    "[\"治ります\",\"なおります\"]": {
+      "text": "治ります",
+      "reading": "なおります",
+      "file": "1a461eada481a9cc35205494.mp3",
+      "durationMs": 1944,
+      "bytes": 11664,
+      "sha256": "3b47169519dfb64c4f8e45d54ca6f039a393583fc15142844e1c410fd8d8e451"
+    },
+    "[\"注文(する)\",\"ちゅうもんする\"]": {
+      "text": "注文（する）",
+      "reading": "ちゅうもんする",
+      "file": "93b12facd82ea76c2dfda507.mp3",
+      "durationMs": 2112,
+      "bytes": 12672,
+      "sha256": "d2da50adaf2fed4e3aa2ae581b15dfac83a4ff6730132c78b85dbc058048007a"
+    },
+    "[\"洗濯物\",\"せんたくもの\"]": {
+      "text": "洗濯物",
+      "reading": "せんたくもの",
+      "file": "94a44b1553aa0eab7d979438.mp3",
+      "durationMs": 2088,
+      "bytes": 12528,
+      "sha256": "396852126284abd947db92c0fdedc2c62dd04d20a55d14da1b111f66f8f4c3a4"
+    },
+    "[\"混む\",\"こむ\"]": {
+      "text": "混む",
+      "reading": "こむ",
+      "file": "877e57e011c0f397bbb3c667.mp3",
+      "durationMs": 1872,
+      "bytes": 11232,
+      "sha256": "387471753b60e7f4e399945c423b98c77ef9db7356dc47aeb97636858c6b7821"
+    },
+    "[\"火事\",\"かじ\"]": {
+      "text": "火事",
+      "reading": "かじ",
+      "file": "7c13b1959bf86af48169cc46.mp3",
+      "durationMs": 1872,
+      "bytes": 11232,
+      "sha256": "da0bce20a5976e4581f7c9d567ac2600570c82b49855c03478bb015448649966"
+    },
+    "[\"生まれる\",\"うまれる\"]": {
+      "text": "生まれる",
+      "reading": "うまれる",
+      "file": "b7e2cf0fc992b244bb27db4a.mp3",
+      "durationMs": 1872,
+      "bytes": 11232,
+      "sha256": "230fd0afb3f941c9694a9e662f4c275fe199bec8756b4c4dd39f40c981b431a5"
+    },
+    "[\"男性\",\"だんせい\"]": {
+      "text": "男性",
+      "reading": "だんせい",
+      "file": "e5defc8883933b8feb859186.mp3",
+      "durationMs": 1872,
+      "bytes": 11232,
+      "sha256": "85a4548f65ba86953a113eda8cf72d7a524964082b4197dd7d9932e5e6fc714c"
+    },
+    "[\"留守\",\"るす\"]": {
+      "text": "留守",
+      "reading": "るす",
+      "file": "3f241fb465e407c5fc99840c.mp3",
+      "durationMs": 1872,
+      "bytes": 11232,
+      "sha256": "a13453faaf1d040cf77ba1e5e4e7eb83afa555192d37f536a982f84c6bd4be24"
+    },
+    "[\"痛い\",\"いたい\"]": {
+      "text": "痛い",
+      "reading": "いたい",
+      "file": "27b41d72e524fcd1c8eb9c10.mp3",
+      "durationMs": 1872,
+      "bytes": 11232,
+      "sha256": "2045ca79ba2c135063a199b44282b056953a76d6baac12a49b90f1d3c088492c"
+    },
+    "[\"皿洗い\",\"さらあらい\"]": {
+      "text": "皿洗い",
+      "reading": "さらあらい",
+      "file": "46b165085c2f837ea5e7ee18.mp3",
+      "durationMs": 2016,
+      "bytes": 12096,
+      "sha256": "0f9f020a8799b13498fe07e44f7d22bda6f292556b795bf3c91f01543ac4a03a"
+    },
+    "[\"真っ暗\",\"まっくら\"]": {
+      "text": "真っ暗",
+      "reading": "まっくら",
+      "file": "bf61a5aca814e4d844c6b3a0.mp3",
+      "durationMs": 1872,
+      "bytes": 11232,
+      "sha256": "c499aab8190c149b74bc2c0a7cadee79182e99690f3823a472bb9e2735d79c0b"
+    },
+    "[\"着物\",\"きもの\"]": {
+      "text": "着物",
+      "reading": "きもの",
+      "file": "31574f6ff87733559b5f36f6.mp3",
+      "durationMs": 1872,
+      "bytes": 11232,
+      "sha256": "a71ca1f2dfddd4fc5229448d9ceaa6174b6b0d9b8a1566d3b794131ba0554a94"
+    },
+    "[\"知り合い\",\"しりあい\"]": {
+      "text": "知り合い",
+      "reading": "しりあい",
+      "file": "2acd160096780ab317ef3e21.mp3",
+      "durationMs": 1896,
+      "bytes": 11376,
+      "sha256": "1a4db4fd2f72a4702d28766bbddb72b2191cbb5af00d7b50479225ed2475c759"
+    },
+    "[\"知る\",\"しる\"]": {
+      "text": "知る",
+      "reading": "しる",
+      "file": "829173889b6d54ebcc457c80.mp3",
+      "durationMs": 1872,
+      "bytes": 11232,
+      "sha256": "617f82659d55c93f7d3cd1a112313113da8ffad12743a30f89b1c8e921155658"
+    },
+    "[\"短い\",\"みじかい\"]": {
+      "text": "短い",
+      "reading": "みじかい",
+      "file": "af5bdfe4af81dadf78981549.mp3",
+      "durationMs": 1872,
+      "bytes": 11232,
+      "sha256": "47a0e14789ab52832417ac6436e5cd386f57edc22bf1b028857e6e65484df269"
+    },
+    "[\"短気\",\"たんき\"]": {
+      "text": "短気",
+      "reading": "たんき",
+      "file": "2a5f216957794d55d5c1ced8.mp3",
+      "durationMs": 1872,
+      "bytes": 11232,
+      "sha256": "aa87166037557e12420ce223aca97f655414ac1d6d707b668e17b6c6cd6bc707"
+    },
+    "[\"確か\",\"たしか\"]": {
+      "text": "確か",
+      "reading": "たしか",
+      "file": "5b005baba2ed547d5e81b8e6.mp3",
+      "durationMs": 1872,
+      "bytes": 11232,
+      "sha256": "5a471c48d03cae242a2b787e517402b01fa75f255a3cc2edd5f960b428611426"
+    },
+    "[\"空\",\"そら\"]": {
+      "text": "空",
+      "reading": "そら",
+      "file": "6d07ea4f51ac9eb18815e1d9.mp3",
+      "durationMs": 1872,
+      "bytes": 11232,
+      "sha256": "6d931f19f860ed77398b76d5a8cc62cd9fafc21e54a4a8eed8876ba69950b634"
+    },
+    "[\"空気\",\"くうき\"]": {
+      "text": "空気",
+      "reading": "くうき",
+      "file": "68e315de753a1efa4eccf589.mp3",
+      "durationMs": 1872,
+      "bytes": 11232,
+      "sha256": "5281916841ae0e8a1f964247a7712dd61424e22e617ff3c736dbdf21890c56a3"
+    },
+    "[\"空港\",\"くうこう\"]": {
+      "text": "空港",
+      "reading": "くうこう",
+      "file": "37aa23856ae5a78559192b0c.mp3",
+      "durationMs": 1944,
+      "bytes": 11664,
+      "sha256": "ab71685dd752b522c6239783bc5a23972a5995666d0b81a14e9e3773071cfd6e"
+    },
+    "[\"紹介(する)\",\"しょうかいする\"]": {
+      "text": "紹介（する）",
+      "reading": "しょうかいする",
+      "file": "becc4ebf93eddce2ec22a01b.mp3",
+      "durationMs": 2160,
+      "bytes": 12960,
+      "sha256": "71b342605ad3b72fabd14f3c6414b6cb379d8eedd67759e237ab5b01824f45c6"
+    },
+    "[\"羨ましい\",\"うらやましい\"]": {
+      "text": "羨ましい",
+      "reading": "うらやましい",
+      "file": "2e65041ffb3da31c5d1717da.mp3",
+      "durationMs": 2160,
+      "bytes": 12960,
+      "sha256": "3a8777a42c5f1304fe836d347ed6791c41ff36a2bb5fd5886d2cf4bf24ed98ad"
+    },
+    "[\"腕時計\",\"うでどけい\"]": {
+      "text": "腕時計",
+      "reading": "うでどけい",
+      "file": "3631c5e54b54e5b2a21ea392.mp3",
+      "durationMs": 1992,
+      "bytes": 11952,
+      "sha256": "1ee18b5794ca3e2a78dd7622a652297a925711ee6f1405830f3693761631f336"
+    },
+    "[\"自動\",\"じどう\"]": {
+      "text": "自動",
+      "reading": "じどう",
+      "file": "9aa43041b1968a1a5ebbdf04.mp3",
+      "durationMs": 1872,
+      "bytes": 11232,
+      "sha256": "5bcfd81ab1322d40d156bd3f4eae8e1e4a2b5d22223897d8a8032b0c8e9c6c3b"
+    },
+    "[\"自転車\",\"じてんしゃ\"]": {
+      "text": "自転車",
+      "reading": "じてんしゃ",
+      "file": "599cc17d169e073efebb44ef.mp3",
+      "durationMs": 1896,
+      "bytes": 11376,
+      "sha256": "27cfa3995eba365fbe8ecdf1752184d682e2ebe4feebeea259e31e1f2e78b6a2"
+    },
+    "[\"興味\",\"きょうみ\"]": {
+      "text": "興味",
+      "reading": "きょうみ",
+      "file": "39ca241dc7c48c3180dae977.mp3",
+      "durationMs": 1872,
+      "bytes": 11232,
+      "sha256": "ba6d62399e8cfa04269dad1b099f862a4558d24820ee7fe9806ccadbf0ac4676"
+    },
+    "[\"興味がある\",\"きょうみがある\"]": {
+      "text": "興味がある",
+      "reading": "きょうみがある",
+      "file": "d93e8ad15285135c50e71beb.mp3",
+      "durationMs": 2088,
+      "bytes": 12528,
+      "sha256": "414a73716ed83b6e89b702113d2285b43e4cf7cdfb6029e45dfd11e99aafe680"
+    },
+    "[\"苦い\",\"にがい\"]": {
+      "text": "苦い",
+      "reading": "にがい",
+      "file": "bd2743017b2d26d235c032f4.mp3",
+      "durationMs": 1872,
+      "bytes": 11232,
+      "sha256": "6dfd75d19cd7cfc36d2859a7b7a1237a8f121e3adf8f91332c671b790f4530b7"
+    },
+    "[\"血\",\"ち\"]": {
+      "text": "血",
+      "reading": "ち",
+      "file": "00e28c233dd4f7030004ce93.mp3",
+      "durationMs": 1872,
+      "bytes": 11232,
+      "sha256": "7e944b06d27ff2fec95ac947cfa17b36b8d496ee9540182ea0677859129615f9"
+    },
+    "[\"血液\",\"けつえき\"]": {
+      "text": "血液",
+      "reading": "けつえき",
+      "file": "402a546e9bbf093ce41582f6.mp3",
+      "durationMs": 1944,
+      "bytes": 11664,
+      "sha256": "eb81225eb7262c771e80932a61571da70ad489bd5716ed7308846585fe6f962e"
+    },
+    "[\"計画\",\"けいかく\"]": {
+      "text": "計画",
+      "reading": "けいかく",
+      "file": "e8dfa81fc1fe070abcc85754.mp3",
+      "durationMs": 1872,
+      "bytes": 11232,
+      "sha256": "153ae2cf11dff6e1ed664ec13e6958a5f5d083e0f9f8792190c66bbec17746e6"
+    },
+    "[\"計算\",\"けいさん\"]": {
+      "text": "計算",
+      "reading": "けいさん",
+      "file": "ac20e590f7c785178a92bb94.mp3",
+      "durationMs": 1872,
+      "bytes": 11232,
+      "sha256": "5ec57ec1e65a6503db2a858d76894c37f511c3416a1cebfa597eef5ee4a75ae2"
+    },
+    "[\"試合\",\"しあい\"]": {
+      "text": "試合",
+      "reading": "しあい",
+      "file": "3037e824ef4285d2ee0aeea0.mp3",
+      "durationMs": 1872,
+      "bytes": 11232,
+      "sha256": "a52dd91492260a95386084178248e5eb2d73a77caeac35cf1b48f08b2a4150d0"
+    },
+    "[\"試着します\",\"しちゃくします\"]": {
+      "text": "試着します",
+      "reading": "しちゃくします",
+      "file": "da959345fcf8f6ac226ee2e0.mp3",
+      "durationMs": 2112,
+      "bytes": 12672,
+      "sha256": "e23c97da04f4c3d9fbdc9719ed2b0ef48e1919b3fc8d73711d33559d892dbcff"
+    },
+    "[\"試験\",\"しけん\"]": {
+      "text": "試験",
+      "reading": "しけん",
+      "file": "06b3950ea5c1fbff959b130b.mp3",
+      "durationMs": 1872,
+      "bytes": 11232,
+      "sha256": "ee71a21267ad8963df6bd7e76d03bf8c6fd05a072847c17184ba69c29146a1dd"
+    },
+    "[\"誘う\",\"さそう\"]": {
+      "text": "誘う",
+      "reading": "さそう",
+      "file": "c928ea3b040daa7c78c21732.mp3",
+      "durationMs": 1872,
+      "bytes": 11232,
+      "sha256": "1280020efc635bd86b26974cc70371266e2db131c84a1f9c69299a3f27d09a83"
+    },
+    "[\"説明する\",\"せつめいする\"]": {
+      "text": "説明する",
+      "reading": "せつめいする",
+      "file": "ffd6aacaeae1830878f5e6ed.mp3",
+      "durationMs": 2208,
+      "bytes": 13248,
+      "sha256": "418816b87f3f3a71fdc7c972bb5226452dd0168bfc3f87897584f8bc3fca7fac"
+    },
+    "[\"説明会\",\"せつめいかい\"]": {
+      "text": "説明会",
+      "reading": "せつめいかい",
+      "file": "c528816441547be4b39d7a4c.mp3",
+      "durationMs": 2160,
+      "bytes": 12960,
+      "sha256": "b105c633d51b0e48a832318e37d3786e29fbd3c487838e15422f4a62942cfc18"
+    },
+    "[\"説明書\",\"せつめいしょ\"]": {
+      "text": "説明書",
+      "reading": "せつめいしょ",
+      "file": "0ad9ffa150299d6888689c17.mp3",
+      "durationMs": 2064,
+      "bytes": 12384,
+      "sha256": "b2a2b2fdbb22ac702d10827074d3a5a81aaca8d5abb5f820d6fe075839410b92"
+    },
+    "[\"調味料\",\"ちょうみりょう\"]": {
+      "text": "調味料",
+      "reading": "ちょうみりょう",
+      "file": "281baaf3098f915dea0168e5.mp3",
+      "durationMs": 2016,
+      "bytes": 12096,
+      "sha256": "870a1737cf1ac5e19f18aee61f6913dbb7ad699dde991d7774071060bb082903"
+    },
+    "[\"調子\",\"ちょうし\"]": {
+      "text": "調子",
+      "reading": "ちょうし",
+      "file": "385968e5cd2b955bc25177d7.mp3",
+      "durationMs": 1872,
+      "bytes": 11232,
+      "sha256": "e29881672f3ea77a38b64530e7adeb89317dad19c9f85776e597ba80e0f631a3"
+    },
+    "[\"負ける\",\"まける\"]": {
+      "text": "負ける",
+      "reading": "まける",
+      "file": "a39ecb70d002f5ec4be42bf2.mp3",
+      "durationMs": 1872,
+      "bytes": 11232,
+      "sha256": "73934729c9777f6af481441940fb9cfe49cb931307ebe59e9699ea2244e44465"
+    },
+    "[\"貿易\",\"ぼうえき\"]": {
+      "text": "貿易",
+      "reading": "ぼうえき",
+      "file": "144536c906af7d6a89a46bcc.mp3",
+      "durationMs": 1896,
+      "bytes": 11376,
+      "sha256": "a580b02099b43fb3cea6ff762a99a526d101f756d271c06170a1bb45b76bc8c9"
+    },
+    "[\"赤ちゃん\",\"あかちゃん\"]": {
+      "text": "赤ちゃん",
+      "reading": "あかちゃん",
+      "file": "a4d59c8647a57ccaaf26d44d.mp3",
+      "durationMs": 1872,
+      "bytes": 11232,
+      "sha256": "631ed3685aa4db173d9671282ef5874a87bb640b792aca92d2e11a8f1bd0fd37"
+    },
+    "[\"転びます\",\"ころびます\"]": {
+      "text": "転びます",
+      "reading": "ころびます",
+      "file": "243366c0fd1e118107159045.mp3",
+      "durationMs": 1944,
+      "bytes": 11664,
+      "sha256": "ebdc1427d5a8b68312e1dc65a0048ab62eb2def96ef23a577b8fcf370d342ab4"
+    },
+    "[\"返す\",\"かえす\"]": {
+      "text": "返す",
+      "reading": "かえす",
+      "file": "9a3d73a7ca47b3e8e5e1694a.mp3",
+      "durationMs": 1872,
+      "bytes": 11232,
+      "sha256": "248bbadd960caa364e45295eb5fa11b1daeddd64c25110c3ddc003eb726ed84b"
+    },
+    "[\"速い\",\"はやい\"]": {
+      "text": "速い",
+      "reading": "はやい",
+      "file": "66766b116c708e7d09936091.mp3",
+      "durationMs": 1872,
+      "bytes": 11232,
+      "sha256": "64058108a0721175465026faeb5dd97c0819a6a99f70c5f3b5f054abfff8b522"
+    },
+    "[\"遊園地\",\"ゆうえんち\"]": {
+      "text": "遊園地",
+      "reading": "ゆうえんち",
+      "file": "84ae77a910e204172c256805.mp3",
+      "durationMs": 1992,
+      "bytes": 11952,
+      "sha256": "eec953e6973d7192aba515428f900f3b76909830ddf4f57e1389fcb8efc3c1b9"
+    },
+    "[\"運動\",\"うんどう\"]": {
+      "text": "運動",
+      "reading": "うんどう",
+      "file": "8b7fd2f3829c5f2e2f1a29b6.mp3",
+      "durationMs": 1872,
+      "bytes": 11232,
+      "sha256": "9e95701f2d1ecf0f06f05b310e24b09415a7c2f55f232de6b9876fca372afd2d"
+    },
+    "[\"運転します\",\"うんてんします\"]": {
+      "text": "運転します",
+      "reading": "うんてんします",
+      "file": "c22567b5a0e3243465158b21.mp3",
+      "durationMs": 2256,
+      "bytes": 13536,
+      "sha256": "3c7eb059b35c79de7eca0ca76f0beba994f39b0db4c80b839c732b27d925fa8e"
+    },
+    "[\"運転手\",\"うんてんしゅ\"]": {
+      "text": "運転手",
+      "reading": "うんてんしゅ",
+      "file": "0473de688377e58e1f2b5897.mp3",
+      "durationMs": 1992,
+      "bytes": 11952,
+      "sha256": "2b56532f8d3edf6decd3eab301729cf6c003b33afbba25c3fec6749d4b55c652"
+    },
+    "[\"遠い\",\"とおい\"]": {
+      "text": "遠い",
+      "reading": "とおい",
+      "file": "78ed4b0e35d2f0a9f21325e1.mp3",
+      "durationMs": 1872,
+      "bytes": 11232,
+      "sha256": "65f1522932be3baf7d3efa7a3f5bbd334015edfe5b1d3cc0e29cd08acd0b80a9"
+    },
+    "[\"選手\",\"せんしゅ\"]": {
+      "text": "選手",
+      "reading": "せんしゅ",
+      "file": "2eff771b3fd159b4247630b0.mp3",
+      "durationMs": 1872,
+      "bytes": 11232,
+      "sha256": "876658c50051a0562fb20d19a3843cbca5d90c8565ffee7d60ad73c115e7f20c"
+    },
+    "[\"開始\",\"かいし\"]": {
+      "text": "開始",
+      "reading": "かいし",
+      "file": "564480c775760a7ee292c502.mp3",
+      "durationMs": 1872,
+      "bytes": 11232,
+      "sha256": "1d14aeada4a3777b1a5990712642d0c2c587ffed04e9633c512c351f39708a17"
+    },
+    "[\"集まる\",\"あつまる\"]": {
+      "text": "集まる",
+      "reading": "あつまる",
+      "file": "cf3adfd56f15c6d9de1ed464.mp3",
+      "durationMs": 1800,
+      "bytes": 10800,
+      "sha256": "74383038667417f6d9d13eb3e2a5f81eaef0204646e37f1d375173ef59053ddc"
+    },
+    "[\"雷\",\"かみなり\"]": {
+      "text": "雷",
+      "reading": "かみなり",
+      "file": "493e2b70d446b43957fcd2c6.mp3",
+      "durationMs": 1872,
+      "bytes": 11232,
+      "sha256": "fc54471d3586f6517a9ae87ca6fd6e11e84d91b62e11e46fd50d716d804ba59e"
+    },
+    "[\"電池\",\"でんち\"]": {
+      "text": "電池",
+      "reading": "でんち",
+      "file": "4cba007f43c75fe85b6499fd.mp3",
+      "durationMs": 1872,
+      "bytes": 11232,
+      "sha256": "0fd41602f61954f2e37f23c7fe071ebe7167b18191f04177c779125f8ba9238c"
+    },
+    "[\"風邪\",\"かぜ\"]": {
+      "text": "風邪",
+      "reading": "かぜ",
+      "file": "c55f016b074221d9de0e812f.mp3",
+      "durationMs": 1872,
+      "bytes": 11232,
+      "sha256": "eb4789a1f525bd695d477f6174110a32d47ce9412a125ecd03b9baf6496dab02"
+    }
+  }
+}

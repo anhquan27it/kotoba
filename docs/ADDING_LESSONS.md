@@ -49,6 +49,21 @@ Từ vựng:
 
 Mẫu trên chỉ minh họa định dạng, không xác định nội dung thực tế của bài 16. Câu ví dụ cần tự nhiên và phù hợp kiến thức người học đã có. `reading` trong ví dụ là tùy chọn: nếu tài liệu cung cấp cách đọc, điền để ưu tiên cách đọc đó khi tạo furigana.
 
+Riêng các từ mẫu trong `kanji[].examples`, luôn điền `reading` đã đối chiếu. Nút **Nghe** ở từ vựng, từ mẫu kanji và flashcard phát file MP3 tạo từ cách đọc này, tránh chọn nhầm âm của kanji. Người học không phải cài giọng đọc. Dấu ngoặc chỉ phần tùy chọn được bỏ khi phát âm nhưng vẫn đọc phần bên trong, ví dụ `ゆうしょう（する）` đọc thành `ゆうしょうする`; dấu `～` chỉ chỗ trống nên không được đọc.
+
+### File phát âm
+
+Khi thêm hoặc sửa từ vựng/từ mẫu kanji, chạy `npm run generate:audio` để tạo file còn thiếu, rồi chạy `npm run check:content`. Chỉ người bảo trì cần Python và các thư viện tạo âm thanh:
+
+```bash
+python -m pip install --target .tmp_pip/tts edge-tts==7.2.8 mutagen==1.48.1
+npm run generate:audio
+```
+
+Có thể chỉ định Python bằng `npm run generate:audio -- --python=<đường-dẫn-python>` hoặc biến `KOTOBA_PYTHON`. Lệnh tạo âm thanh dùng [edge-tts](https://github.com/rany2/edge-tts) và cần mạng; build/CI chỉ kiểm tra và đóng gói file đã tạo. File MP3 nằm trong `public/audio/pronunciation/`, ánh xạ và thông tin giọng đọc ở `data/pronunciation-audio.json`. Đưa cả hai vào kho cùng nội dung bài học. Mục có cùng chữ viết và cách đọc dùng chung file; các từ khác chữ viết vẫn có ánh xạ riêng. Kiểm tra nội dung sẽ phát hiện thiếu file hoặc file bị thay đổi/hỏng.
+
+Nghe thử các từ mới, nhất là số đếm và từ có nhiều âm. Âm thanh là giọng tổng hợp tiếng Nhật `ja-JP-NanamiNeural`, không phải bản ghi âm do giáo trình cung cấp. Có thể thay clip bằng bản thu đã được kiểm chứng, đồng thời cập nhật thông tin và mã SHA-256 trong ánh xạ.
+
 ### Hiragana trên kanji
 
 `npm run dev` và `npm run build` tự tạo cách đọc cho nội dung mới. Khi đang chạy web và vừa sửa dữ liệu, chạy `npm run generate:readings` để cập nhật. Bộ từ điển chỉ dùng ở bước này, không đưa vào trình duyệt.

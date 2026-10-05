@@ -63,6 +63,12 @@ export function validateLessons(lessons: Lesson[]): string[] {
         passage.paragraphs.some((text) => !text.trim())
       )
         error(`${passage.id}: đoạn đọc thiếu nội dung.`);
+      if (
+        passage.translation &&
+        (passage.translation.length !== passage.paragraphs.length ||
+          passage.translation.some((text) => !text.trim()))
+      )
+        error(`${passage.id}: bản dịch phải đầy đủ và khớp từng đoạn văn.`);
     }
     const questions = new Set<string>();
     for (const question of lesson.questions) {

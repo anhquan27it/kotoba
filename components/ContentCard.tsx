@@ -9,6 +9,7 @@ import Icon from "./Icon";
 import Examples from "./Examples";
 import StudyActions from "./StudyActions";
 import Furigana from "./Furigana";
+import PronunciationButton from "./PronunciationButton";
 
 export type StudyItem = VocabularyWord | KanjiEntry | GrammarPattern;
 
@@ -17,9 +18,12 @@ export function ContentHeading({ item }: { item: StudyItem }) {
     return (
       <div>
         <span className="pos-tag">{item.pos.split("(")[0].trim()}</span>
-        <h3 className="word-heading jp" lang="ja">
-          <Furigana text={item.word} reading={item.reading} />
-        </h3>
+        <div className="pronunciation-row">
+          <h3 className="word-heading jp" lang="ja">
+            <Furigana text={item.word} reading={item.reading} />
+          </h3>
+          <PronunciationButton text={item.word} reading={item.reading} />
+        </div>
         <p className="word-meaning">{item.meaning}</p>
       </div>
     );
@@ -162,7 +166,7 @@ export function ContentBody({
           )}
         </>
       )}
-      <Examples examples={item.examples} />
+      <Examples examples={item.examples} pronunciation={"char" in item} />
       <StudyActions id={item.id} lessonId={lesson.id} type={type} />
     </>
   );

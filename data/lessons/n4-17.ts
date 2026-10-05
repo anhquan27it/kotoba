@@ -62,7 +62,7 @@ const lesson17: Lesson = {
   ],
   source: {
     title: "Dũng Mori · Tài liệu khóa online sơ cấp N4 · Chương 17",
-    note: "Nguồn: N4_Chương 17.pdf do người học cung cấp (19 trang). Danh sách từ vựng, kanji, mẫu ngữ pháp, ví dụ ngữ pháp và ba đoạn đọc được nhập từ tài liệu. Câu ví dụ từ vựng, bản dịch, hướng dẫn phân biệt/lỗi thường gặp là nội dung biên soạn bổ sung của Kotoba; không phải ví dụ nguyên bản của giáo trình. Nhãn A/B trong đoạn LINE được thêm để phân biệt người gửi. Câu hỏi thứ nhất được biên tập để chỉ có một đáp án đúng. 大きな được ghi rõ là từ bổ nghĩa đứng trước danh từ. Phần nghe chưa triển khai.",
+    note: "Nguồn: N4_Chương 17.pdf do người học cung cấp (19 trang), đối chiếu ngày 05/10/2026. Danh sách từ vựng, kanji, mẫu ngữ pháp, ví dụ ngữ pháp, bảng chia んです và ba đoạn đọc dựa trên tài liệu; một số hội thoại ngữ pháp được trích gọn. Câu ví dụ từ vựng, bản dịch, bảng kết hợp, hướng dẫn phân biệt/lỗi thường gặp và đáp án/giải thích là nội dung biên soạn bổ sung của Kotoba; không phải ví dụ hay đáp án nguyên bản của giáo trình. Nhãn A/B trong đoạn LINE được thêm để phân biệt người gửi. Câu hỏi thứ nhất được biên tập để chỉ có một đáp án đúng. 大きな là từ bổ nghĩa đứng trước danh từ; không chia như tính từ な. Hướng dẫn んですか được giải thích theo bối cảnh, tránh hiểu thành cấm tuyệt đối câu hỏi về sở thích. Phần nghe chưa triển khai.",
   },
   vocabulary: [
     word(
@@ -858,7 +858,7 @@ const lesson17: Lesson = {
         },
         {
           jp: "コーヒーが苦手なんですか。",
-          vi: "Bạn không uống được cà phê à? (Thấy cốc cà phê chưa vơi.)",
+          vi: "Bạn không thích hoặc không quen uống cà phê à? (Thấy cốc cà phê chưa vơi.)",
         },
         {
           jp: "いいことがあったんですか。",

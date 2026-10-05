@@ -39,7 +39,7 @@ const lesson16: Lesson = {
   ],
   source: {
     title: "Dũng Mori · Tài liệu khóa online sơ cấp N4 · Chương 16",
-    note: "Nguồn: N4_Chương 16.pdf do người học cung cấp (17 trang). Danh sách từ vựng, kanji, mẫu ngữ pháp, ví dụ ngữ pháp và ba đoạn đọc được nhập từ tài liệu. Câu ví dụ từ vựng, bản dịch, bảng kết hợp và hướng dẫn phân biệt/lỗi thường gặp là nội dung biên soạn bổ sung của Kotoba; không phải ví dụ nguyên bản của giáo trình. Các câu hỏi đọc được giữ trong dữ liệu kèm đáp án và giải thích; câu hỏi thứ ba được diễn đạt lại theo tiêu chí nhà hàng phù hợp nhất. Phần nghe chưa triển khai.",
+    note: "Nguồn: N4_Chương 16.pdf do người học cung cấp (17 trang), đối chiếu ngày 05/10/2026. Danh sách từ vựng, kanji, mẫu ngữ pháp, ví dụ ngữ pháp và ba đoạn đọc dựa trên tài liệu; một số hội thoại ngữ pháp được trích gọn. Câu ví dụ từ vựng, bản dịch, bảng kết hợp và hướng dẫn phân biệt/lỗi thường gặp là nội dung biên soạn bổ sung của Kotoba; không phải ví dụ nguyên bản của giáo trình. Phân biệt nguồn tin không đồng nghĩa với bảo đảm độ đúng của tin. Hướng dẫn し được mở rộng để không hiểu nhầm chỉ dùng với thể thường hoặc bắt buộc mọi ý cùng tích cực/tiêu cực. Đáp án và giải thích câu hỏi đọc do Kotoba biên soạn; câu hỏi thứ ba được diễn đạt theo tiêu chí nhà hàng phù hợp nhất. Phần nghe chưa triển khai.",
   },
   vocabulary: [
     word(
@@ -120,7 +120,7 @@ const lesson16: Lesson = {
       "Danh từ",
       "16A",
       "近くで火事があったそうです。",
-      "Nghe nói gần đây đã có hỏa hoạn.",
+      "Nghe nói ở gần đây đã xảy ra hỏa hoạn.",
     ),
     word(
       "v-16a-09",
@@ -166,11 +166,11 @@ const lesson16: Lesson = {
       "v-16a-13",
       "羨ましい",
       "うらやましい",
-      "Ngưỡng mộ; ghen tị",
+      "Ghen tị; thấy người khác may mắn và muốn được như họ",
       "Tính từ い",
       "16A",
       "日本語が上手で、羨ましいです。",
-      "Bạn giỏi tiếng Nhật, tôi ngưỡng mộ quá.",
+      "Bạn giỏi tiếng Nhật, tôi cũng muốn được như bạn quá.",
     ),
     word(
       "v-16a-14",
@@ -226,7 +226,7 @@ const lesson16: Lesson = {
       "v-16a-19",
       "売れる",
       "うれる",
-      "Bán chạy; trở nên nổi tiếng",
+      "Bán được; bán chạy; ăn khách (nghệ sĩ…)",
       "Động từ nhóm II",
       "16A",
       "この本はよく売れています。",
@@ -296,7 +296,7 @@ const lesson16: Lesson = {
       "v-16a-26",
       "やばい",
       "やばい",
-      "Chết rồi! (khẩu ngữ khi giật mình, lo lắng)",
+      "Nguy, gay rồi!; cũng có thể khen ‘đỉnh/quá hay’ (khẩu ngữ, tùy ngữ cảnh)",
       "Tính từ い / biểu đạt hội thoại",
       "16A",
       "やばい！電車に間に合わない！",
@@ -833,10 +833,10 @@ const lesson16: Lesson = {
       ],
       mistakes: [
         {
-          wrong: "先生は明日テストがありますと言っていました。",
+          wrong: "先生は明日テストがあるを言っていました。",
           correct: "先生は明日テストがあると言っていました。",
           reason:
-            "Khi thuật lại gián tiếp, dùng thể thường. Muốn giữ nguyên あります thì đặt lời nói trong 「…」.",
+            "Dùng trợ từ trích dẫn と trước 言う, không dùng を để nối cả mệnh đề. Khi thuật lại gián tiếp dùng thể thường; trích nguyên lời nói thì có thể giữ thể lịch sự. Dấu 「…」giúp làm rõ lời trích, không phải điều kiện bắt buộc trong lời nói.",
         },
       ],
       examples: [
@@ -872,7 +872,7 @@ const lesson16: Lesson = {
       meaning: "Vừa… vừa…; liệt kê đặc điểm hoặc lý do",
       chapter: "16B",
       explanation:
-        "Liệt kê các đặc điểm cùng hướng đánh giá hoặc nhiều lý do cho một nhận định, quyết định. Dùng し còn gợi rằng ngoài những điều đã nói có thể còn lý do khác.",
+        "Liệt kê các đặc điểm hoặc nhiều lý do cho một nhận định, quyết định. し thường gợi còn điều hoặc lý do khác ngoài những điều đã nêu. Khi đưa các lý do cho cùng một đánh giá, chúng thường cùng hướng; đây không phải lệnh cấm liệt kê mọi đặc điểm trái chiều.",
       connections: [
         {
           type: "Động từ",
@@ -894,12 +894,18 @@ const lesson16: Lesson = {
           form: "Thể thường, giữ だ ở khẳng định hiện tại + し",
           example: "今日は休みだし、映画を見ましょう。",
         },
+        {
+          type: "Thể lịch sự",
+          form: "～ます / ～です + し",
+          example: "この店は安いですし、料理もおいしいです。",
+        },
       ],
       situations: [
         "Giải thích vì sao thích một địa điểm, khuyên đọc sách hoặc quyết định về nhà.",
       ],
       usage: [
-        "Khi liệt kê đánh giá, chọn các ý cùng hướng tích cực hoặc tiêu cực.",
+        "Trong các ví dụ đưa lý do cho một kết luận, các ý thường cùng hướng tích cực hoặc tiêu cực. Không hiểu điều này thành quy tắc ngữ pháp bắt buộc trong mọi câu có し.",
+        "し nối được với cả thể thường và thể lịch sự: 行くし / 行きますし, 安いし / 安いですし, 便利だし / 便利ですし.",
         "を / が trong các vế thường chuyển thành も khi nhấn mạnh ‘cũng’; không bắt buộc đổi mọi trợ từ.",
         "Có thể chỉ dùng một vế し. Thêm それに / しかも để bổ sung, nhấn mạnh một đặc điểm.",
       ],
@@ -928,7 +934,7 @@ const lesson16: Lesson = {
         },
         {
           jp: "田中さんは歌もうまいし、ピアノもできるし、うらやましいです。",
-          vi: "Anh/chị Tanaka vừa hát hay vừa chơi được piano, thật đáng ngưỡng mộ.",
+          vi: "Anh/chị Tanaka vừa hát hay vừa chơi được piano, tôi cũng muốn được như vậy quá.",
         },
         {
           jp: "この小説は短いし、面白いし、おすすめですよ。",
@@ -936,7 +942,7 @@ const lesson16: Lesson = {
         },
         {
           jp: "マイさんは頭もいいし、明るいから、モテるでしょう。",
-          vi: "Mai vừa thông minh vừa vui vẻ, chắc được nhiều người yêu thích.",
+          vi: "Mai vừa thông minh vừa vui vẻ, chắc được nhiều người để ý.",
         },
         {
           jp: "ダナンは食べ物もおいしいし、海もきれいだし、とてもいい所です。",
@@ -983,7 +989,7 @@ const lesson16: Lesson = {
       usage: [
         "Dạng lịch sự: と思います. Phủ định của mệnh đề: 来ないと思います = tôi nghĩ sẽ không đến.",
         "来るとは思いません nghĩa là ‘tôi không nghĩ sẽ đến’, khác cấu trúc với 来ないと思います.",
-        "Khi nói suy nghĩ của người khác, cần căn cứ, chẳng hạn 本人がそう言っていました; không tự khẳng định suy nghĩ trong đầu họ.",
+        "Khi thuật lại suy nghĩ của người khác thường dùng と思っています hoặc と思っているそうです nếu có căn cứ. Đây là cách phân biệt cách diễn đạt, không phải cấm mọi câu có chủ ngữ ngôi thứ ba.",
       ],
       contrasts: [
         "と思う đánh dấu ý kiến của người nói; と言っていました thuật lại lời người khác. そうだ truyền đạt điều nghe được.",
@@ -1049,7 +1055,7 @@ const lesson16: Lesson = {
       translation: [
         "Tiếng Nhật có nhiều chữ, phát âm và ngữ pháp cũng hoàn toàn khác tiếng Việt, nên có lẽ các bạn người Việt nghĩ rằng tiếng Nhật rất khó. Tuy nhiên, người bạn Việt Nam của tôi rất giỏi tiếng Nhật. Người ấy nói đã luyện tiếng Nhật rất nhiều.",
         "Nghe nói mỗi ngày bạn ấy luyện phát âm 30 phút bằng CD tiếng Nhật. Sau đó, mỗi tuần hai hoặc ba lần, bạn ấy nói chuyện với người Nhật qua chat hoặc cuộc gọi video.",
-        "Tôi nghĩ học ngoại ngữ giống như học nhạc cụ. Người chơi piano hay ghi ta giỏi đều luyện tập hằng ngày nhỉ. Ngôn ngữ cũng vậy. Nếu sử dụng mỗi ngày, các bạn sẽ quen với phát âm và ngữ pháp tiếng Nhật. Mọi người hãy cố gắng luyện tiếng Nhật nhé.",
+        "Tôi nghĩ học ngoại ngữ giống như học nhạc cụ. Người chơi piano hay ghi ta giỏi đều luyện tập hằng ngày nhỉ. Ngôn ngữ cũng vậy. Nếu sử dụng mỗi ngày, theo lẽ đó các bạn sẽ quen với phát âm và ngữ pháp tiếng Nhật. Mọi người hãy cố gắng luyện tiếng Nhật nhé.",
       ],
     },
     {
