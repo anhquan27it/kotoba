@@ -1,5 +1,7 @@
 "use client";
 import Link from "next/link";
+import Image from "next/image";
+import anime from "@/image/anh-1.webp";
 import Icon from "./Icon";
 import Furigana from "./Furigana";
 import { cardIds, lessons, lessonHref } from "@/lib/catalog";
@@ -64,7 +66,7 @@ export default function HomeDashboard() {
           Tự học theo nhịp của bạn
         </span>
       </div>
-      <section className="hero">
+      <section className="hero learnnova-hero">
         <div>
           <span className="eyebrow">
             <Furigana text="小さな一歩" /> · MỘT BƯỚC NHỎ MỖI NGÀY
@@ -92,26 +94,21 @@ export default function HomeDashboard() {
             </Link>
           </div>
         </div>
-        <div className="hero-art" aria-hidden="true">
-          <span className="art-ring" />
-          <Icon className="hero-leaf" name="leaf" size={38} />
-          <div className="art-card back">
-            <span>
-              <Furigana text="学" />
-            </span>
-            <small>GAKU</small>
-          </div>
-          <div className="art-card front">
-            <span>
-              <Furigana text="日" />
-            </span>
-            <small>NICHI</small>
-          </div>
-          <span className="art-stamp">
-            <strong>
-              <Furigana text="一歩" />
-            </strong>
-            MỘT BƯỚC
+        <div className="anime-scene">
+          <span className="anime-day" lang="ja">
+            <Furigana text="日" />
+          </span>
+          <Image
+            className="anime-image"
+            src={anime}
+            alt="Hai nhân vật anime chibi đồng hành cùng bạn học tiếng Nhật"
+            width={640}
+            height={437}
+            priority
+            unoptimized
+          />
+          <span className="anime-caption">
+            <Icon name="spark" size={15} /> Cùng LearnNova, học vui mỗi ngày
           </span>
         </div>
       </section>

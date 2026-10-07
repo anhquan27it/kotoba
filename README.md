@@ -1,4 +1,4 @@
-# Kotoba · Góc học tiếng Nhật
+# LearnNova · Góc học tiếng Nhật
 
 Ứng dụng tự học cá nhân xây bằng Next.js 15, React 19 và TypeScript. Học theo cấp độ và từng bài: từ vựng, kanji, ngữ pháp, đọc hiểu và flashcard. Hiện có các bài N4 số 15, 16 và 17, kèm phát âm từ vựng và từ mẫu kanji; bài tập nghe hiểu được để sau.
 
@@ -26,11 +26,11 @@ npm start
 
 ## Học trên điện thoại
 
-Kotoba đã được cấu hình để triển khai miễn phí bằng GitHub Pages, với địa chỉ dạng `https://<tài-khoản>.github.io/kotoba/`. Địa chỉ thật chỉ hoạt động sau khi GitHub báo triển khai thành công. Ai có đường dẫn đều có thể mở bằng trình duyệt, không cần đăng nhập; máy tính không cần bật.
+LearnNova đã được cấu hình để triển khai miễn phí bằng GitHub Pages, với địa chỉ dạng `https://<tài-khoản>.github.io/kotoba/`. Địa chỉ thật chỉ hoạt động sau khi GitHub báo triển khai thành công. Ai có đường dẫn đều có thể mở bằng trình duyệt, không cần đăng nhập; máy tính không cần bật.
 
 GitHub Pages miễn phí trên kho công khai với GitHub Free. Mã web và nội dung bài học trong kho cũng công khai. Xem `docs/GITHUB_PAGES.md` để triển khai và cập nhật; không cần mua hosting hoặc tên miền.
 
-Bạn có thể thêm Kotoba vào màn hình chính: trên iPhone mở bằng Safari, chọn **Chia sẻ → Thêm vào Màn hình chính**; trên Android mở menu trình duyệt và chọn **Thêm vào màn hình chính** hoặc **Cài đặt ứng dụng** nếu có.
+Bạn có thể thêm LearnNova vào màn hình chính: trên iPhone mở bằng Safari, chọn **Chia sẻ → Thêm vào Màn hình chính**; trên Android mở menu trình duyệt và chọn **Thêm vào màn hình chính** hoặc **Cài đặt ứng dụng** nếu có.
 
 Tiến độ lưu riêng theo thiết bị và địa chỉ web. Để chuyển từ bản máy tính sang điện thoại, vào **Tiến độ của tôi → Xuất bản sao tiến độ** ở bản cũ, chuyển tệp JSON sang điện thoại rồi **Nhập bản sao** trên bản online. Chưa có đồng bộ tự động hoặc chế độ học ngoại tuyến.
 
@@ -38,6 +38,8 @@ Tiến độ lưu riêng theo thiết bị và địa chỉ web. Để chuyển 
 
 ## Những gì đã có
 
+- Logo và ảnh anime từ thư mục `image/`, dùng trong thanh điều hướng và trang chủ.
+- Nút **Sáng/Tối** ở đầu trang: lần đầu theo giao diện thiết bị, nhớ lựa chọn riêng trên trình duyệt.
 - Giao diện thích ứng với máy tính và điện thoại, tông kem/xanh dịu, hỗ trợ bàn phím và giảm chuyển động.
 - Phông Noto Sans cho tiếng Việt và Noto Sans JP cho tiếng Nhật lưu ngay trong dự án. Phông Nhật chia theo vùng Unicode để trình duyệt chỉ tải phần cần dùng. Giấy phép OFL ở `public/fonts/`.
 - Cỡ chữ học lớn, hiragana phía trên kanji khi học nội dung và xem ví dụ. Nút **Ẩn/Hiện cách đọc** ở đầu trang áp dụng cả hai mặt flashcard và nhớ lựa chọn trên thiết bị.

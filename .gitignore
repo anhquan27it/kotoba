@@ -10,6 +10,7 @@
 # next.js
 /.next/
 /.next-ui-test/
+/.next-preview/
 /.next-online/
 /.sites-runtime/
 /.github-runtime/

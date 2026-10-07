@@ -1,5 +1,7 @@
 "use client";
 import Link from "next/link";
+import Image from "next/image";
+import logo from "@/image/logoweb.webp";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
 import Icon from "./Icon";
@@ -19,11 +21,16 @@ export default function Navbar() {
     <>
       <header className="mobile-header">
         <Link href="/" className="brand">
-          <span className="brand-mark" lang="ja">
-            こ
-          </span>
+          <Image
+            className="brand-logo"
+            src={logo}
+            alt=""
+            width={46}
+            height={46}
+            unoptimized
+          />
           <span>
-            kotoba<span className="brand-dot">.</span>
+            Learn<span className="brand-dot">Nova</span>
           </span>
         </Link>
         <button
@@ -45,11 +52,16 @@ export default function Navbar() {
       )}
       <aside id="app-sidebar" className={`sidebar ${open ? "is-open" : ""}`}>
         <Link href="/" className="brand" onClick={() => setOpen(false)}>
-          <span className="brand-mark" lang="ja">
-            こ
-          </span>
+          <Image
+            className="brand-logo"
+            src={logo}
+            alt=""
+            width={46}
+            height={46}
+            unoptimized
+          />
           <span>
-            kotoba<span className="brand-dot">.</span>
+            Learn<span className="brand-dot">Nova</span>
           </span>
         </Link>
         <p className="brand-caption">Một góc nhỏ để học tiếng Nhật</p>

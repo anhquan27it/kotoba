@@ -219,6 +219,6 @@ export function resetProgress() {
 export function importStudy(raw: string) {
   const state: unknown = JSON.parse(raw);
   if (!validateStudy(state))
-    throw new Error("Tệp không đúng định dạng bản sao tiến độ Kotoba.");
+    throw new Error("Tệp không đúng định dạng bản sao tiến độ LearnNova.");
   saveStudy(state);
 }
